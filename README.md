@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:FF0080&height=220&section=header&text=Hi,+I'm+Raphe'l&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Daboggieman+%7C+give+me+a+minute,+i'm+trying+to+hunt+a+bug&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C0C0C0,100:B2BEB5&height=220&section=header&text=Hi,+I'm+Raphe'l&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Daboggieman+%7C+give+me+a+minute,+i'm+trying+to+hunt+a+bug&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://github.com/Daboggieman">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF0080&center=true&vCenter=true&width=600&lines=Software+Engineer+%F0%9F%92%BB" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF0080&center=true&vCenter=true&width=600&lines=+%F0%9F%92%BB" alt="Typing SVG" />
 </a>
 
 </div>
 
 <br/>
 
-## 🧭 About Me
+##  About Me
 
 - 🎮 i think i know more than i did yesterday **(sacrificed some hours of sleep though)**
 - ⚙️ Comfortable across the stack — from Go microservices to Python tooling to mobile apps
@@ -98,4 +98,4 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,100:8E2DE2&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:B2BEB5,100:C0C0C0&height=120&section=footer" width="100%"/>
