@@ -83,8 +83,6 @@
 
 </div>
 
-> This one doesn't work out of the box — see the setup note below.
-
 <br/>
 
 ## 🔗 Connect
