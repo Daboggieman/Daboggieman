@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:FF0080&height=220&section=header&text=Raphe'l%20Ogah&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=aka%20Daboggieman%20%7C%20Building%20things%20while%20I%20wait&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:FF0080&height=220&section=header&text=Hi%20 i'm%20Raph'el%20&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=%20Daboggieman%20%7C%20give%20me%20a%20minute%20i'm%20trying%20to%20hunt%20a%20bug&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://github.com/Daboggieman">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF0080&center=true&vCenter=true&width=600&lines=Software+Engineer+%F0%9F%92%BB;Building+NaijaBoard+%F0%9F%8E%B2+%E2%80%94+real-money+Ludo%2C+Whot+%26+Chess;Building+Kairo+%F0%9F%8F%8B%EF%B8%8F+%E2%80%94+an+all-in-one+fitness+app;I'll+just+work+while+I+wait+%F0%9F%98%A4" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF0080&center=true&vCenter=true&width=600&lines=Software+Engineer+%F0%9F%92%BB;" alt="Typing SVG" />
 </a>
 
 </div>
@@ -12,8 +12,7 @@
 
 ## 🧭 About Me
 
-- 🎮 Currently building **[NaijaBoard](#)** — a real-money multiplayer gaming platform with sections for **Ludo**, **Whot**, and **Chess**
-- 🏋️ Also building **Kairo** — a personal all-in-one fitness app (workout logging, progress tracking, GPS runs, and more)
+- 🎮 i think i know more than i did yesterday **(sacrificed some hours of sleep though)**
 - ⚙️ Comfortable across the stack — from Go microservices to Python tooling to mobile apps
 - 📍 Based in Nigeria
 - 🕒 I'll just work while I wait
@@ -45,14 +44,13 @@
 
 | Project | What it is |
 |---|---|
-| 🎲 **NaijaBoard** | Real-money multiplayer platform — Ludo, Whot, and Chess in one app *(private, in development)* |
 | 🏋️ **Kairo** | Personal all-in-one fitness app — workouts, progress, GPS tracking, and more *(in development)* |
 | 🐹 **[golang-study](https://github.com/Daboggieman/golang-study)** | Go experiments and learning projects |
-| 🤖 **[tbot](https://github.com/Daboggieman/tbot)** | Python-based bot project |
-| 📡 **[gsmhub](https://github.com/Daboggieman/gsmhub)** | TypeScript project |
+| 🤖 **[tbot](https://github.com/Daboggieman/tbot)** | Python-based Trading algoritim project*(in development)* |
+| 📡 **[gsmhub](https://github.com/Daboggieman/gsmhub)** | check it out yourself, its kinda cringe tho |
 | 🐍 **[python-study](https://github.com/Daboggieman/python-study)** | Python experiments and learning projects |
 | ⚡ **[RYLA-2025](https://github.com/Daboggieman/RYLA-2025)** | JavaScript project |
-| 🐍 **[COR-BOT](https://github.com/Daboggieman/COR-BOT)** | Python bot project |
+| 🐍 **[COR-BOT](https://github.com/Daboggieman/COR-BOT)** | Baby Tbot *tbot-v0* |
 
 </div>
 
