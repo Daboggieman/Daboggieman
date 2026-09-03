@@ -94,11 +94,18 @@ func renderCity(s *Stats) string {
 		}
 	}
 
+	// The description is the whole card for a screen reader, so the private count
+	// belongs in it: it is the difference between a name a visitor can follow and
+	// one they cannot.
+	priv := ""
+	if n := privateIn(blocks); n > 0 {
+		priv = fmt.Sprintf(" %d are private and are shown for their activity only.", n)
+	}
 	c := newCanvas(w, h, "Repository skyline",
 		fmt.Sprintf("%d repositories as buildings, ranked by commits on the default branch. "+
 			"Building height is commit count, footprint is repo size, and a lit facade means pushed in the last 30 days. "+
-			"%d occupied, %d dormant. Tallest is %s with %s commits.",
-			len(blocks), live, dormant, blocks[0].Name, commas(blocks[0].Commits)))
+			"%d occupied, %d dormant. Tallest is %s with %s commits.%s",
+			len(blocks), live, dormant, blocks[0].Name, commas(blocks[0].Commits), priv))
 
 	// Motion has to fail safe. A transform that scales a building up from zero
 	// renders the whole card empty in any renderer that samples the first frame of
@@ -160,9 +167,13 @@ func renderCity(s *Stats) string {
 			state = "occupied"
 		}
 
-		tip := fmt.Sprintf("%s — %s on the default branch · %s · %s · pushed %s (%s)",
+		access := ""
+		if r.Private {
+			access = " · private"
+		}
+		tip := fmt.Sprintf("%s — %s on the default branch · %s · %s · pushed %s (%s)%s",
 			r.Name, plural(r.Commits, "commit"), humanBytes(r.SizeKB*1024),
-			plural(r.Stars, "star"), r.PushedAt.Format("2 Jan 2006"), state)
+			plural(r.Stars, "star"), r.PushedAt.Format("2 Jan 2006"), state, access)
 
 		c.group(tip)
 		drawBuilding(c, bx, baseY, bw, th, depth, f, fmt.Sprintf(`class="win w%d"`, i))
@@ -187,8 +198,9 @@ func renderCity(s *Stats) string {
 		// magnitude depends on judging a 3D volume.
 		c.text(bx, baseY+groundH+17, truncateToWidth(r.Name, nameSize, pitch-10),
 			textOpts{size: nameSize, fill: f.label, weight: "500", tooltip: tip})
-		c.text(bx, baseY+groundH+30, fmt.Sprintf("%s %s", f.glyph, commas(r.Commits)),
-			textOpts{size: metaSize, fill: inkLow})
+		meta := truncateToWidth(fmt.Sprintf("%s %s%s", f.glyph, commas(r.Commits), access),
+			metaSize, pitch-10)
+		c.text(bx, baseY+groundH+30, meta, textOpts{size: metaSize, fill: inkLow, tooltip: tip})
 	}
 
 	renderCityLegend(c, pad, baseY+groundH+52, live, dormant)
@@ -273,3 +285,15 @@ func renderCityLegend(c *canvas, x, y float64, live, dormant int) {
 // cityAge is the freshness cut the card renders, exposed so the README table can
 // state the same window instead of restating a magic number.
 func cityAge() string { return plural(int(cityFreshWindow/(24*time.Hour)), "day") }
+
+// privateIn counts the private repos among the drawn buildings, which is not the
+// same as the profile's total: the skyline is capped.
+func privateIn(blocks []Repo) int {
+	n := 0
+	for _, r := range blocks {
+		if r.Private {
+			n++
+		}
+	}
+	return n
+}
