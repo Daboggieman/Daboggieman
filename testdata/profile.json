@@ -8,8 +8,41 @@
         "totalCount": 9
       },
       "repositories": {
-        "totalCount": 8,
+        "totalCount": 9,
         "nodes": [
+          {
+            "name": "Kairo-v1",
+            "isPrivate": true,
+            "stargazerCount": 0,
+            "pushedAt": "2026-09-03T09:30:00Z",
+            "primaryLanguage": {
+              "name": "TypeScript"
+            },
+            "languages": {
+              "edges": [
+                {
+                  "size": 214600,
+                  "node": {
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 18400,
+                  "node": {
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            },
+            "diskUsage": 3180,
+            "defaultBranchRef": {
+              "target": {
+                "history": {
+                  "totalCount": 268
+                }
+              }
+            }
+          },
           {
             "name": "Daboggieman",
             "stargazerCount": 0,
@@ -40,7 +73,8 @@
                   "totalCount": 40
                 }
               }
-            }
+            },
+            "isPrivate": false
           },
           {
             "name": "python-study",
@@ -72,7 +106,8 @@
                   "totalCount": 210
                 }
               }
-            }
+            },
+            "isPrivate": false
           },
           {
             "name": "gsmhub",
@@ -110,7 +145,8 @@
                   "totalCount": 186
                 }
               }
-            }
+            },
+            "isPrivate": false
           },
           {
             "name": "Agentrouter-setup",
@@ -142,7 +178,8 @@
                   "totalCount": 34
                 }
               }
-            }
+            },
+            "isPrivate": false
           },
           {
             "name": "golang-study",
@@ -174,7 +211,8 @@
                   "totalCount": 152
                 }
               }
-            }
+            },
+            "isPrivate": false
           },
           {
             "name": "Maeker",
@@ -200,7 +238,8 @@
                   "totalCount": 97
                 }
               }
-            }
+            },
+            "isPrivate": false
           },
           {
             "name": "tbot",
@@ -232,7 +271,8 @@
                   "totalCount": 121
                 }
               }
-            }
+            },
+            "isPrivate": false
           },
           {
             "name": "COR-BOT",
@@ -258,7 +298,8 @@
                   "totalCount": 58
                 }
               }
-            }
+            },
+            "isPrivate": false
           }
         ]
       },
