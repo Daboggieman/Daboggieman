@@ -28,6 +28,7 @@
   <text x="152.6" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">./streak --meter</text>
   <path d="M20 199H571.4000000000001A4 4 0 0 1 575.4000000000001 203V203A4 4 0 0 1 571.4000000000001 207H20Z" fill="#116329"/>
   <path d="M20 199H282.59200000000004A4 4 0 0 1 286.59200000000004 203V203A4 4 0 0 1 282.59200000000004 207H20Z" fill="#3FB950" class="grow"><title>current streak 12 days; personal best 25 days</title></path>
+  <rect x="286.59200000000004" y="199" width="2" height="8" rx="0" fill="#0D1117"/>
   <text x="589.4000000000001" y="206" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">12 / 25 days  ·  current vs personal best</text>
   <text x="20" y="235" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
   <rect x="152.6" y="225" width="7.8" height="13" rx="1" fill="#3FB950" class="cur"/>
