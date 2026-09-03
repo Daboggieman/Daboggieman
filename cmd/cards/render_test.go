@@ -23,7 +23,7 @@ func loadFixture(t *testing.T) *Stats {
 	if err != nil {
 		t.Fatalf("decode fixture: %v", err)
 	}
-	return resp.toStats(renderedAt)
+	return resp.toStats(renderedAt, nil)
 }
 
 func TestFixtureDecodesIntoAWholeModel(t *testing.T) {

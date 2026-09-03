@@ -33,8 +33,8 @@ func renderLanguages(s *Stats) string {
 	h := plotTop + rows*rowPitch + 34.0
 
 	c := newCanvas(w, h, "Language mix",
-		fmt.Sprintf("Share of code by bytes across %d public repositories, ranked.", s.PublicRepos))
-	c.windowChrome(fmt.Sprintf("~/languages  ·  %d repos", s.PublicRepos))
+		fmt.Sprintf("Share of code by bytes across %d public repositories, ranked.", s.RepoCount))
+	c.windowChrome(fmt.Sprintf("~/languages  ·  %d repos", s.RepoCount))
 
 	axisX := pad + labelW
 	trackW := w - pad - valueW - 10 - axisX

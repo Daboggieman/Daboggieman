@@ -4,8 +4,12 @@
 // nothing on the profile depends on a third-party widget host staying up or
 // staying paid.
 //
-//	# live, needs a token with read:user
+//	# live; read:user is enough for public data, and the repo scope is what
+//	# makes private repositories show up as well
 //	GITHUB_TOKEN=... go run ./cmd/cards
+//
+//	# keep named repos off the profile entirely, private or not
+//	GITHUB_TOKEN=... go run ./cmd/cards -exclude secret-client-work,old-experiment
 //
 //	# offline, from a saved response
 //	go run ./cmd/cards -fixture testdata/profile.json
@@ -18,6 +22,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 )
 
@@ -28,14 +33,15 @@ func main() {
 	fixture := flag.String("fixture", "", "render from a saved GraphQL response instead of the network")
 	dump := flag.String("dump", "", "also write the live GraphQL response to this path")
 	readme := flag.String("readme", "README.md", "README to refresh the table view in (empty to skip)")
+	exclude := flag.String("exclude", "", "comma-separated repo names to leave out of every card")
 	flag.Parse()
 
-	if err := run(*login, *out, *fixture, *dump, *readme); err != nil {
+	if err := run(*login, *out, *fixture, *dump, *readme, *exclude); err != nil {
 		log.Fatalf("cards: %v", err)
 	}
 }
 
-func run(login, out, fixture, dump, readme string) error {
+func run(login, out, fixture, dump, readme, exclude string) error {
 	var (
 		resp *apiResponse
 		raw  []byte
@@ -68,7 +74,7 @@ func run(login, out, fixture, dump, readme string) error {
 		}
 	}
 
-	stats := resp.toStats(time.Now())
+	stats := resp.toStats(time.Now(), parseExclude(exclude))
 
 	if err := os.MkdirAll(out, 0o755); err != nil {
 		return fmt.Errorf("create output dir: %w", err)
@@ -97,7 +103,20 @@ func run(login, out, fixture, dump, readme string) error {
 		}
 	}
 
-	log.Printf("%s: %d contributions, %d day streak (best %d), %d languages",
-		stats.Login, stats.TotalContributions, stats.CurrentStreak, stats.LongestStreak, len(stats.Languages))
+	log.Printf("%s: %d contributions, %d day streak (best %d), %d languages, %d of %d repos private",
+		stats.Login, stats.TotalContributions, stats.CurrentStreak, stats.LongestStreak,
+		len(stats.Languages), stats.PrivateCount(), stats.RepoCount)
 	return nil
+}
+
+// parseExclude turns the -exclude list into a lookup. Matching is case-insensitive
+// because nobody types a repo name back with its original capitalisation.
+func parseExclude(list string) map[string]bool {
+	out := map[string]bool{}
+	for _, name := range strings.Split(list, ",") {
+		if name = strings.TrimSpace(name); name != "" {
+			out[strings.ToLower(name)] = true
+		}
+	}
+	return out
 }

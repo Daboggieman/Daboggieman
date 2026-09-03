@@ -57,7 +57,7 @@ func renderTerminal(s *Stats) string {
 		{text: stack, fill: inkHi},
 		{prompt: true, text: "git shortlog -sn --all | wc -l"},
 		{text: fmt.Sprintf("%s commits · %s repos · %s stars · %s followers",
-			compact(s.Commits), compact(s.PublicRepos), compact(s.Stars), compact(s.Followers)),
+			compact(s.Commits), compact(s.RepoCount), compact(s.Stars), compact(s.Followers)),
 			fill: inkHi},
 		{prompt: true, text: "./streak --meter"},
 	}
@@ -67,7 +67,7 @@ func renderTerminal(s *Stats) string {
 
 	c := newCanvas(w, h, "Raph'el Ogah — profile terminal",
 		fmt.Sprintf("%s, based in %s. Works in %s. %s commits, %s repos, %s stars. Current streak %d days against a personal best of %d.",
-			name, where, stack, compact(s.Commits), compact(s.PublicRepos), compact(s.Stars),
+			name, where, stack, compact(s.Commits), compact(s.RepoCount), compact(s.Stars),
 			s.CurrentStreak, s.LongestStreak))
 
 	// Every animation here is additive: the settled frame is the base style, and

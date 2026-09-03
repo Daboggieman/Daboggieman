@@ -2,15 +2,23 @@ package main
 
 import (
 	"sort"
+	"strings"
 	"time"
 )
 
 // toStats flattens the GraphQL reply into the render model.
 //
-// Private-repo activity only appears when the token belongs to the profile owner
-// (a PAT with read:user); with the Actions-provided token
-// restrictedContributionsCount comes back as 0 and the totals are public-only.
-func (r *apiResponse) toStats(now time.Time) *Stats {
+// How much of the profile is visible is entirely a property of the token. The
+// Actions-provided GITHUB_TOKEN sees public repos only, and
+// restrictedContributionsCount comes back as 0. A PAT with the repo scope returns
+// private repositories as ordinary nodes and folds their contributions into the
+// calendar, so the same code renders a fuller profile with no changes here.
+//
+// hide drops repos by name before anything is counted, so an excluded repo is
+// absent from the skyline, the language shares, the star total and the table —
+// not merely unlinked. It is the escape hatch for private work that should not be
+// named on a public page at all.
+func (r *apiResponse) toStats(now time.Time, hide map[string]bool) *Stats {
 	u := r.Data.User
 	c := u.Contributions
 
@@ -19,7 +27,6 @@ func (r *apiResponse) toStats(now time.Time) *Stats {
 		Name:               u.Name,
 		Location:           u.Location,
 		Followers:          u.Followers.TotalCount,
-		PublicRepos:        u.Repositories.TotalCount,
 		Commits:            c.TotalCommitContributions + c.RestrictedContributionsCount,
 		PullRequests:       c.TotalPullRequestContributions,
 		Issues:             c.TotalIssueContributions,
@@ -30,6 +37,10 @@ func (r *apiResponse) toStats(now time.Time) *Stats {
 
 	byLang := map[string]int{}
 	for _, node := range u.Repositories.Nodes {
+		if hide[strings.ToLower(node.Name)] {
+			continue
+		}
+		s.RepoCount++
 		s.Stars += node.StargazerCount
 
 		primary := ""
@@ -51,6 +62,7 @@ func (r *apiResponse) toStats(now time.Time) *Stats {
 			Primary:  primary,
 			Commits:  commits,
 			SizeKB:   node.DiskUsage,
+			Private:  node.IsPrivate,
 		})
 
 		for _, e := range node.Languages.Edges {
