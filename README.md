@@ -91,36 +91,36 @@ The cards are served as images, so they can't carry a hover layer. This table is
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| Python | 54.0% | 427.8 kB |
-| TypeScript | 17.6% | 139.6 kB |
-| Go | 15.8% | 125.2 kB |
-| Jupyter Notebook | 5.0% | 39.3 kB |
-| Shell | 3.2% | 25.2 kB |
-| CSS | 2.3% | 18.0 kB |
-| Other | 2.1% | 16.9 kB |
+| Python | 41.5% | 949.8 kB |
+| TypeScript | 22.9% | 523.3 kB |
+| HTML | 22.7% | 520.3 kB |
+| Go | 11.6% | 266.2 kB |
+| Shell | 0.5% | 12.4 kB |
+| Batchfile | 0.4% | 9.2 kB |
+| Other | 0.3% | 7.8 kB |
 
 | Metric | Last 365 days |
 |---|---:|
-| Contributions | 1,552 |
-| Commits | 1,210 |
-| Pull requests | 24 |
-| Issues | 11 |
-| Reviews | 6 |
-| Current streak | 12 days |
-| Longest streak | 25 days |
+| Contributions | 477 |
+| Commits | 285 |
+| Pull requests | 12 |
+| Issues | 0 |
+| Reviews | 0 |
+| Current streak | 1 days |
+| Longest streak | 9 days |
 | Public repos | 8 |
 | Stars earned | 7 |
 
 | Building | Commits | Size | Stars | Last push | State |
 |---|---:|---:|---:|---|---|
-| [python-study](https://github.com/Daboggieman/python-study) | 210 | 2.3 MB | 2 | 24 Aug 2026 | occupied |
-| [gsmhub](https://github.com/Daboggieman/gsmhub) | 186 | 5.0 MB | 1 | 18 Aug 2026 | occupied |
-| [golang-study](https://github.com/Daboggieman/golang-study) | 152 | 740.0 kB | 3 | 2 Jul 2026 | dormant |
-| [tbot](https://github.com/Daboggieman/tbot) | 121 | 310.0 kB | 1 | 11 Jan 2026 | dormant |
-| [Maeker](https://github.com/Daboggieman/Maeker) | 97 | 1.3 MB | 0 | 27 Jun 2026 | dormant |
-| [COR-BOT](https://github.com/Daboggieman/COR-BOT) | 58 | 180.0 kB | 0 | 14 Jul 2025 | dormant |
-| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 40 | 120.0 kB | 0 | 3 Sep 2026 | occupied |
-| [Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup) | 34 | 90.0 kB | 0 | 18 Aug 2026 | occupied |
+| [python-study](https://github.com/Daboggieman/python-study) | 70 | 341.0 kB | 2 | 24 Aug 2026 | occupied |
+| [gsmhub](https://github.com/Daboggieman/gsmhub) | 38 | 2.4 MB | 1 | 18 Aug 2026 | occupied |
+| [golang-study](https://github.com/Daboggieman/golang-study) | 23 | 3.8 MB | 3 | 2 Jul 2026 | dormant |
+| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 20 | 6.6 MB | 0 | 3 Sep 2026 | occupied |
+| [Maeker](https://github.com/Daboggieman/Maeker) | 17 | 415.0 kB | 0 | 27 Jun 2026 | dormant |
+| [tbot](https://github.com/Daboggieman/tbot) | 10 | 3.7 MB | 1 | 11 Jan 2026 | dormant |
+| [Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup) | 6 | 11.0 kB | 0 | 18 Aug 2026 | occupied |
+| [COR-BOT](https://github.com/Daboggieman/COR-BOT) | 5 | 107.0 kB | 0 | 14 Jul 2025 | dormant |
 
 <sub>Building height is commits on the default branch, footprint is repo size, and a lit facade means pushed within 30 days.</sub>
 
