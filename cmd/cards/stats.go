@@ -31,6 +31,11 @@ type Repo struct {
 	Commits int
 	// SizeKB is GitHub's diskUsage: the repo's size in kilobytes.
 	SizeKB int
+	// Private is true for a repo only the owner's token can see. Those repos are
+	// counted and drawn like any other — the work is real — but nothing that
+	// renders them may link to them, because the link is a 404 for every visitor.
+	// What a visitor gets is the activity: commits, footprint, last push.
+	Private bool
 }
 
 // PushedWithin reports whether the repo was pushed to in the trailing window.
@@ -48,9 +53,11 @@ type Stats struct {
 	Name     string
 	Location string
 
-	Followers   int
-	PublicRepos int
-	Stars       int
+	Followers int
+	// RepoCount is every owned non-fork repo the token could see. With a
+	// repo-scoped PAT that includes private ones, so it is not "public repos".
+	RepoCount int
+	Stars     int
 
 	Commits            int
 	PullRequests       int
@@ -183,4 +190,17 @@ func maxCount(days []Day) int {
 		return 1
 	}
 	return m
+}
+
+// PrivateCount is how many of the rendered repos are private. The cards use it to
+// say so out loud: a visitor reading a building they cannot open deserves to know
+// why, rather than finding out by clicking a dead link.
+func (s *Stats) PrivateCount() int {
+	n := 0
+	for _, r := range s.Repos {
+		if r.Private {
+			n++
+		}
+	}
+	return n
 }

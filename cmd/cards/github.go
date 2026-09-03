@@ -23,6 +23,7 @@ const query = `query($login:String!){
       totalCount
       nodes{
         name
+        isPrivate
         stargazerCount
         pushedAt
         diskUsage
@@ -60,6 +61,7 @@ type apiResponse struct {
 				TotalCount int `json:"totalCount"`
 				Nodes      []struct {
 					Name            string `json:"name"`
+					IsPrivate       bool   `json:"isPrivate"`
 					StargazerCount  int    `json:"stargazerCount"`
 					PushedAt        string `json:"pushedAt"`
 					DiskUsage       int    `json:"diskUsage"`
