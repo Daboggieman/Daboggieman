@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"strconv"
 	"strings"
 )
@@ -153,3 +154,25 @@ func (c *canvas) group(tooltip string, attrs ...string) {
 }
 
 func (c *canvas) groupEnd() { c.raw(`  </g>`) }
+
+// star draws a five-pointed star centred on (cx, cy) with the given outer radius.
+//
+// It is a path rather than the ★ character on purpose: U+2605 is outside the
+// coverage of every font in monoStack, so a text star renders as whatever the
+// viewer's fallback chain substitutes — or as tofu where nothing matches. The card
+// is served as an image, so that resolution happens on a machine this generator
+// never sees. A path always draws.
+func (c *canvas) star(cx, cy, r float64, fill string, attrs ...string) {
+	// A 5/2 star polygon: alternate outer and inner vertices every 36°, starting
+	// at the top point. .382 is the inner/outer ratio that gives the regular star.
+	pts := make([]pt, 0, 10)
+	for i := 0; i < 10; i++ {
+		rad := r
+		if i%2 == 1 {
+			rad = r * 0.382
+		}
+		a := -math.Pi/2 + float64(i)*math.Pi/5
+		pts = append(pts, pt{cx + rad*math.Cos(a), cy + rad*math.Sin(a)})
+	}
+	c.poly(fill, pts, attrs...)
+}

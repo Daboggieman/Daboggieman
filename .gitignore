@@ -1,0 +1,9 @@
+# The generator is run with `go run`, but a stray `go build` drops a binary named
+# after the package directory at the repo root. It is 7 MB of build output and
+# has no business in a profile repo.
+/cards
+cmd/cards/cards
+
+# Live GraphQL responses captured with -dump. Useful locally, but they carry the
+# full profile payload and the committed fixture is the one that should be read.
+/profile.json

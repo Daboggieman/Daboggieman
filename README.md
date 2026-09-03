@@ -1,16 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C0C0C0,100:B2BEB5&height=220&section=header&text=Hi,+I'm+Raph'el&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Daboggieman+%7C+give+me+a+minute,+i'm+trying+to+hunt+a+bug&descAlignY=55&descSize=18" width="100%"/>
-
-<a href="https://github.com/Daboggieman">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF0080&center=true&vCenter=true&width=600&lines=+%F0%9F%92%BB" alt="Typing SVG" />
-</a>
+<img src="./assets/terminal.svg" alt="Terminal card: whoami, stack, commit and repo totals, and a contribution streak meter, all read from the live GitHub API" width="100%">
 
 </div>
 
-<br/>
-
-##  About Me
+## About me
 
 - 🎮 i think i know more than i did yesterday **(sacrificed some hours of sleep though)**
 - ⚙️ Comfortable across the stack — from Go microservices to Python tooling to mobile apps
@@ -19,69 +13,134 @@
 
 <br/>
 
-## 🛠️ Tech Stack
+## 🏙️ The skyline
+
+Every public repo is a building. Height is commits on the default branch, footprint is repo size, and a lit facade means I pushed to it in the last 30 days — so the picture goes dark on its own when I stop showing up.
 
 <div align="center">
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+<img src="./assets/city.svg" alt="Isometric skyline: one building per repository, ranked by commit count, with lit facades on the repos pushed in the last 30 days" width="100%">
 
 </div>
 
 <br/>
 
-## 🚀 Featured Projects
+## 📊 Languages and activity
+
+<div align="center">
+
+<img src="./assets/languages.svg" alt="Language share by tracked bytes across every non-fork repository" width="49%">
+<img src="./assets/activity.svg" alt="Daily contribution counts over the last 30 days, with the change against the prior 30" width="49%">
+
+</div>
+
+<br/>
+
+## 🚀 Featured projects
 
 <div align="center">
 
 | Project | What it is |
 |---|---|
-| 🏋️ **Kairo** | Personal all-in-one fitness app — workouts, progress, GPS tracking, and more *(in development)* |
-| 🐹 **[golang-study](https://github.com/Daboggieman/golang-study)** | Go experiments and learning projects |
-| 🤖 **[tbot](https://github.com/Daboggieman/tbot)** | Python-based trading algorithm project *(in development)* |
-| 📡 **[gsmhub](https://github.com/Daboggieman/gsmhub)** | check it out yourself, its kinda cringe tho |
+| 🏋️ **Kairo** | Personal all-in-one fitness app — workouts, progress, GPS tracking, offline-first *(in development, private)* |
 | 🐍 **[python-study](https://github.com/Daboggieman/python-study)** | Python experiments and learning projects |
-| ⚡ **[RYLA-2025](https://github.com/Daboggieman/RYLA-2025)** | JavaScript project |
+| 📡 **[gsmhub](https://github.com/Daboggieman/gsmhub)** | check it out yourself, its kinda cringe tho |
+| 🐹 **[golang-study](https://github.com/Daboggieman/golang-study)** | Go experiments and learning projects |
+| 🛠️ **[Maeker](https://github.com/Daboggieman/Maeker)** | Python project <!-- TODO: one line on what Maeker actually is --> |
+| 🤖 **[tbot](https://github.com/Daboggieman/tbot)** | Python-based trading algorithm project *(in development)* |
+| 🔌 **[Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup)** | Shell setup for an agent router <!-- TODO: confirm --> |
 | 🐍 **[COR-BOT](https://github.com/Daboggieman/COR-BOT)** | Baby Tbot *tbot-v0* |
 
 </div>
 
 <br/>
 
-## 📊 GitHub Stats
+## 🛠️ Stack
+
+The card up top reads my languages straight from the API, so this is the layer the byte counts can't see — the tools and services.
+
+```console
+$ cat stack.txt
+languages   Go · Python · TypeScript · JavaScript · Shell
+mobile      Expo · React Native · expo-router · expo-sqlite · MapLibre · Zustand
+data        PostgreSQL · MongoDB · Redis · SQLite
+ops         Docker · Git · GitHub Actions · Vercel · Render · Heroku
+testing     Jest · go test
+```
+
+<br/>
+
+## 🐍 Contribution snake
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Daboggieman&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daboggieman&layout=compact&theme=radical&hide_border=true&bg_color=0D1117"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Daboggieman&theme=radical&hide_border=true&background=0D1117"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Daboggieman&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1"/>
+<img src="https://raw.githubusercontent.com/Daboggieman/Daboggieman/output/github-contribution-grid-snake-dark.svg" alt="A snake eating this year's contribution graph"/>
 
 </div>
 
 <br/>
 
-## 🐍 Contribution Snake
+## 🔍 Every number above, without the pictures
 
-<div align="center">
+The cards are served as images, so they can't carry a hover layer. This table is their plain-text twin, regenerated by the same job — it's what the numbers say with images off, in a screen reader, or in a terminal.
 
-<img src="https://raw.githubusercontent.com/Daboggieman/Daboggieman/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
+<details>
+<summary>Open the table view</summary>
 
-</div>
+<!-- cards:table:start -->
+
+| Language | Share | Tracked size |
+|---|---:|---:|
+| Python | 54.0% | 427.8 kB |
+| TypeScript | 17.6% | 139.6 kB |
+| Go | 15.8% | 125.2 kB |
+| Jupyter Notebook | 5.0% | 39.3 kB |
+| Shell | 3.2% | 25.2 kB |
+| CSS | 2.3% | 18.0 kB |
+| Other | 2.1% | 16.9 kB |
+
+| Metric | Last 365 days |
+|---|---:|
+| Contributions | 1,552 |
+| Commits | 1,210 |
+| Pull requests | 24 |
+| Issues | 11 |
+| Reviews | 6 |
+| Current streak | 12 days |
+| Longest streak | 25 days |
+| Public repos | 8 |
+| Stars earned | 7 |
+
+| Building | Commits | Size | Stars | Last push | State |
+|---|---:|---:|---:|---|---|
+| [python-study](https://github.com/Daboggieman/python-study) | 210 | 2.3 MB | 2 | 24 Aug 2026 | occupied |
+| [gsmhub](https://github.com/Daboggieman/gsmhub) | 186 | 5.0 MB | 1 | 18 Aug 2026 | occupied |
+| [golang-study](https://github.com/Daboggieman/golang-study) | 152 | 740.0 kB | 3 | 2 Jul 2026 | dormant |
+| [tbot](https://github.com/Daboggieman/tbot) | 121 | 310.0 kB | 1 | 11 Jan 2026 | dormant |
+| [Maeker](https://github.com/Daboggieman/Maeker) | 97 | 1.3 MB | 0 | 27 Jun 2026 | dormant |
+| [COR-BOT](https://github.com/Daboggieman/COR-BOT) | 58 | 180.0 kB | 0 | 14 Jul 2025 | dormant |
+| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 40 | 120.0 kB | 0 | 3 Sep 2026 | occupied |
+| [Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup) | 34 | 90.0 kB | 0 | 18 Aug 2026 | occupied |
+
+<sub>Building height is commits on the default branch, footprint is repo size, and a lit facade means pushed within 30 days.</sub>
+
+<sub>Generated by <code>./cmd/cards</code> on 3 September 2026. Public activity only.</sub>
+
+<!-- cards:table:end -->
+
+</details>
+
+<br/>
+
+## ⚙️ How this README builds itself
+
+Nothing above is rendered by a third-party widget host. [`cmd/cards`](./cmd/cards) is a Go program with no dependencies outside the standard library: it queries the GitHub GraphQL API, draws the four SVGs by hand, rewrites the table block, and [a scheduled Action](./.github/workflows/cards.yml) commits the result back to this repo every morning. The cards live in [`assets/`](./assets), so they keep working whether or not anyone else's free tier does.
+
+```console
+$ go run ./cmd/cards -login Daboggieman     # live data
+$ go run ./cmd/cards -fixture testdata/profile.json   # offline, deterministic
+$ go test ./...
+```
 
 <br/>
 
@@ -89,11 +148,6 @@
 
 <div align="center">
 
-<!-- Replace the # below with your real links -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](#)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF0080?style=for-the-badge&logo=About.me&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=3FB950)](https://github.com/Daboggieman)
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:B2BEB5,100:C0C0C0&height=120&section=footer" width="100%"/>

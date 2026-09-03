@@ -168,10 +168,19 @@ func renderCity(s *Stats) string {
 		drawBuilding(c, bx, baseY, bw, th, depth, f, fmt.Sprintf(`class="win w%d"`, i))
 		c.groupEnd()
 
-		// A landmark badge, not a size channel: the number is written out.
+		// A landmark badge, not a size channel: the number is written out beside a
+		// drawn star. The star is a path because ★ is outside monoStack's coverage
+		// and this SVG is resolved against fonts on the reader's machine.
 		if r.Stars > 0 {
-			c.text(bx+bw/2, baseY-th-depth/2-5, fmt.Sprintf("★%d", r.Stars),
-				textOpts{size: 9.5, fill: inkHi, weight: "500", anchor: "middle"})
+			const starR, starGap = 4.0, 3.0
+			label := commas(r.Stars)
+			badgeW := starR*2 + starGap + textWidth(label, 9.5)
+			left := bx + bw/2 - badgeW/2
+			cy := baseY - th - depth/2 - 8
+			c.star(left+starR, cy, starR, accent)
+			// +3.4 puts the digits' cap height on the star's centre line.
+			c.text(left+starR*2+starGap, cy+3.4, label,
+				textOpts{size: 9.5, fill: inkHi, weight: "500", tooltip: tip})
 		}
 
 		// Every building is named and valued in text, so neither identity nor
