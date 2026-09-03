@@ -19,7 +19,10 @@ func TestEscapesEveryXMLMetacharacter(t *testing.T) {
 }
 
 func TestN(t *testing.T) {
-	tests := []struct{ in float64; want string }{
+	tests := []struct {
+		in   float64
+		want string
+	}{
 		{0, "0"}, {12, "12"}, {12.5, "12.5"}, {-3.25, "-3.25"},
 		{0.0000001, "0.0000001"}, // never scientific notation, which SVG rejects
 	}

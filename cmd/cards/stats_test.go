@@ -23,9 +23,9 @@ func at(s string) time.Time {
 
 func TestComputeStreaks(t *testing.T) {
 	tests := []struct {
-		name            string
-		days            []Day
-		today           string
+		name             string
+		days             []Day
+		today            string
 		current, longest int
 	}{
 		{

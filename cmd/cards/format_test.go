@@ -6,7 +6,10 @@ import (
 )
 
 func TestCompact(t *testing.T) {
-	tests := []struct{ in int; want string }{
+	tests := []struct {
+		in   int
+		want string
+	}{
 		{0, "0"},
 		{7, "7"},
 		{999, "999"},
@@ -26,7 +29,10 @@ func TestCompact(t *testing.T) {
 }
 
 func TestCommas(t *testing.T) {
-	tests := []struct{ in int; want string }{
+	tests := []struct {
+		in   int
+		want string
+	}{
 		{0, "0"}, {12, "12"}, {123, "123"}, {1234, "1,234"},
 		{1234567, "1,234,567"}, {-4321, "-4,321"},
 	}
@@ -50,7 +56,10 @@ func TestPlural(t *testing.T) {
 }
 
 func TestHumanBytes(t *testing.T) {
-	tests := []struct{ in int; want string }{
+	tests := []struct {
+		in   int
+		want string
+	}{
 		{512, "512 B"},
 		{2048, "2.0 kB"},
 		{1 << 20, "1.0 MB"},
@@ -87,9 +96,9 @@ func TestTruncateToWidth(t *testing.T) {
 
 func TestFormatDelta(t *testing.T) {
 	tests := []struct {
-		name             string
-		current, prior   int
-		want             string
+		name           string
+		current, prior int
+		want           string
 	}{
 		{"no history and no activity says nothing", 0, 0, ""},
 		{"no history but activity now", 40, 0, "new activity vs prior 30d"},

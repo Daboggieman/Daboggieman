@@ -105,10 +105,14 @@ func renderCity(s *Stats) string {
 	// a running animation without advancing it — the same trap that blanked the
 	// terminal card. So the geometry never animates: only the window fill does,
 	// its base state is fully lit, and the worst a frozen frame can look is a city
-	// at night. The wave comes from varying duration rather than delay, because a
+	// at dusk. The wave comes from varying duration rather than delay, because a
 	// delay would need a backwards fill and that is what hides content.
+	//
+	// The first keyframe is .3 rather than 0 for the same reason: a frozen frame
+	// then shows dim windows instead of blank walls, so no stop in this file ever
+	// renders a mark away.
 	c.style(".win{animation:lamps 900ms ease-out}")
-	c.style("@keyframes lamps{from{opacity:0}to{opacity:1}}")
+	c.style("@keyframes lamps{from{opacity:.3}to{opacity:1}}")
 	for i := range blocks {
 		c.style(fmt.Sprintf(".w%d{animation-duration:%dms}", i, 620+i*90))
 	}
