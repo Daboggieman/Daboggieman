@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="267" viewBox="0 0 880 267" role="img" aria-labelledby="t d">
   <title id="t">Raph&apos;el Ogah — profile terminal</title>
-  <desc id="d">Raph&apos;el Ogah, based in Nigeria. Works in python · typescript · html · go · shell. 282 commits, 8 repos, 7 stars. Current streak 1 days against a personal best of 9.</desc>
+  <desc id="d">Raph&apos;el Ogah, based in Nigeria. Works in python · typescript · html · go · shell. 283 commits, 8 repos, 7 stars. Current streak 1 days against a personal best of 9.</desc>
   <style>
     @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
     .cur{animation:blink 1.1s steps(1,end) infinite}
@@ -23,20 +23,13 @@
   <text x="20" y="121" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">python · typescript · html · go · shell</text>
   <text x="20" y="142" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
   <text x="152.6" y="142" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">git shortlog -sn --all | wc -l</text>
-  <text x="20" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">282 commits · 8 repos · 7 stars · 9 followers</text>
+  <text x="20" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">283 commits · 8 repos · 7 stars · 9 followers</text>
   <text x="20" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
   <text x="152.6" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">./streak --meter</text>
-<<<<<<< HEAD
-  <path d="M20 199H571.4000000000001A4 4 0 0 1 575.4000000000001 203V203A4 4 0 0 1 571.4000000000001 207H20Z" fill="#116329"/>
-  <path d="M20 199H282.59200000000004A4 4 0 0 1 286.59200000000004 203V203A4 4 0 0 1 282.59200000000004 207H20Z" fill="#3FB950" class="grow"><title>current streak 12 days; personal best 25 days</title></path>
-  <rect x="286.59200000000004" y="199" width="2" height="8" rx="0" fill="#0D1117"/>
-  <text x="589.4000000000001" y="206" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">12 / 25 days  ·  current vs personal best</text>
-=======
   <path d="M20 199H584.6A4 4 0 0 1 588.6 203V203A4 4 0 0 1 584.6 207H20Z" fill="#116329"/>
   <path d="M20 199H79.17777777777778A4 4 0 0 1 83.17777777777778 203V203A4 4 0 0 1 79.17777777777778 207H20Z" fill="#3FB950" class="grow"><title>current streak 1 days; personal best 9 days</title></path>
   <rect x="83.17777777777778" y="199" width="2" height="8" rx="0" fill="#0D1117"/>
   <text x="602.6" y="206" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">1 / 9 days  ·  current vs personal best</text>
->>>>>>> be9fca443eddc504dd0efb187928ce8837611b02
   <text x="20" y="235" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
   <rect x="152.6" y="225" width="7.8" height="13" rx="1" fill="#3FB950" class="cur"/>
   <text x="20" y="251" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">rendered by ./cmd/cards · 2026-09-03</text>

@@ -143,21 +143,27 @@
   <text x="335" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>Maeker — 17 commits on the default branch · 415.0 kB · 0 stars · pushed 27 Jun 2026 (dormant)</title>Maeker</text>
   <text x="335" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">○ 17</text>
   <g>
-    <title>Daboggieman — 13 commits on the default branch · 6.6 MB · 0 stars · pushed 3 Sep 2026 (occupied)</title>
-  <polygon points="516,178 516,144.31428571428572 532,136.31428571428572 532,170" fill="#116329"/>
-  <polygon points="440,144.31428571428572 516,144.31428571428572 532,136.31428571428572 456,136.31428571428572" fill="#3FB950"/>
-  <polygon points="440,178 516,178 516,144.31428571428572 440,144.31428571428572" fill="#1A7F37"/>
+    <title>Daboggieman — 16 commits on the default branch · 6.6 MB · 0 stars · pushed 3 Sep 2026 (occupied)</title>
+  <polygon points="516,178 516,139.77142857142857 532,131.77142857142857 532,170" fill="#116329"/>
+  <polygon points="440,139.77142857142857 516,139.77142857142857 532,131.77142857142857 456,131.77142857142857" fill="#3FB950"/>
+  <polygon points="440,178 516,178 516,139.77142857142857 440,139.77142857142857" fill="#1A7F37"/>
     <g class="win w4">
-  <rect x="451" y="153.31428571428572" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="461" y="153.31428571428572" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="471" y="153.31428571428572" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="481" y="153.31428571428572" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="491" y="153.31428571428572" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="501" y="153.31428571428572" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="451" y="148.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="461" y="148.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="471" y="148.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="481" y="148.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="491" y="148.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="501" y="148.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="451" y="161.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="461" y="161.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="471" y="161.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="481" y="161.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="491" y="161.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="501" y="161.77142857142857" width="4" height="5" rx="1" fill="#7EE787"/>
     </g>
   </g>
-  <text x="440" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>Daboggieman — 13 commits on the default branch · 6.6 MB · 0 stars · pushed 3 Sep 2026 (occupied)</title>Daboggieman</text>
-  <text x="440" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">● 13</text>
+  <text x="440" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>Daboggieman — 16 commits on the default branch · 6.6 MB · 0 stars · pushed 3 Sep 2026 (occupied)</title>Daboggieman</text>
+  <text x="440" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">● 16</text>
   <g>
     <title>tbot — 10 commits on the default branch · 3.7 MB · 1 star · pushed 11 Jan 2026 (dormant)</title>
   <polygon points="613.5370395009236,178 613.5370395009236,148.85714285714286 629.5370395009236,140.85714285714286 629.5370395009236,170" fill="#21262D"/>
