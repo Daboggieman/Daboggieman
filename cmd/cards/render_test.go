@@ -387,3 +387,74 @@ func TestRenderIsDeterministic(t *testing.T) {
 		}
 	}
 }
+
+func TestPrivateReposAreCountedButNeverLinked(t *testing.T) {
+	s := loadFixture(t)
+
+	if s.PrivateCount() == 0 {
+		t.Fatal("the fixture has no private repo, so the unlinked path is untested")
+	}
+	var priv Repo
+	for _, r := range s.CityBlocks() {
+		if r.Private {
+			priv = r
+			break
+		}
+	}
+	if priv.Name == "" {
+		t.Fatal("no private repo reached the skyline")
+	}
+
+	// The whole contract in two assertions: the activity is published, the door
+	// stays shut. A link to a private repo is a 404 for every visitor.
+	table := renderTableView(s)
+	if !strings.Contains(table, priv.Name) || !strings.Contains(table, commas(priv.Commits)) {
+		t.Errorf("table view omits private repo %s or its commit count", priv.Name)
+	}
+	link := "https://github.com/" + s.Login + "/" + priv.Name
+	if strings.Contains(table, link) {
+		t.Errorf("table view links %s, which 404s for visitors", link)
+	}
+	if !strings.Contains(table, "| private |") {
+		t.Error("table view never marks a row private")
+	}
+
+	// On the card the state has to be readable as words, not inferred from a
+	// missing link that an SVG does not even have.
+	svg := renderCity(s)
+	if !strings.Contains(svg, "private") {
+		t.Error("city card never says which buildings are private")
+	}
+}
+
+func TestExcludeKeepsARepoOutOfEverything(t *testing.T) {
+	raw, err := os.ReadFile("../../testdata/profile.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+	resp, err := decode(raw)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	full := resp.toStats(renderedAt, nil)
+	drop := full.CityBlocks()[0].Name // the tallest building, so the effect is visible
+	got := resp.toStats(renderedAt, map[string]bool{strings.ToLower(drop): true})
+
+	if got.RepoCount != full.RepoCount-1 {
+		t.Errorf("repo count went %d -> %d, want one fewer", full.RepoCount, got.RepoCount)
+	}
+	for _, r := range got.Repos {
+		if r.Name == drop {
+			t.Fatalf("%s survived the exclude list", drop)
+		}
+	}
+	// Excluding has to be total, not cosmetic: an excluded repo must not leak
+	// through the table view or the card either.
+	if strings.Contains(renderTableView(got), drop) {
+		t.Errorf("%s still appears in the table view", drop)
+	}
+	if strings.Contains(renderCity(got), esc(drop)) {
+		t.Errorf("%s still appears on the city card", drop)
+	}
+}
