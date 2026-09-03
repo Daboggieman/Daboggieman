@@ -88,8 +88,8 @@ testing     Jest · go test
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| Python | 41.2% | 952.1 kB |
-| TypeScript | 22.7% | 523.3 kB |
+| Python | 41.3% | 955.2 kB |
+| TypeScript | 22.6% | 523.3 kB |
 | HTML | 22.5% | 520.3 kB |
 | Go | 12.3% | 284.5 kB |
 | Shell | 0.5% | 12.4 kB |
@@ -98,8 +98,8 @@ testing     Jest · go test
 
 | Metric | Last 365 days |
 |---|---:|
-| Contributions | 492 |
-| Commits | 299 |
+| Contributions | 496 |
+| Commits | 303 |
 | Pull requests | 12 |
 | Issues | 0 |
 | Reviews | 0 |
@@ -111,13 +111,14 @@ testing     Jest · go test
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
 | [python-study](https://github.com/Daboggieman/python-study) | 70 | 341.0 kB | 2 | 24 Aug 2026 | occupied | public |
+| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 39 | 6.7 MB | 0 | 3 Sep 2026 | occupied | public |
 | [gsmhub](https://github.com/Daboggieman/gsmhub) | 38 | 2.4 MB | 1 | 18 Aug 2026 | occupied | public |
-| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 37 | 6.6 MB | 0 | 3 Sep 2026 | occupied | public |
 | [golang-study](https://github.com/Daboggieman/golang-study) | 23 | 3.8 MB | 3 | 2 Jul 2026 | dormant | public |
 | [Maeker](https://github.com/Daboggieman/Maeker) | 17 | 415.0 kB | 0 | 27 Jun 2026 | dormant | public |
 | [tbot](https://github.com/Daboggieman/tbot) | 10 | 3.7 MB | 1 | 11 Jan 2026 | dormant | public |
 | [Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup) | 6 | 11.0 kB | 0 | 18 Aug 2026 | occupied | public |
 | [COR-BOT](https://github.com/Daboggieman/COR-BOT) | 5 | 107.0 kB | 0 | 14 Jul 2025 | dormant | public |
+| [o-o](https://github.com/Daboggieman/o-o) | 3 | 0 B | 0 | 3 Sep 2026 | occupied | public |
 
 <sub>Building height is commits on the default branch, footprint is repo size, and a lit facade means pushed within 30 days. Private repositories are listed for their activity only — they are not linked, because the link would 404 for everyone but me.</sub>
 
