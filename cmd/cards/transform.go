@@ -127,11 +127,13 @@ func (s *Stats) TopLanguageNames(limit int) []string {
 	return out
 }
 
-// CityBlocks ranks repos by commit volume for the skyline, tallest first, and
-// caps the count at maxCityBlocks so the buildings never get too narrow to label.
-// Repos with no commits on the default branch have nothing to build with and are
-// dropped rather than drawn as slivers.
-func (s *Stats) CityBlocks() []Repo {
+// RankedRepos is every repo with something to show, most commits first. Repos with
+// no commits on the default branch — empty ones, and ones with no default branch
+// at all — have no height to draw and no activity to report, so they are dropped.
+//
+// This is the complete list. Only the drawing is capped; the table view walks this
+// so a repo is never missing from the page just because it did not fit the street.
+func (s *Stats) RankedRepos() []Repo {
 	out := make([]Repo, 0, len(s.Repos))
 	for _, r := range s.Repos {
 		if r.Commits <= 0 {
@@ -139,14 +141,24 @@ func (s *Stats) CityBlocks() []Repo {
 		}
 		out = append(out, r)
 	}
-	// Name breaks ties so the skyline order — and therefore the committed SVG —
-	// is stable between runs.
+	// Name breaks ties so the order — and therefore the committed SVG — is stable
+	// between runs.
 	sort.Slice(out, func(i, j int) bool {
 		if out[i].Commits != out[j].Commits {
 			return out[i].Commits > out[j].Commits
 		}
 		return out[i].Name < out[j].Name
 	})
+	return out
+}
+
+// CityBlocks is the part of RankedRepos that actually gets built, capped at
+// maxCityBlocks. The cap is a legibility floor, not a data decision: past it each
+// building is narrower than its own name, and an unlabelled building is a
+// rectangle. Whatever the cap cuts still appears in the table view, and the card
+// says how many it left out.
+func (s *Stats) CityBlocks() []Repo {
+	out := s.RankedRepos()
 	if len(out) > maxCityBlocks {
 		out = out[:maxCityBlocks]
 	}

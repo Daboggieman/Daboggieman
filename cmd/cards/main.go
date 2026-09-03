@@ -34,8 +34,12 @@ func main() {
 	dump := flag.String("dump", "", "also write the live GraphQL response to this path")
 	readme := flag.String("readme", "README.md", "README to refresh the table view in (empty to skip)")
 	exclude := flag.String("exclude", "", "comma-separated repo names to leave out of every card")
+	buildings := flag.Int("buildings", maxCityBlocks, "how many repos the skyline draws; the rest stay in the table view")
 	flag.Parse()
 
+	if *buildings > 0 {
+		maxCityBlocks = *buildings
+	}
 	if err := run(*login, *out, *fixture, *dump, *readme, *exclude); err != nil {
 		log.Fatalf("cards: %v", err)
 	}

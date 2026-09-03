@@ -78,9 +78,9 @@ func renderTableView(s *Stats) string {
 		fmt.Fprintf(&b, "| %s | %s |\n", r[0], r[1])
 	}
 
-	// The skyline's own numbers. Every building's height, footprint and lit state
-	// is a row here, so the city is readable with images off.
-	blocks := s.CityBlocks()
+	// Every repo's height, footprint and lit state, so the city is readable with
+	// images off — and so a repo the skyline could not fit is still on the page.
+	blocks := s.RankedRepos()
 	if len(blocks) > 0 {
 		b.WriteString("\n| Building | Commits | Size | Stars | Last push | State | Access |\n|---|---:|---:|---:|---|---|---|\n")
 		for _, r := range blocks {
@@ -99,10 +99,14 @@ func renderTableView(s *Stats) string {
 				name, commas(r.Commits), humanBytes(r.SizeKB*1024),
 				commas(r.Stars), r.PushedAt.Format("2 Jan 2006"), state, access)
 		}
+		drawn := ""
+		if len(blocks) > maxCityBlocks {
+			drawn = fmt.Sprintf(" The skyline draws the top %d; the rest are listed here.", maxCityBlocks)
+		}
 		fmt.Fprintf(&b, "\n<sub>Building height is commits on the default branch, footprint is repo size, "+
-			"and a lit facade means pushed within %s. Private repositories are listed for their "+
+			"and a lit facade means pushed within %s.%s Private repositories are listed for their "+
 			"activity only — they are not linked, because the link would 404 for everyone but me.</sub>\n",
-			cityAge())
+			cityAge(), drawn)
 	}
 
 	// plural() appends a bare "s", which "repository" does not take.

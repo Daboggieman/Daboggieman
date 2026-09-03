@@ -69,7 +69,6 @@ func renderCity(s *Stats) string {
 	}
 
 	const (
-		w        = 880.0
 		pad      = 20.0
 		skyTop   = 58.0  // top of the tallest roof's front face
 		maxTower = 120.0 // tallest building, in px
@@ -81,6 +80,11 @@ func renderCity(s *Stats) string {
 		nameSize = 9.5
 		metaSize = 9.0
 	)
+
+	// The card grows sideways rather than squeezing the street: every building keeps
+	// the same footprint and pitch whatever -buildings is set to, so raising the cap
+	// costs width instead of legibility.
+	w := math.Max(880.0, 2*pad+float64(len(blocks))*105.0)
 
 	baseY := skyTop + maxTower
 	h := baseY + 98.0
@@ -105,6 +109,10 @@ func renderCity(s *Stats) string {
 		}
 		priv = fmt.Sprintf(" %d %s private and shown for activity only.", n, verb)
 	}
+	if total := len(s.RankedRepos()); total > len(blocks) {
+		priv += fmt.Sprintf(" %d further repositories are listed in the table view rather than drawn.",
+			total-len(blocks))
+	}
 	c := newCanvas(w, h, "Repository skyline",
 		fmt.Sprintf("%d repositories as buildings, ranked by commits on the default branch. "+
 			"Building height is commit count, footprint is repo size, and a lit facade means pushed in the last 30 days. "+
@@ -128,7 +136,13 @@ func renderCity(s *Stats) string {
 		c.style(fmt.Sprintf(".w%d{animation-duration:%dms}", i, 620+i*90))
 	}
 
-	c.windowChrome(fmt.Sprintf("~/city  ·  %s ranked by commits", plural(len(blocks), "repo")))
+	// Never let the title imply completeness the picture does not have: if the cap
+	// cut anything, say how many of how many are standing.
+	title := fmt.Sprintf("~/city  ·  %s ranked by commits", plural(len(blocks), "repo"))
+	if total := len(s.RankedRepos()); total > len(blocks) {
+		title = fmt.Sprintf("~/city  ·  top %d of %d repos by commits", len(blocks), total)
+	}
+	c.windowChrome(title)
 
 	pitch := (w - 2*pad) / float64(len(blocks))
 	peak := float64(blocks[0].Commits)
