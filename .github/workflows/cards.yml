@@ -39,11 +39,22 @@ jobs:
 
       - name: Render cards
         env:
-          # The built-in token can read public profile data. Private-repo
-          # activity needs a PAT with read:user in a secret named CARDS_TOKEN;
-          # without one the numbers are public-only, which the cards say.
+          # Visibility is entirely a property of this token.
+          #
+          #   GITHUB_TOKEN (built-in)  public repos only; private ones are absent
+          #                            from the skyline and the language shares.
+          #   CARDS_TOKEN  (a PAT)     add a classic PAT with the `repo` and
+          #                            `read:user` scopes as a repository secret
+          #                            named CARDS_TOKEN and private repositories
+          #                            appear too, counted for their activity.
+          #
+          # The cards say which of the two they were rendered with, so the footer
+          # never overstates what it measured.
           GITHUB_TOKEN: ${{ secrets.CARDS_TOKEN || secrets.GITHUB_TOKEN }}
-        run: go run ./cmd/cards -login "${{ github.repository_owner }}"
+          # Repos that should not be named on a public page at all, private or
+          # not. Excluded before anything is counted, so they leave no trace.
+          EXCLUDE: ${{ vars.CARDS_EXCLUDE }}
+        run: go run ./cmd/cards -login "${{ github.repository_owner }}" -exclude "$EXCLUDE"
 
       - name: Commit
         run: |
