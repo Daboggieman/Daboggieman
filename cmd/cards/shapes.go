@@ -121,3 +121,35 @@ func (c *canvas) windowChrome(title string) float64 {
 	c.text(72, 19.5, title, textOpts{size: 11, fill: inkLow})
 	return barH
 }
+
+// pt is a point in card space.
+type pt struct{ x, y float64 }
+
+// poly draws a filled polygon. Used for the axonometric faces on the city card,
+// where a face is one plane of a single mark rather than a mark of its own.
+func (c *canvas) poly(fill string, pts []pt, attrs ...string) {
+	if len(pts) < 3 {
+		return
+	}
+	var b strings.Builder
+	for i, p := range pts {
+		if i > 0 {
+			b.WriteByte(' ')
+		}
+		b.WriteString(n(p.x))
+		b.WriteByte(',')
+		b.WriteString(n(p.y))
+	}
+	c.raw(`  <polygon points="%s" fill="%s"%s/>`, b.String(), fill, joinAttrs(attrs))
+}
+
+// group opens a <g>, optionally carrying a native tooltip that covers every
+// child, so hovering anywhere on a composite mark names the whole thing.
+func (c *canvas) group(tooltip string, attrs ...string) {
+	c.raw(`  <g%s>`, joinAttrs(attrs))
+	if tooltip != "" {
+		c.raw(`    <title>%s</title>`, esc(tooltip))
+	}
+}
+
+func (c *canvas) groupEnd() { c.raw(`  </g>`) }

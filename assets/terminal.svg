@@ -3,10 +3,10 @@
   <desc id="d">Raph&apos;el Ogah, based in Nigeria. Works in python · typescript · go · jupyter notebook · shell. 1,210 commits, 8 repos, 7 stars. Current streak 12 days against a personal best of 25.</desc>
   <style>
     @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
-    .ln{opacity:0;animation:reveal 620ms ease-out both}
-    @keyframes reveal{0%{opacity:0;clip-path:inset(0 100% 0 0)}6%{opacity:1;clip-path:inset(0 100% 0 0)}100%{opacity:1;clip-path:inset(0 0 0 0)}}
     .cur{animation:blink 1.1s steps(1,end) infinite}
     @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    .grow{transform-box:fill-box;transform-origin:left center;animation:grow 900ms ease-out}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
   </style>
   <rect x="0" y="0" width="880" height="267" rx="8" fill="#0D1117"/>
   <path d="M0 8a8 8 0 0 1 8-8h864a8 8 0 0 1 8 8v22H0Z" fill="#161B22"/>
@@ -15,21 +15,21 @@
   <circle cx="32" cy="15" r="4" fill="#FEBC2E" opacity="0.85"/>
   <circle cx="48" cy="15" r="4" fill="#28C840" opacity="0.85"/>
   <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">raphel@github: ~/profile — zsh</text>
-  <text x="20" y="58" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950" class="ln" style="animation-delay:120ms">raphel@github:~$ </text>
-  <text x="152.6" y="58" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3" class="ln" style="animation-delay:120ms">whoami</text>
-  <text x="20" y="79" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3" class="ln" style="animation-delay:380ms">Raph&apos;el Ogah — Nigeria · last push: python-study</text>
-  <text x="20" y="100" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950" class="ln" style="animation-delay:640ms">raphel@github:~$ </text>
-  <text x="152.6" y="100" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3" class="ln" style="animation-delay:640ms">cat stack.txt</text>
-  <text x="20" y="121" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3" class="ln" style="animation-delay:900ms">python · typescript · go · jupyter notebook · shell</text>
-  <text x="20" y="142" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950" class="ln" style="animation-delay:1160ms">raphel@github:~$ </text>
-  <text x="152.6" y="142" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3" class="ln" style="animation-delay:1160ms">git shortlog -sn --all | wc -l</text>
-  <text x="20" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3" class="ln" style="animation-delay:1420ms">1,210 commits · 8 repos · 7 stars · 9 followers</text>
-  <text x="20" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950" class="ln" style="animation-delay:1680ms">raphel@github:~$ </text>
-  <text x="152.6" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3" class="ln" style="animation-delay:1680ms">./streak --meter</text>
-  <g class="ln" style="animation-delay:1940ms">
+  <text x="20" y="58" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
+  <text x="152.6" y="58" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">whoami</text>
+  <text x="20" y="79" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">Raph&apos;el Ogah — Nigeria · last push: python-study</text>
+  <text x="20" y="100" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
+  <text x="152.6" y="100" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">cat stack.txt</text>
+  <text x="20" y="121" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">python · typescript · go · jupyter notebook · shell</text>
+  <text x="20" y="142" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
+  <text x="152.6" y="142" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">git shortlog -sn --all | wc -l</text>
+  <text x="20" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">1,210 commits · 8 repos · 7 stars · 9 followers</text>
+  <text x="20" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
+  <text x="152.6" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">./streak --meter</text>
   <path d="M20 199H571.4000000000001A4 4 0 0 1 575.4000000000001 203V203A4 4 0 0 1 571.4000000000001 207H20Z" fill="#116329"/>
-  <path d="M20 199H282.59200000000004A4 4 0 0 1 286.59200000000004 203V203A4 4 0 0 1 282.59200000000004 207H20Z" fill="#3FB950"><title>current streak 12 days; personal best 25 days</title></path>
+  <path d="M20 199H282.59200000000004A4 4 0 0 1 286.59200000000004 203V203A4 4 0 0 1 282.59200000000004 207H20Z" fill="#3FB950" class="grow"><title>current streak 12 days; personal best 25 days</title></path>
   <text x="589.4000000000001" y="206" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">12 / 25 days  ·  current vs personal best</text>
-  </g>
+  <text x="20" y="235" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
+  <rect x="152.6" y="225" width="7.8" height="13" rx="1" fill="#3FB950" class="cur"/>
   <text x="20" y="251" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">rendered by ./cmd/cards · 2026-09-03</text>
 </svg>

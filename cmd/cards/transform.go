@@ -40,11 +40,17 @@ func (r *apiResponse) toStats(now time.Time) *Stats {
 		if err != nil {
 			pushed = time.Time{}
 		}
+		commits := 0
+		if br := node.DefaultBranchRef; br != nil && br.Target != nil {
+			commits = br.Target.History.TotalCount
+		}
 		s.Repos = append(s.Repos, Repo{
 			Name:     node.Name,
 			Stars:    node.StargazerCount,
 			PushedAt: pushed,
 			Primary:  primary,
+			Commits:  commits,
+			SizeKB:   node.DiskUsage,
 		})
 
 		for _, e := range node.Languages.Edges {
@@ -105,6 +111,32 @@ func (s *Stats) TopLanguageNames(limit int) []string {
 			break
 		}
 		out = append(out, l.Name)
+	}
+	return out
+}
+
+// CityBlocks ranks repos by commit volume for the skyline, tallest first, and
+// caps the count at maxCityBlocks so the buildings never get too narrow to label.
+// Repos with no commits on the default branch have nothing to build with and are
+// dropped rather than drawn as slivers.
+func (s *Stats) CityBlocks() []Repo {
+	out := make([]Repo, 0, len(s.Repos))
+	for _, r := range s.Repos {
+		if r.Commits <= 0 {
+			continue
+		}
+		out = append(out, r)
+	}
+	// Name breaks ties so the skyline order — and therefore the committed SVG —
+	// is stable between runs.
+	sort.Slice(out, func(i, j int) bool {
+		if out[i].Commits != out[j].Commits {
+			return out[i].Commits > out[j].Commits
+		}
+		return out[i].Name < out[j].Name
+	})
+	if len(out) > maxCityBlocks {
+		out = out[:maxCityBlocks]
 	}
 	return out
 }

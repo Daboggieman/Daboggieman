@@ -19,7 +19,7 @@ func renderLanguages(s *Stats) string {
 	const (
 		w         = 460.0
 		pad       = 18.0
-		labelW    = 92.0
+		labelW    = 104.0
 		valueW    = 54.0
 		rowPitch  = 24.0
 		barThick  = 10.0
@@ -60,9 +60,10 @@ func renderLanguages(s *Stats) string {
 		}
 
 		pct := fmt.Sprintf("%.1f%%", l.Share*100)
-		c.text(pad, y+barThick-1, l.Name, textOpts{size: nameSize, fill: inkMid})
-		c.hBar(axisX, y, barW, barThick, fill,
-			fmt.Sprintf("%s — %s (%s)", l.Name, pct, humanBytes(l.Bytes)))
+		tip := fmt.Sprintf("%s — %s (%s)", l.Name, pct, humanBytes(l.Bytes))
+		c.text(pad, y+barThick-1, truncateToWidth(l.Name, nameSize, labelW-10),
+			textOpts{size: nameSize, fill: inkMid, tooltip: tip})
+		c.hBar(axisX, y, barW, barThick, fill, tip)
 		// The value sits outside the data-end in a reserved column, so it is
 		// never clipped by a short bar.
 		c.text(w-pad, y+barThick-1, pct, textOpts{

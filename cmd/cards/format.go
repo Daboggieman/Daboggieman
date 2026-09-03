@@ -44,6 +44,23 @@ func plural(n int, word string) string {
 	return fmt.Sprintf("%d %ss", n, word)
 }
 
+// truncateToWidth shortens s until it fits maxWidth at fontSize, marking the cut
+// with an ellipsis. A label that will not fit is never allowed to run into the
+// mark beside it; the full value stays in the tooltip and the README table.
+func truncateToWidth(s string, fontSize, maxWidth float64) string {
+	if textWidth(s, fontSize) <= maxWidth {
+		return s
+	}
+	r := []rune(s)
+	for len(r) > 1 {
+		r = r[:len(r)-1]
+		if textWidth(string(r)+"…", fontSize) <= maxWidth {
+			return string(r) + "…"
+		}
+	}
+	return "…"
+}
+
 func sumCounts(days []Day) int {
 	total := 0
 	for _, d := range days {

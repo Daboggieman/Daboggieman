@@ -77,6 +77,7 @@ func run(login, out, fixture, dump, readme string) error {
 		"terminal.svg":  renderTerminal(stats),
 		"languages.svg": renderLanguages(stats),
 		"activity.svg":  renderActivity(stats),
+		"city.svg":      renderCity(stats),
 	}
 	for name, svg := range cards {
 		path := filepath.Join(out, name)

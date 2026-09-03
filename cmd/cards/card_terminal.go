@@ -70,36 +70,38 @@ func renderTerminal(s *Stats) string {
 			name, where, stack, compact(s.Commits), compact(s.PublicRepos), compact(s.Stars),
 			s.CurrentStreak, s.LongestStreak))
 
-	c.style(".ln{opacity:0;animation:reveal 620ms ease-out both}")
-	c.style("@keyframes reveal{0%{opacity:0;clip-path:inset(0 100% 0 0)}" +
-		"6%{opacity:1;clip-path:inset(0 100% 0 0)}100%{opacity:1;clip-path:inset(0 0 0 0)}}")
+	// Every animation here is additive: the settled frame is the base style, and
+	// the keyframes only add motion on top of it. A staggered reveal that starts
+	// from opacity:0 renders the whole card blank in any context where the
+	// animation does not advance, which is not a trade worth making on a hero card.
 	c.style(".cur{animation:blink 1.1s steps(1,end) infinite}")
 	c.style("@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}")
+	c.style(".grow{transform-box:fill-box;transform-origin:left center;animation:grow 900ms ease-out}")
+	c.style("@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}")
 
 	c.windowChrome("raphel@github: ~/profile — zsh")
 
 	for i, l := range lines {
 		y := y0 + float64(i)*lineH
-		delay := fmt.Sprintf(`style="animation-delay:%dms"`, 120+i*260)
 		x := pad
 		if l.prompt {
-			c.text(x, y, sigil, textOpts{
-				size: size, fill: accent, weight: "500",
-				attrs: []string{`class="ln"`, delay},
-			})
+			c.text(x, y, sigil, textOpts{size: size, fill: accent, weight: "500"})
 			x += sigilW
 		}
 		fill := l.fill
 		if fill == "" {
 			fill = inkHi
 		}
-		c.text(x, y, l.text, textOpts{
-			size: size, fill: fill,
-			attrs: []string{`class="ln"`, delay},
-		})
+		c.text(x, y, l.text, textOpts{size: size, fill: fill})
 	}
 
-	renderStreakMeter(c, s, pad, meterY-6, w-2*pad, len(lines))
+	renderStreakMeter(c, s, pad, meterY-6, w-2*pad)
+
+	// A prompt waiting on input, with the one piece of looping motion on the card.
+	cursorY := meterY + 30
+	c.text(pad, cursorY, sigil, textOpts{size: size, fill: accent, weight: "500"})
+	c.rect(pad+sigilW, cursorY-10, size*charAdvance, 13, accent, 1, `class="cur"`)
+
 	c.text(pad, h-16, fmt.Sprintf("rendered by ./cmd/cards · %s",
 		s.GeneratedAt.Format("2006-01-02")), textOpts{size: 9.5, fill: inkLow})
 	return c.String()
@@ -109,7 +111,7 @@ func renderTerminal(s *Stats) string {
 // best: one value against a limit, which is a meter rather than a chart. The
 // unfilled track is a dimmer step of the fill's own ramp, so the state reads
 // across the whole bar instead of only where the fill ends.
-func renderStreakMeter(c *canvas, s *Stats, x, y, w float64, lineCount int) {
+func renderStreakMeter(c *canvas, s *Stats, x, y, w float64) {
 	const (
 		trackH   = 8.0
 		labelGap = 14.0
@@ -132,11 +134,10 @@ func renderStreakMeter(c *canvas, s *Stats, x, y, w float64, lineCount int) {
 		ratio = 1
 	}
 
-	delay := fmt.Sprintf(`style="animation-delay:%dms"`, 120+lineCount*260)
-	c.raw(`  <g class="ln" %s>`, delay)
 	c.path(hBarPath(x, y, trackW, trackH, barRadius), trackGreen)
+	// The fill's settled width is its real value; the animation only grows into it.
 	c.hBar(x, y, ratio*trackW, trackH, accent,
-		fmt.Sprintf("current streak %d days; personal best %d days", s.CurrentStreak, s.LongestStreak))
+		fmt.Sprintf("current streak %d days; personal best %d days", s.CurrentStreak, s.LongestStreak),
+		`class="grow"`)
 	c.text(x+trackW+labelGap, y+trackH-1, label, textOpts{size: 11, fill: inkMid})
-	c.raw(`  </g>`)
 }

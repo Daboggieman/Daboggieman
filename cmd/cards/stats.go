@@ -24,6 +24,21 @@ type Repo struct {
 	Stars    int
 	PushedAt time.Time
 	Primary  string
+	// Commits is the default branch's history length. On a solo profile that is
+	// effectively the owner's commit count, but it does count every author, so
+	// the city card labels it "commits on the default branch" rather than "your
+	// commits".
+	Commits int
+	// SizeKB is GitHub's diskUsage: the repo's size in kilobytes.
+	SizeKB int
+}
+
+// PushedWithin reports whether the repo was pushed to in the trailing window.
+func (r Repo) PushedWithin(now time.Time, d time.Duration) bool {
+	if r.PushedAt.IsZero() {
+		return false
+	}
+	return now.Sub(r.PushedAt) <= d
 }
 
 // Stats is everything the cards render. It is the only thing the render layer
@@ -56,6 +71,15 @@ type Stats struct {
 // maxLanguageSlots caps the language chart. Past the cap the tail folds into
 // "Other" rather than growing the category count.
 const maxLanguageSlots = 6
+
+// maxCityBlocks caps the skyline. A ninth building would be too narrow to carry
+// a readable name, and an unlabelled building is just a rectangle.
+const maxCityBlocks = 8
+
+// cityFreshWindow is how recently a repo must have been pushed to for its
+// building to read as occupied. Roughly a month: long enough that a normal gap
+// between sessions does not go dark, short enough to mean something.
+const cityFreshWindow = 30 * 24 * time.Hour
 
 // computeStreaks returns the current and longest run of consecutive days with at
 // least one contribution. days must be in ascending date order.

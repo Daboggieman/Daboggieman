@@ -8,27 +8,27 @@
   <circle cx="32" cy="15" r="4" fill="#FEBC2E" opacity="0.85"/>
   <circle cx="48" cy="15" r="4" fill="#28C840" opacity="0.85"/>
   <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/languages  ·  8 repos</text>
-  <line x1="104" y1="42" x2="104" y2="208" stroke="#30363D" stroke-width="1"/>
-  <text x="18" y="57" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">Python</text>
-  <path d="M110 48H374A4 4 0 0 1 378 52V54A4 4 0 0 1 374 58H110Z" fill="#3FB950"><title>Python — 54.0% (427.8 kB)</title></path>
+  <line x1="116" y1="42" x2="116" y2="208" stroke="#30363D" stroke-width="1"/>
+  <text x="18" y="57" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Python — 54.0% (427.8 kB)</title>Python</text>
+  <path d="M122 48H374A4 4 0 0 1 378 52V54A4 4 0 0 1 374 58H122Z" fill="#3FB950"><title>Python — 54.0% (427.8 kB)</title></path>
   <text x="442" y="57" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">54.0%</text>
-  <text x="18" y="81" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">TypeScript</text>
-  <path d="M110 72H193.4165715590048A4 4 0 0 1 197.4165715590048 76V78A4 4 0 0 1 193.4165715590048 82H110Z" fill="#3FB950"><title>TypeScript — 17.6% (139.6 kB)</title></path>
+  <text x="18" y="81" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>TypeScript — 17.6% (139.6 kB)</title>TypeScript</text>
+  <path d="M122 72H201.5023967130792A4 4 0 0 1 205.5023967130792 76V78A4 4 0 0 1 201.5023967130792 82H122Z" fill="#3FB950"><title>TypeScript — 17.6% (139.6 kB)</title></path>
   <text x="442" y="81" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">17.6%</text>
-  <text x="18" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">Go</text>
-  <path d="M110 96H184.41186943620178A4 4 0 0 1 188.41186943620178 100V102A4 4 0 0 1 184.41186943620178 106H110Z" fill="#3FB950"><title>Go — 15.8% (125.2 kB)</title></path>
+  <text x="18" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Go — 15.8% (125.2 kB)</title>Go</text>
+  <path d="M122 96H192.90089020771512A4 4 0 0 1 196.90089020771512 100V102A4 4 0 0 1 192.90089020771512 106H122Z" fill="#3FB950"><title>Go — 15.8% (125.2 kB)</title></path>
   <text x="442" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">15.8%</text>
-  <text x="18" y="129" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">Jupyter Notebook</text>
-  <path d="M110 120H130.59164574298106A4 4 0 0 1 134.59164574298106 124V126A4 4 0 0 1 130.59164574298106 130H110Z" fill="#3FB950"><title>Jupyter Notebook — 5.0% (39.3 kB)</title></path>
+  <text x="18" y="129" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Jupyter Notebook — 5.0% (39.3 kB)</title>Jupyter Noteb…</text>
+  <path d="M122 120H141.49052727687743A4 4 0 0 1 145.49052727687743 124V126A4 4 0 0 1 141.49052727687743 130H122Z" fill="#3FB950"><title>Jupyter Notebook — 5.0% (39.3 kB)</title></path>
   <text x="442" y="129" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">5.0%</text>
-  <text x="18" y="153" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">Shell</text>
-  <path d="M110 144H121.78269801415202A4 4 0 0 1 125.78269801415202 148V150A4 4 0 0 1 121.78269801415202 154H110Z" fill="#3FB950"><title>Shell — 3.2% (25.2 kB)</title></path>
+  <text x="18" y="153" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Shell — 3.2% (25.2 kB)</title>Shell</text>
+  <path d="M122 144H133.07601004336908A4 4 0 0 1 137.07601004336908 148V150A4 4 0 0 1 133.07601004336908 154H122Z" fill="#3FB950"><title>Shell — 3.2% (25.2 kB)</title></path>
   <text x="442" y="153" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">3.2%</text>
-  <text x="18" y="177" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">CSS</text>
-  <path d="M110 168H117.25587765350377A4 4 0 0 1 121.25587765350377 172V174A4 4 0 0 1 117.25587765350377 178H110Z" fill="#3FB950"><title>CSS — 2.3% (18.0 kB)</title></path>
+  <text x="18" y="177" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>CSS — 2.3% (18.0 kB)</title>CSS</text>
+  <path d="M122 168H128.75188313170509A4 4 0 0 1 132.75188313170509 172V174A4 4 0 0 1 128.75188313170509 178H122Z" fill="#3FB950"><title>CSS — 2.3% (18.0 kB)</title></path>
   <text x="442" y="177" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">2.3%</text>
-  <text x="18" y="201" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">Other</text>
-  <path d="M110 192H116.58297192421821A4 4 0 0 1 120.58297192421821 196V198A4 4 0 0 1 116.58297192421821 202H110Z" fill="#484F58"><title>Other — 2.1% (16.9 kB)</title></path>
+  <text x="18" y="201" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Other — 2.1% (16.9 kB)</title>Other</text>
+  <path d="M122 192H128.10910750970098A4 4 0 0 1 132.10910750970098 196V198A4 4 0 0 1 128.10910750970098 202H122Z" fill="#484F58"><title>Other — 2.1% (16.9 kB)</title></path>
   <text x="442" y="201" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">2.1%</text>
   <text x="18" y="236" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#6E7681">% of code by bytes  ·  bars scaled to the leader</text>
 </svg>

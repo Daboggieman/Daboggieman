@@ -25,8 +25,10 @@ const query = `query($login:String!){
         name
         stargazerCount
         pushedAt
+        diskUsage
         primaryLanguage{name}
         languages(first:12, orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}
+        defaultBranchRef{target{... on Commit{history{totalCount}}}}
       }
     }
     contributionsCollection{
@@ -60,6 +62,7 @@ type apiResponse struct {
 					Name            string `json:"name"`
 					StargazerCount  int    `json:"stargazerCount"`
 					PushedAt        string `json:"pushedAt"`
+					DiskUsage       int    `json:"diskUsage"`
 					PrimaryLanguage *struct {
 						Name string `json:"name"`
 					} `json:"primaryLanguage"`
@@ -71,6 +74,15 @@ type apiResponse struct {
 							} `json:"node"`
 						} `json:"edges"`
 					} `json:"languages"`
+					// defaultBranchRef is null on an empty repo, and target only
+					// carries history when it is a Commit, so both hops are optional.
+					DefaultBranchRef *struct {
+						Target *struct {
+							History struct {
+								TotalCount int `json:"totalCount"`
+							} `json:"history"`
+						} `json:"target"`
+					} `json:"defaultBranchRef"`
 				} `json:"nodes"`
 			} `json:"repositories"`
 			Contributions struct {
