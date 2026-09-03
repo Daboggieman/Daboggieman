@@ -57,12 +57,17 @@ type Stats struct {
 // "Other" rather than growing the category count.
 const maxLanguageSlots = 6
 
-// computeStreaks returns the current and longest run of consecutive days with
-// at least one contribution. days must be in ascending date order.
+// computeStreaks returns the current and longest run of consecutive days with at
+// least one contribution. days must be in ascending date order.
 //
-// A zero count on the final day does not break the current streak: the day is
-// still in progress at render time.
-func computeStreaks(days []Day) (current, longest int) {
+// The contribution calendar is week-aligned, so it runs to the end of the current
+// week and the not-yet-happened days come back as zeros. Those are dropped before
+// the walk, or every streak would read 0 from midweek onward. A zero on today
+// itself does not break the current streak either: the day is still in progress
+// at render time.
+func computeStreaks(days []Day, today time.Time) (current, longest int) {
+	days = upTo(days, today)
+
 	run := 0
 	for _, d := range days {
 		if d.Count > 0 {
@@ -83,6 +88,17 @@ func computeStreaks(days []Day) (current, longest int) {
 		current++
 	}
 	return current, longest
+}
+
+// upTo drops calendar cells dated after today.
+func upTo(days []Day, today time.Time) []Day {
+	cutoff := today.UTC().Truncate(24 * time.Hour)
+	for i := len(days) - 1; i >= 0; i-- {
+		if !days[i].Date.After(cutoff) {
+			return days[:i+1]
+		}
+	}
+	return nil
 }
 
 // aggregateLanguages sums byte counts by language, sorts by size descending,

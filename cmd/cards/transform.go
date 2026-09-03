@@ -69,7 +69,10 @@ func (r *apiResponse) toStats(now time.Time) *Stats {
 	// The API returns weeks in order, but sorting makes the streak walk
 	// independent of that guarantee.
 	sort.Slice(s.Days, func(i, j int) bool { return s.Days[i].Date.Before(s.Days[j].Date) })
-	s.CurrentStreak, s.LongestStreak = computeStreaks(s.Days)
+	// The calendar is week-aligned and so runs past today. Trimming here keeps the
+	// sparkline's trailing day on the real today rather than on an empty future cell.
+	s.Days = upTo(s.Days, now)
+	s.CurrentStreak, s.LongestStreak = computeStreaks(s.Days, now)
 
 	return s
 }
