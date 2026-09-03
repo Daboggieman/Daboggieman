@@ -193,7 +193,7 @@ func renderCity(s *Stats) string {
 
 	renderCityLegend(c, pad, baseY+groundH+52, live, dormant)
 	c.text(pad, h-14,
-		"height = commits on the default branch  ·  footprint = repo size  ·  ★ = stars  ·  bars scaled to the leader",
+		"height = commits on the default branch  ·  footprint = repo size  ·  star = stargazers  ·  bars scaled to the leader",
 		textOpts{size: 9.5, fill: inkLow})
 	return c.String()
 }
