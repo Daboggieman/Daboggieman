@@ -83,7 +83,7 @@ func renderCity(s *Stats) string {
 	)
 
 	baseY := skyTop + maxTower
-	h := baseY + 88.0
+	h := baseY + 98.0
 
 	live, dormant := 0, 0
 	for _, r := range blocks {
@@ -166,7 +166,7 @@ func renderCity(s *Stats) string {
 
 		// A landmark badge, not a size channel: the number is written out.
 		if r.Stars > 0 {
-			c.text(bx+bw/2, baseY-th-depth/2-7, fmt.Sprintf("★%d", r.Stars),
+			c.text(bx+bw/2, baseY-th-depth/2-5, fmt.Sprintf("★%d", r.Stars),
 				textOpts{size: 9.5, fill: inkHi, weight: "500", anchor: "middle"})
 		}
 
@@ -249,7 +249,7 @@ func renderCityLegend(c *canvas, x, y float64, live, dormant int) {
 		{facadeDark, fmt.Sprintf("%s dormant", plural(dormant, "repo"))},
 	}
 	for _, it := range items {
-		c.rect(x, y-7, 9, 9, it.f.front, 2)
+		c.rect(x, y-7, 9, 9, it.f.top, 2)
 		c.rect(x+2, y-5, 5, 5, it.f.window, 1)
 		c.text(x+15, y, fmt.Sprintf("%s  %s", it.f.glyph, it.label),
 			textOpts{size: 9.5, fill: inkMid})

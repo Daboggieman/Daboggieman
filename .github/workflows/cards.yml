@@ -1,0 +1,61 @@
+name: cards
+
+# Renders the SVG cards from live GitHub data and commits them back, so the
+# profile serves its own images instead of depending on a third-party widget
+# host staying up or staying paid.
+on:
+  schedule:
+    # 06:17 UTC — off the hour, because every scheduled job on the hour queues
+    # behind every other one on GitHub's shared runners.
+    - cron: "17 6 * * *"
+  push:
+    branches: [master]
+    paths:
+      - "cmd/cards/**"
+      - "go.mod"
+      - ".github/workflows/cards.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cards
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+          cache: false
+
+      - name: Test
+        run: go test ./...
+
+      - name: Render cards
+        env:
+          # The built-in token can read public profile data. Private-repo
+          # activity needs a PAT with read:user in a secret named CARDS_TOKEN;
+          # without one the numbers are public-only, which the cards say.
+          GITHUB_TOKEN: ${{ secrets.CARDS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: go run ./cmd/cards -login "${{ github.repository_owner }}"
+
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md
+          # The generator is deterministic apart from the render date, so most
+          # runs produce no diff at all. Nothing to commit is the success case.
+          if git diff --cached --quiet; then
+            echo "cards unchanged"
+            exit 0
+          fi
+          git commit -m "cards: refresh from live profile data"
+          git push

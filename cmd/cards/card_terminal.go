@@ -74,10 +74,16 @@ func renderTerminal(s *Stats) string {
 	// the keyframes only add motion on top of it. A staggered reveal that starts
 	// from opacity:0 renders the whole card blank in any context where the
 	// animation does not advance, which is not a trade worth making on a hero card.
+	//
+	// The meter fades up rather than growing from scaleX(0) for a sharper reason
+	// than looks: a renderer that samples the first frame of a running animation
+	// would catch the fill at zero width, and a meter that reads 0/25 when the
+	// real value is 12/25 is a wrong number, not a missing flourish. Opacity can
+	// only ever cost the animation, never the value.
 	c.style(".cur{animation:blink 1.1s steps(1,end) infinite}")
 	c.style("@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}")
-	c.style(".grow{transform-box:fill-box;transform-origin:left center;animation:grow 900ms ease-out}")
-	c.style("@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}")
+	c.style(".grow{animation:lampUp 900ms ease-out}")
+	c.style("@keyframes lampUp{from{opacity:.35}to{opacity:1}}")
 
 	c.windowChrome("raphel@github: ~/profile — zsh")
 
@@ -136,8 +142,16 @@ func renderStreakMeter(c *canvas, s *Stats, x, y, w float64) {
 
 	c.path(hBarPath(x, y, trackW, trackH, barRadius), trackGreen)
 	// The fill's settled width is its real value; the animation only grows into it.
-	c.hBar(x, y, ratio*trackW, trackH, accent,
+	fillW := ratio * trackW
+	c.hBar(x, y, fillW, trackH, accent,
 		fmt.Sprintf("current streak %d days; personal best %d days", s.CurrentStreak, s.LongestStreak),
 		`class="grow"`)
+	// Two touching fills get a gap in the surface colour, not a stroke. Fill and
+	// track are two steps of one ramp, which is a clear step at full size but a
+	// soft one at the scale a README renders at; the notch makes where the value
+	// ends unmistakable instead of merely legible.
+	if fillW > 0 && fillW < trackW-surfaceGap {
+		c.rect(x+fillW, y, surfaceGap, trackH, surface, 0)
+	}
 	c.text(x+trackW+labelGap, y+trackH-1, label, textOpts{size: 11, fill: inkMid})
 }
