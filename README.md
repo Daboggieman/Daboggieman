@@ -82,18 +82,18 @@ testing     Jest · go test
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| Python | 41.5% | 949.8 kB |
-| TypeScript | 22.9% | 523.3 kB |
-| HTML | 22.7% | 520.3 kB |
-| Go | 11.6% | 266.2 kB |
+| Python | 41.3% | 949.8 kB |
+| TypeScript | 22.7% | 523.3 kB |
+| HTML | 22.6% | 520.3 kB |
+| Go | 12.1% | 279.4 kB |
 | Shell | 0.5% | 12.4 kB |
 | Batchfile | 0.4% | 9.2 kB |
 | Other | 0.3% | 7.8 kB |
 
 | Metric | Last 365 days |
 |---|---:|
-| Contributions | 477 |
-| Commits | 285 |
+| Contributions | 480 |
+| Commits | 288 |
 | Pull requests | 12 |
 | Issues | 0 |
 | Reviews | 0 |
@@ -106,8 +106,8 @@ testing     Jest · go test
 |---|---:|---:|---:|---|---|
 | [python-study](https://github.com/Daboggieman/python-study) | 70 | 341.0 kB | 2 | 24 Aug 2026 | occupied |
 | [gsmhub](https://github.com/Daboggieman/gsmhub) | 38 | 2.4 MB | 1 | 18 Aug 2026 | occupied |
+| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 23 | 6.6 MB | 0 | 3 Sep 2026 | occupied |
 | [golang-study](https://github.com/Daboggieman/golang-study) | 23 | 3.8 MB | 3 | 2 Jul 2026 | dormant |
-| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 20 | 6.6 MB | 0 | 3 Sep 2026 | occupied |
 | [Maeker](https://github.com/Daboggieman/Maeker) | 17 | 415.0 kB | 0 | 27 Jun 2026 | dormant |
 | [tbot](https://github.com/Daboggieman/tbot) | 10 | 3.7 MB | 1 | 11 Jan 2026 | dormant |
 | [Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup) | 6 | 11.0 kB | 0 | 18 Aug 2026 | occupied |
