@@ -13,7 +13,13 @@
 
 <br/>
 
-## skyline
+## Skyline
+
+Every repository I own is a building: height is commits on the default branch,
+footprint is size on disk, a lit facade means I pushed to it in the last 30 days.
+Private repos are in here too — counted for their activity, never linked, because
+the link would 404 for everyone but me.
+
 <div align="center">
 
 <img src="./assets/city.svg" alt="Isometric skyline: one building per repository, ranked by commit count, with lit facades on the repos pushed in the last 30 days" width="100%">
@@ -43,9 +49,9 @@
 | 🐍 **[python-study](https://github.com/Daboggieman/python-study)** | Python experiments and learning projects |
 | 📡 **[gsmhub](https://github.com/Daboggieman/gsmhub)** | check it out yourself, its kinda cringe tho |
 | 🐹 **[golang-study](https://github.com/Daboggieman/golang-study)** | Go experiments and learning projects |
-| 🛠️ **[Maeker](https://github.com/Daboggieman/Maeker)** | Python project <!-- TODO: one line on what Maeker actually is --> |
-| 🤖 **[tbot-v3](https://github.com/Daboggieman/tbot-v3)** | Python-based trading algorithm project *(in development, private)* |
-| 🔌 **[Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup)** | Shell setup for an agent router <!-- TODO: confirm --> |
+| 🛠️ **[Maeker](https://github.com/Daboggieman/Maeker)** | Python project |
+| 🤖 **[tbot](https://github.com/Daboggieman/tbot)** | Python-based trading algorithm project *(in development)* |
+| 🔌 **[Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup)** | Shell scripts for setting up an agent router |
 | 🐍 **[COR-BOT](https://github.com/Daboggieman/COR-BOT)** | Baby Tbot *tbot-v0* |
 
 </div>

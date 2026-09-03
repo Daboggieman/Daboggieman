@@ -99,7 +99,11 @@ func renderCity(s *Stats) string {
 	// one they cannot.
 	priv := ""
 	if n := privateIn(blocks); n > 0 {
-		priv = fmt.Sprintf(" %d are private and are shown for their activity only.", n)
+		verb := "are"
+		if n == 1 {
+			verb = "is"
+		}
+		priv = fmt.Sprintf(" %d %s private and shown for activity only.", n, verb)
 	}
 	c := newCanvas(w, h, "Repository skyline",
 		fmt.Sprintf("%d repositories as buildings, ranked by commits on the default branch. "+
