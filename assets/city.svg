@@ -1,318 +1,465 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="985" height="276" viewBox="0 0 985 276" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="775" height="526" viewBox="0 0 775 526" role="img" aria-labelledby="t d">
   <title id="t">Repository skyline</title>
-  <desc id="d">9 repositories as buildings, ranked by commits on the default branch. Building height is commit count, footprint is repo size, and a lit facade means pushed in the last 30 days. 6 occupied, 3 dormant. Tallest is Kairo-v1 with 81 commits. 5 are private and shown for activity only. 10 further repositories are listed in the table view rather than drawn.</desc>
+  <desc id="d">19 repositories as buildings, ranked by commits on the default branch. Building height is commit count, footprint is repo size, and a lit facade means pushed in the last 30 days. 9 occupied, 10 dormant. Tallest is Kairo-v1 with 81 commits. Drawn as 3 streets of up to 7, ranked left to right then top to bottom. 10 are private and shown for activity only.</desc>
   <style>
     @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
     .win{animation:lamps 900ms ease-out}
     @keyframes lamps{from{opacity:.3}to{opacity:1}}
     .w0{animation-duration:620ms}
-    .w1{animation-duration:710ms}
-    .w2{animation-duration:800ms}
-    .w3{animation-duration:890ms}
-    .w4{animation-duration:980ms}
-    .w5{animation-duration:1070ms}
-    .w6{animation-duration:1160ms}
-    .w7{animation-duration:1250ms}
-    .w8{animation-duration:1340ms}
+    .w1{animation-duration:680ms}
+    .w2{animation-duration:740ms}
+    .w3{animation-duration:800ms}
+    .w4{animation-duration:860ms}
+    .w5{animation-duration:920ms}
+    .w6{animation-duration:980ms}
+    .w7{animation-duration:1040ms}
+    .w8{animation-duration:1100ms}
+    .w9{animation-duration:1160ms}
+    .w10{animation-duration:1220ms}
+    .w11{animation-duration:1280ms}
+    .w12{animation-duration:1340ms}
+    .w13{animation-duration:1400ms}
+    .w14{animation-duration:1460ms}
+    .w15{animation-duration:1520ms}
+    .w16{animation-duration:1580ms}
+    .w17{animation-duration:1640ms}
+    .w18{animation-duration:1700ms}
   </style>
-  <rect x="0" y="0" width="985" height="276" rx="8" fill="#0D1117"/>
-  <path d="M0 8a8 8 0 0 1 8-8h969a8 8 0 0 1 8 8v22H0Z" fill="#161B22"/>
-  <line x1="0" y1="30" x2="985" y2="30" stroke="#21262D" stroke-width="1"/>
+  <rect x="0" y="0" width="775" height="526" rx="8" fill="#0D1117"/>
+  <path d="M0 8a8 8 0 0 1 8-8h759a8 8 0 0 1 8 8v22H0Z" fill="#161B22"/>
+  <line x1="0" y1="30" x2="775" y2="30" stroke="#21262D" stroke-width="1"/>
   <circle cx="16" cy="15" r="4" fill="#FF5F57" opacity="0.85"/>
   <circle cx="32" cy="15" r="4" fill="#FEBC2E" opacity="0.85"/>
   <circle cx="48" cy="15" r="4" fill="#28C840" opacity="0.85"/>
-  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/city  ·  top 9 of 19 repos by commits</text>
-  <polygon points="20,178 36,170 936.3651769354362,170 936.3651769354362,178" fill="#161B22"/>
-  <rect x="20" y="178" width="916.3651769354362" height="9" rx="0" fill="#161B22"/>
-  <line x1="20" y1="178" x2="936.3651769354362" y2="178" stroke="#30363D" stroke-width="1"/>
+  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/city  ·  19 repos ranked by commits</text>
+  <polygon points="20,186 36,178 724.1137460220478,178 724.1137460220478,186" fill="#161B22"/>
+  <rect x="20" y="186" width="704.1137460220478" height="9" rx="0" fill="#161B22"/>
+  <line x1="20" y1="186" x2="724.1137460220478" y2="186" stroke="#30363D" stroke-width="1"/>
   <g>
-    <title>Kairo-v1 — 81 commits on the default branch · 8.0 MB · 0 stars · pushed 4 Sep 2026 (occupied) · private</title>
-  <polygon points="83.57749272854115,178 83.57749272854115,58 99.57749272854115,50 99.57749272854115,170" fill="#116329"/>
-  <polygon points="20,58 83.57749272854115,58 99.57749272854115,50 36,50" fill="#3FB950"/>
-  <polygon points="20,178 83.57749272854115,178 83.57749272854115,58 20,58" fill="#1A7F37"/>
+    <title>#1  Kairo-v1 — 81 commits on the default branch · 8.0 MB · 0 stars · pushed 4 Sep 2026 (occupied) · private</title>
+  <polygon points="83.57749272854115,186 83.57749272854115,66 99.57749272854115,58 99.57749272854115,178" fill="#116329"/>
+  <polygon points="20,66 83.57749272854115,66 99.57749272854115,58 36,58" fill="#3FB950"/>
+  <polygon points="20,186 83.57749272854115,186 83.57749272854115,66 20,66" fill="#1A7F37"/>
     <g class="win w0">
-  <rect x="29.788746364270573" y="67" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="39.78874636427057" y="67" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="49.78874636427057" y="67" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="59.78874636427057" y="67" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="69.78874636427057" y="67" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="29.788746364270573" y="80" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="39.78874636427057" y="80" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="49.78874636427057" y="80" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="59.78874636427057" y="80" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="69.78874636427057" y="80" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="29.788746364270573" y="93" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="39.78874636427057" y="93" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="49.78874636427057" y="93" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="59.78874636427057" y="93" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="69.78874636427057" y="93" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="29.788746364270573" y="106" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="39.78874636427057" y="106" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="49.78874636427057" y="106" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="59.78874636427057" y="106" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="69.78874636427057" y="106" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="29.788746364270573" y="119" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="39.78874636427057" y="119" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="49.78874636427057" y="119" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="59.78874636427057" y="119" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="69.78874636427057" y="119" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="29.788746364270573" y="132" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="39.78874636427057" y="132" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="49.78874636427057" y="132" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="59.78874636427057" y="132" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="69.78874636427057" y="132" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="29.788746364270573" y="145" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="39.78874636427057" y="145" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="49.78874636427057" y="145" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="59.78874636427057" y="145" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="69.78874636427057" y="145" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="29.788746364270573" y="158" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="39.78874636427057" y="158" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="49.78874636427057" y="158" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="59.78874636427057" y="158" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="69.78874636427057" y="158" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="29.788746364270573" y="75" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="39.78874636427057" y="75" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="49.78874636427057" y="75" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="59.78874636427057" y="75" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="69.78874636427057" y="75" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="29.788746364270573" y="88" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="39.78874636427057" y="88" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="49.78874636427057" y="88" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="59.78874636427057" y="88" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="69.78874636427057" y="88" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="29.788746364270573" y="101" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="39.78874636427057" y="101" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="49.78874636427057" y="101" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="59.78874636427057" y="101" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="69.78874636427057" y="101" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="29.788746364270573" y="114" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="39.78874636427057" y="114" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="49.78874636427057" y="114" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="59.78874636427057" y="114" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="69.78874636427057" y="114" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="29.788746364270573" y="127" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="39.78874636427057" y="127" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="49.78874636427057" y="127" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="59.78874636427057" y="127" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="69.78874636427057" y="127" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="29.788746364270573" y="140" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="39.78874636427057" y="140" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="49.78874636427057" y="140" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="59.78874636427057" y="140" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="69.78874636427057" y="140" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="29.788746364270573" y="153" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="39.78874636427057" y="153" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="49.78874636427057" y="153" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="59.78874636427057" y="153" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="69.78874636427057" y="153" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="29.788746364270573" y="166" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="39.78874636427057" y="166" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="49.78874636427057" y="166" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="59.78874636427057" y="166" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="69.78874636427057" y="166" width="4" height="5" rx="1" fill="#7EE787"/>
     </g>
   </g>
-  <text x="20" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>Kairo-v1 — 81 commits on the default branch · 8.0 MB · 0 stars · pushed 4 Sep 2026 (occupied) · private</title>Kairo-v1</text>
-  <text x="20" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>Kairo-v1 — 81 commits on the default branch · 8.0 MB · 0 stars · pushed 4 Sep 2026 (occupied) · private</title>● 81 · private</text>
+  <text x="20" y="212" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#1  Kairo-v1 — 81 commits on the default branch · 8.0 MB · 0 stars · pushed 4 Sep 2026 (occupied) · private</title>Kairo-v1</text>
+  <text x="20" y="225" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#1  Kairo-v1 — 81 commits on the default branch · 8.0 MB · 0 stars · pushed 4 Sep 2026 (occupied) · private</title>● 81 · private</text>
   <g>
-    <title>python-study — 70 commits on the default branch · 341.0 kB · 2 stars · pushed 24 Aug 2026 (occupied)</title>
-  <polygon points="174.59723298814163,178 174.59723298814163,72.39506172839506 190.59723298814163,64.39506172839506 190.59723298814163,170" fill="#116329"/>
-  <polygon points="125,72.39506172839506 174.59723298814163,72.39506172839506 190.59723298814163,64.39506172839506 141,64.39506172839506" fill="#3FB950"/>
-  <polygon points="125,178 174.59723298814163,178 174.59723298814163,72.39506172839506 125,72.39506172839506" fill="#1A7F37"/>
+    <title>#2  python-study — 70 commits on the default branch · 341.0 kB · 2 stars · pushed 24 Aug 2026 (occupied)</title>
+  <polygon points="174.59723298814163,186 174.59723298814163,80.39506172839506 190.59723298814163,72.39506172839506 190.59723298814163,178" fill="#116329"/>
+  <polygon points="125,80.39506172839506 174.59723298814163,80.39506172839506 190.59723298814163,72.39506172839506 141,72.39506172839506" fill="#3FB950"/>
+  <polygon points="125,186 174.59723298814163,186 174.59723298814163,80.39506172839506 125,80.39506172839506" fill="#1A7F37"/>
     <g class="win w1">
-  <rect x="137.7986164940708" y="81.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="147.7986164940708" y="81.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="157.7986164940708" y="81.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="137.7986164940708" y="94.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="147.7986164940708" y="94.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="157.7986164940708" y="94.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="137.7986164940708" y="107.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="147.7986164940708" y="107.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="157.7986164940708" y="107.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="137.7986164940708" y="120.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="147.7986164940708" y="120.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="157.7986164940708" y="120.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="137.7986164940708" y="133.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="147.7986164940708" y="133.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="157.7986164940708" y="133.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="137.7986164940708" y="146.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="147.7986164940708" y="146.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="157.7986164940708" y="146.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="137.7986164940708" y="159.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="147.7986164940708" y="159.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="157.7986164940708" y="159.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="137.7986164940708" y="89.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="147.7986164940708" y="89.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="157.7986164940708" y="89.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="137.7986164940708" y="102.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="147.7986164940708" y="102.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="157.7986164940708" y="102.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="137.7986164940708" y="115.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="147.7986164940708" y="115.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="157.7986164940708" y="115.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="137.7986164940708" y="128.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="147.7986164940708" y="128.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="157.7986164940708" y="128.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="137.7986164940708" y="141.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="147.7986164940708" y="141.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="157.7986164940708" y="141.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="137.7986164940708" y="154.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="147.7986164940708" y="154.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="157.7986164940708" y="154.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="137.7986164940708" y="167.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="147.7986164940708" y="167.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="157.7986164940708" y="167.39506172839506" width="4" height="5" rx="1" fill="#7EE787"/>
     </g>
   </g>
-  <polygon points="145.44861649407082,52.39506172839506 146.3467523595737,55.15888376099014 149.25284255925143,55.15899375089528 146.90183085096982,56.86723969579998 147.7997575032407,59.63112970589485 145.44861649407082,57.92306172839506 143.09747548490094,59.63112970589485 143.99540213717182,56.86723969579998 141.6443904288902,55.15899375089528 144.55048062856793,55.15888376099014" fill="#3FB950"/>
-  <text x="152.44861649407082" y="59.79506172839506" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>python-study — 70 commits on the default branch · 341.0 kB · 2 stars · pushed 24 Aug 2026 (occupied)</title>2</text>
-  <text x="125" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>python-study — 70 commits on the default branch · 341.0 kB · 2 stars · pushed 24 Aug 2026 (occupied)</title>python-study</text>
-  <text x="125" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>python-study — 70 commits on the default branch · 341.0 kB · 2 stars · pushed 24 Aug 2026 (occupied)</title>● 70</text>
+  <polygon points="145.44861649407082,60.39506172839506 146.3467523595737,63.15888376099014 149.25284255925143,63.15899375089528 146.90183085096982,64.86723969579998 147.7997575032407,67.63112970589485 145.44861649407082,65.92306172839507 143.09747548490094,67.63112970589485 143.99540213717182,64.86723969579998 141.6443904288902,63.15899375089528 144.55048062856793,63.15888376099014" fill="#3FB950"/>
+  <text x="152.44861649407082" y="67.79506172839507" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#2  python-study — 70 commits on the default branch · 341.0 kB · 2 stars · pushed 24 Aug 2026 (occupied)</title>2</text>
+  <text x="125" y="212" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#2  python-study — 70 commits on the default branch · 341.0 kB · 2 stars · pushed 24 Aug 2026 (occupied)</title>python-study</text>
+  <text x="125" y="225" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#2  python-study — 70 commits on the default branch · 341.0 kB · 2 stars · pushed 24 Aug 2026 (occupied)</title>● 70</text>
   <g>
-    <title>RYLA-2025 — 66 commits on the default branch · 23.2 MB · 0 stars · pushed 12 Jul 2025 (dormant) · private</title>
-  <polygon points="306,178 306,77.62962962962963 322,69.62962962962963 322,170" fill="#21262D"/>
-  <polygon points="230,77.62962962962963 306,77.62962962962963 322,69.62962962962963 246,69.62962962962963" fill="#484F58"/>
-  <polygon points="230,178 306,178 306,77.62962962962963 230,77.62962962962963" fill="#30363D"/>
+    <title>#3  RYLA-2025 — 66 commits on the default branch · 23.2 MB · 0 stars · pushed 12 Jul 2025 (dormant) · private</title>
+  <polygon points="306,186 306,85.62962962962963 322,77.62962962962963 322,178" fill="#21262D"/>
+  <polygon points="230,85.62962962962963 306,85.62962962962963 322,77.62962962962963 246,77.62962962962963" fill="#484F58"/>
+  <polygon points="230,186 306,186 306,85.62962962962963 230,85.62962962962963" fill="#30363D"/>
     <g class="win w2">
-  <rect x="241" y="86.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="251" y="86.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="261" y="86.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="271" y="86.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="281" y="86.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="291" y="86.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="241" y="99.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="251" y="99.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="261" y="99.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="271" y="99.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="281" y="99.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="291" y="99.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="241" y="112.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="251" y="112.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="261" y="112.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="271" y="112.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="281" y="112.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="291" y="112.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="241" y="125.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="251" y="125.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="261" y="125.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="271" y="125.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="281" y="125.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="291" y="125.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="241" y="138.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="251" y="138.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="261" y="138.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="271" y="138.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="281" y="138.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="291" y="138.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="241" y="151.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="251" y="151.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="261" y="151.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="271" y="151.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="281" y="151.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="291" y="151.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="241" y="164.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="251" y="164.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="261" y="164.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="271" y="164.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="281" y="164.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="291" y="164.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="241" y="94.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="251" y="94.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="261" y="94.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="271" y="94.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="281" y="94.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="291" y="94.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="241" y="107.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="251" y="107.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="261" y="107.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="271" y="107.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="281" y="107.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="291" y="107.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="241" y="120.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="251" y="120.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="261" y="120.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="271" y="120.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="281" y="120.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="291" y="120.62962962962963" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="241" y="133.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="251" y="133.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="261" y="133.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="271" y="133.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="281" y="133.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="291" y="133.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="241" y="146.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="251" y="146.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="261" y="146.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="271" y="146.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="281" y="146.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="291" y="146.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="241" y="159.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="251" y="159.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="261" y="159.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="271" y="159.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="281" y="159.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="291" y="159.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="241" y="172.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="251" y="172.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="261" y="172.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="271" y="172.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="281" y="172.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="291" y="172.62962962962962" width="4" height="5" rx="1" fill="#0D1117"/>
     </g>
   </g>
-  <text x="230" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>RYLA-2025 — 66 commits on the default branch · 23.2 MB · 0 stars · pushed 12 Jul 2025 (dormant) · private</title>RYLA-2025</text>
-  <text x="230" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>RYLA-2025 — 66 commits on the default branch · 23.2 MB · 0 stars · pushed 12 Jul 2025 (dormant) · private</title>○ 66 · private</text>
+  <text x="230" y="212" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#3  RYLA-2025 — 66 commits on the default branch · 23.2 MB · 0 stars · pushed 12 Jul 2025 (dormant) · private</title>RYLA-2025</text>
+  <text x="230" y="225" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#3  RYLA-2025 — 66 commits on the default branch · 23.2 MB · 0 stars · pushed 12 Jul 2025 (dormant) · private</title>○ 66 · private</text>
   <g>
-    <title>Daboggieman — 43 commits on the default branch · 6.9 MB · 0 stars · pushed 4 Sep 2026 (occupied)</title>
-  <polygon points="397.32149491279483,178 397.32149491279483,107.72839506172839 413.32149491279483,99.72839506172839 413.32149491279483,170" fill="#116329"/>
-  <polygon points="335,107.72839506172839 397.32149491279483,107.72839506172839 413.32149491279483,99.72839506172839 351,99.72839506172839" fill="#3FB950"/>
-  <polygon points="335,178 397.32149491279483,178 397.32149491279483,107.72839506172839 335,107.72839506172839" fill="#1A7F37"/>
+    <title>#4  Daboggieman — 46 commits on the default branch · 6.9 MB · 0 stars · pushed 4 Sep 2026 (occupied)</title>
+  <polygon points="397.3261442491412,186 397.3261442491412,111.80246913580248 413.3261442491412,103.80246913580248 413.3261442491412,178" fill="#116329"/>
+  <polygon points="335,111.80246913580248 397.3261442491412,111.80246913580248 413.3261442491412,103.80246913580248 351,103.80246913580248" fill="#3FB950"/>
+  <polygon points="335,186 397.3261442491412,186 397.3261442491412,111.80246913580248 335,111.80246913580248" fill="#1A7F37"/>
     <g class="win w3">
-  <rect x="344.1607474563974" y="116.72839506172839" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="354.1607474563974" y="116.72839506172839" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="364.1607474563974" y="116.72839506172839" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="374.1607474563974" y="116.72839506172839" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="384.1607474563974" y="116.72839506172839" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="344.1607474563974" y="129.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="354.1607474563974" y="129.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="364.1607474563974" y="129.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="374.1607474563974" y="129.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="384.1607474563974" y="129.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="344.1607474563974" y="142.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="354.1607474563974" y="142.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="364.1607474563974" y="142.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="374.1607474563974" y="142.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="384.1607474563974" y="142.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="344.1607474563974" y="155.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="354.1607474563974" y="155.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="364.1607474563974" y="155.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="374.1607474563974" y="155.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="384.1607474563974" y="155.7283950617284" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="344.1630721245706" y="120.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="354.1630721245706" y="120.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="364.1630721245706" y="120.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="374.1630721245706" y="120.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="384.1630721245706" y="120.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="344.1630721245706" y="133.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="354.1630721245706" y="133.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="364.1630721245706" y="133.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="374.1630721245706" y="133.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="384.1630721245706" y="133.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="344.1630721245706" y="146.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="354.1630721245706" y="146.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="364.1630721245706" y="146.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="374.1630721245706" y="146.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="384.1630721245706" y="146.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="344.1630721245706" y="159.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="354.1630721245706" y="159.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="364.1630721245706" y="159.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="374.1630721245706" y="159.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="384.1630721245706" y="159.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="344.1630721245706" y="172.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="354.1630721245706" y="172.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="364.1630721245706" y="172.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="374.1630721245706" y="172.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="384.1630721245706" y="172.80246913580248" width="4" height="5" rx="1" fill="#7EE787"/>
     </g>
   </g>
-  <text x="335" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>Daboggieman — 43 commits on the default branch · 6.9 MB · 0 stars · pushed 4 Sep 2026 (occupied)</title>Daboggieman</text>
-  <text x="335" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>Daboggieman — 43 commits on the default branch · 6.9 MB · 0 stars · pushed 4 Sep 2026 (occupied)</title>● 43</text>
+  <text x="335" y="212" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#4  Daboggieman — 46 commits on the default branch · 6.9 MB · 0 stars · pushed 4 Sep 2026 (occupied)</title>Daboggieman</text>
+  <text x="335" y="225" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#4  Daboggieman — 46 commits on the default branch · 6.9 MB · 0 stars · pushed 4 Sep 2026 (occupied)</title>● 46</text>
   <g>
-    <title>gsmhub — 38 commits on the default branch · 2.4 MB · 1 star · pushed 18 Aug 2026 (occupied)</title>
-  <polygon points="495.6833972943259,178 495.6833972943259,114.27160493827161 511.6833972943259,106.27160493827161 511.6833972943259,170" fill="#116329"/>
-  <polygon points="440,114.27160493827161 495.6833972943259,114.27160493827161 511.6833972943259,106.27160493827161 456,106.27160493827161" fill="#3FB950"/>
-  <polygon points="440,178 495.6833972943259,178 495.6833972943259,114.27160493827161 440,114.27160493827161" fill="#1A7F37"/>
+    <title>#5  gsmhub — 38 commits on the default branch · 2.4 MB · 1 star · pushed 18 Aug 2026 (occupied)</title>
+  <polygon points="495.6833972943259,186 495.6833972943259,122.27160493827161 511.6833972943259,114.27160493827161 511.6833972943259,178" fill="#116329"/>
+  <polygon points="440,122.27160493827161 495.6833972943259,122.27160493827161 511.6833972943259,114.27160493827161 456,114.27160493827161" fill="#3FB950"/>
+  <polygon points="440,186 495.6833972943259,186 495.6833972943259,122.27160493827161 440,122.27160493827161" fill="#1A7F37"/>
     <g class="win w4">
-  <rect x="450.84169864716296" y="123.27160493827161" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="460.84169864716296" y="123.27160493827161" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="470.84169864716296" y="123.27160493827161" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="480.84169864716296" y="123.27160493827161" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="450.84169864716296" y="136.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="460.84169864716296" y="136.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="470.84169864716296" y="136.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="480.84169864716296" y="136.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="450.84169864716296" y="149.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="460.84169864716296" y="149.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="470.84169864716296" y="149.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="480.84169864716296" y="149.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="450.84169864716296" y="162.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="460.84169864716296" y="162.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="470.84169864716296" y="162.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="480.84169864716296" y="162.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="450.84169864716296" y="131.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="460.84169864716296" y="131.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="470.84169864716296" y="131.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="480.84169864716296" y="131.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="450.84169864716296" y="144.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="460.84169864716296" y="144.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="470.84169864716296" y="144.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="480.84169864716296" y="144.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="450.84169864716296" y="157.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="460.84169864716296" y="157.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="470.84169864716296" y="157.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="480.84169864716296" y="157.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="450.84169864716296" y="170.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="460.84169864716296" y="170.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="470.84169864716296" y="170.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="480.84169864716296" y="170.2716049382716" width="4" height="5" rx="1" fill="#7EE787"/>
     </g>
   </g>
-  <polygon points="463.49169864716293,94.27160493827161 464.38983451266586,97.0354269708667 467.29592471234355,97.03553696077182 464.9449130040619,98.74378290567653 465.84283965633284,101.5076729157714 463.49169864716293,99.79960493827161 461.140557637993,101.5076729157714 462.03848429026397,98.74378290567653 459.6874725819823,97.03553696077182 462.59356278166,97.0354269708667" fill="#3FB950"/>
-  <text x="470.49169864716293" y="101.67160493827161" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>gsmhub — 38 commits on the default branch · 2.4 MB · 1 star · pushed 18 Aug 2026 (occupied)</title>1</text>
-  <text x="440" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>gsmhub — 38 commits on the default branch · 2.4 MB · 1 star · pushed 18 Aug 2026 (occupied)</title>gsmhub</text>
-  <text x="440" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>gsmhub — 38 commits on the default branch · 2.4 MB · 1 star · pushed 18 Aug 2026 (occupied)</title>● 38</text>
+  <polygon points="463.49169864716293,102.27160493827161 464.38983451266586,105.0354269708667 467.29592471234355,105.03553696077182 464.9449130040619,106.74378290567653 465.84283965633284,109.5076729157714 463.49169864716293,107.79960493827161 461.140557637993,109.5076729157714 462.03848429026397,106.74378290567653 459.6874725819823,105.03553696077182 462.59356278166,105.0354269708667" fill="#3FB950"/>
+  <text x="470.49169864716293" y="109.67160493827161" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#5  gsmhub — 38 commits on the default branch · 2.4 MB · 1 star · pushed 18 Aug 2026 (occupied)</title>1</text>
+  <text x="440" y="212" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#5  gsmhub — 38 commits on the default branch · 2.4 MB · 1 star · pushed 18 Aug 2026 (occupied)</title>gsmhub</text>
+  <text x="440" y="225" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#5  gsmhub — 38 commits on the default branch · 2.4 MB · 1 star · pushed 18 Aug 2026 (occupied)</title>● 38</text>
   <g>
-    <title>tbot-v3 — 36 commits on the default branch · 7.4 MB · 1 star · pushed 11 Aug 2026 (occupied) · private</title>
-  <polygon points="607.9275308149126,178 607.9275308149126,116.88888888888889 623.9275308149126,108.88888888888889 623.9275308149126,170" fill="#116329"/>
-  <polygon points="545,116.88888888888889 607.9275308149126,116.88888888888889 623.9275308149126,108.88888888888889 561,108.88888888888889" fill="#3FB950"/>
-  <polygon points="545,178 607.9275308149126,178 607.9275308149126,116.88888888888889 545,116.88888888888889" fill="#1A7F37"/>
+    <title>#6  tbot-v3 — 36 commits on the default branch · 7.4 MB · 1 star · pushed 11 Aug 2026 (occupied) · private</title>
+  <polygon points="607.9275308149126,186 607.9275308149126,124.88888888888889 623.9275308149126,116.88888888888889 623.9275308149126,178" fill="#116329"/>
+  <polygon points="545,124.88888888888889 607.9275308149126,124.88888888888889 623.9275308149126,116.88888888888889 561,116.88888888888889" fill="#3FB950"/>
+  <polygon points="545,186 607.9275308149126,186 607.9275308149126,124.88888888888889 545,124.88888888888889" fill="#1A7F37"/>
     <g class="win w5">
-  <rect x="554.4637654074563" y="125.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="564.4637654074563" y="125.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="574.4637654074563" y="125.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="584.4637654074563" y="125.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="594.4637654074563" y="125.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="554.4637654074563" y="138.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="564.4637654074563" y="138.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="574.4637654074563" y="138.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="584.4637654074563" y="138.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="594.4637654074563" y="138.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="554.4637654074563" y="151.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="564.4637654074563" y="151.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="574.4637654074563" y="151.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="584.4637654074563" y="151.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="594.4637654074563" y="151.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="554.4637654074563" y="164.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="564.4637654074563" y="164.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="574.4637654074563" y="164.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="584.4637654074563" y="164.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="594.4637654074563" y="164.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="554.4637654074563" y="133.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="564.4637654074563" y="133.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="574.4637654074563" y="133.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="584.4637654074563" y="133.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="594.4637654074563" y="133.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="554.4637654074563" y="146.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="564.4637654074563" y="146.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="574.4637654074563" y="146.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="584.4637654074563" y="146.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="594.4637654074563" y="146.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="554.4637654074563" y="159.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="564.4637654074563" y="159.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="574.4637654074563" y="159.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="584.4637654074563" y="159.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="594.4637654074563" y="159.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="554.4637654074563" y="172.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="564.4637654074563" y="172.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="574.4637654074563" y="172.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="584.4637654074563" y="172.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="594.4637654074563" y="172.88888888888889" width="4" height="5" rx="1" fill="#7EE787"/>
     </g>
   </g>
-  <polygon points="572.1137654074563,96.88888888888889 573.0119012729592,99.65271092148397 575.9179914726369,99.6528209113891 573.5669797643553,101.3610668562938 574.4649064166261,104.12495686638867 572.1137654074563,102.41688888888889 569.7626243982864,104.12495686638867 570.6605510505573,101.3610668562938 568.3095393422757,99.6528209113891 571.2156295419534,99.65271092148397" fill="#3FB950"/>
-  <text x="579.1137654074563" y="104.28888888888889" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>tbot-v3 — 36 commits on the default branch · 7.4 MB · 1 star · pushed 11 Aug 2026 (occupied) · private</title>1</text>
-  <text x="545" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>tbot-v3 — 36 commits on the default branch · 7.4 MB · 1 star · pushed 11 Aug 2026 (occupied) · private</title>tbot-v3</text>
-  <text x="545" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>tbot-v3 — 36 commits on the default branch · 7.4 MB · 1 star · pushed 11 Aug 2026 (occupied) · private</title>● 36 · private</text>
+  <polygon points="572.1137654074563,104.88888888888889 573.0119012729592,107.65271092148397 575.9179914726369,107.6528209113891 573.5669797643553,109.3610668562938 574.4649064166261,112.12495686638867 572.1137654074563,110.41688888888889 569.7626243982864,112.12495686638867 570.6605510505573,109.3610668562938 568.3095393422757,107.6528209113891 571.2156295419534,107.65271092148397" fill="#3FB950"/>
+  <text x="579.1137654074563" y="112.28888888888889" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#6  tbot-v3 — 36 commits on the default branch · 7.4 MB · 1 star · pushed 11 Aug 2026 (occupied) · private</title>1</text>
+  <text x="545" y="212" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#6  tbot-v3 — 36 commits on the default branch · 7.4 MB · 1 star · pushed 11 Aug 2026 (occupied) · private</title>tbot-v3</text>
+  <text x="545" y="225" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#6  tbot-v3 — 36 commits on the default branch · 7.4 MB · 1 star · pushed 11 Aug 2026 (occupied) · private</title>● 36 · private</text>
   <g>
-    <title>golang-study — 23 commits on the default branch · 3.8 MB · 3 stars · pushed 2 Jul 2026 (dormant)</title>
-  <polygon points="708.1137460220478,178 708.1137460220478,133.90123456790124 724.1137460220478,125.90123456790124 724.1137460220478,170" fill="#21262D"/>
-  <polygon points="650,133.90123456790124 708.1137460220478,133.90123456790124 724.1137460220478,125.90123456790124 666,125.90123456790124" fill="#484F58"/>
-  <polygon points="650,178 708.1137460220478,178 708.1137460220478,133.90123456790124 650,133.90123456790124" fill="#30363D"/>
+    <title>#7  golang-study — 23 commits on the default branch · 3.8 MB · 3 stars · pushed 2 Jul 2026 (dormant)</title>
+  <polygon points="708.1137460220478,186 708.1137460220478,141.90123456790124 724.1137460220478,133.90123456790124 724.1137460220478,178" fill="#21262D"/>
+  <polygon points="650,141.90123456790124 708.1137460220478,141.90123456790124 724.1137460220478,133.90123456790124 666,133.90123456790124" fill="#484F58"/>
+  <polygon points="650,186 708.1137460220478,186 708.1137460220478,141.90123456790124 650,141.90123456790124" fill="#30363D"/>
     <g class="win w6">
-  <rect x="662.056873011024" y="142.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="672.056873011024" y="142.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="682.056873011024" y="142.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="692.056873011024" y="142.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="662.056873011024" y="155.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="672.056873011024" y="155.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="682.056873011024" y="155.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="692.056873011024" y="155.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="662.056873011024" y="150.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="672.056873011024" y="150.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="682.056873011024" y="150.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="692.056873011024" y="150.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="662.056873011024" y="163.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="672.056873011024" y="163.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="682.056873011024" y="163.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="692.056873011024" y="163.90123456790124" width="4" height="5" rx="1" fill="#0D1117"/>
     </g>
   </g>
-  <polygon points="674.706873011024,113.90123456790124 675.6050088765269,116.66505660049633 678.5110990762046,116.66516659040145 676.160087367923,118.37341253530616 677.0580140201938,121.13730254540103 674.706873011024,119.42923456790125 672.3557320018541,121.13730254540103 673.2536586541249,118.37341253530616 670.9026469458433,116.66516659040145 673.808737145521,116.66505660049633" fill="#3FB950"/>
-  <text x="681.706873011024" y="121.30123456790125" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>golang-study — 23 commits on the default branch · 3.8 MB · 3 stars · pushed 2 Jul 2026 (dormant)</title>3</text>
-  <text x="650" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>golang-study — 23 commits on the default branch · 3.8 MB · 3 stars · pushed 2 Jul 2026 (dormant)</title>golang-study</text>
-  <text x="650" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>golang-study — 23 commits on the default branch · 3.8 MB · 3 stars · pushed 2 Jul 2026 (dormant)</title>○ 23</text>
+  <polygon points="674.706873011024,121.90123456790124 675.6050088765269,124.66505660049633 678.5110990762046,124.66516659040145 676.160087367923,126.37341253530616 677.0580140201938,129.13730254540104 674.706873011024,127.42923456790125 672.3557320018541,129.13730254540104 673.2536586541249,126.37341253530616 670.9026469458433,124.66516659040145 673.808737145521,124.66505660049633" fill="#3FB950"/>
+  <text x="681.706873011024" y="129.30123456790125" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#7  golang-study — 23 commits on the default branch · 3.8 MB · 3 stars · pushed 2 Jul 2026 (dormant)</title>3</text>
+  <text x="650" y="212" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#7  golang-study — 23 commits on the default branch · 3.8 MB · 3 stars · pushed 2 Jul 2026 (dormant)</title>golang-study</text>
+  <text x="650" y="225" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#7  golang-study — 23 commits on the default branch · 3.8 MB · 3 stars · pushed 2 Jul 2026 (dormant)</title>○ 23</text>
+  <polygon points="20,312 36,304 712.6160151284222,304 712.6160151284222,312" fill="#161B22"/>
+  <rect x="20" y="312" width="692.6160151284222" height="9" rx="0" fill="#161B22"/>
+  <line x1="20" y1="312" x2="712.6160151284222" y2="312" stroke="#30363D" stroke-width="1"/>
   <g>
-    <title>maeker-v2 — 21 commits on the default branch · 375.0 kB · 0 stars · pushed 18 Aug 2026 (occupied) · private</title>
-  <polygon points="804.7723068461735,178 804.7723068461735,136.51851851851853 820.7723068461735,128.51851851851853 820.7723068461735,170" fill="#116329"/>
-  <polygon points="755,136.51851851851853 804.7723068461735,136.51851851851853 820.7723068461735,128.51851851851853 771,128.51851851851853" fill="#3FB950"/>
-  <polygon points="755,178 804.7723068461735,178 804.7723068461735,136.51851851851853 755,136.51851851851853" fill="#1A7F37"/>
+    <title>#8  maeker-v2 — 21 commits on the default branch · 375.0 kB · 0 stars · pushed 18 Aug 2026 (occupied) · private</title>
+  <polygon points="69.77230684617349,312 69.77230684617349,270.51851851851853 85.77230684617349,262.51851851851853 85.77230684617349,304" fill="#116329"/>
+  <polygon points="20,270.51851851851853 69.77230684617349,270.51851851851853 85.77230684617349,262.51851851851853 36,262.51851851851853" fill="#3FB950"/>
+  <polygon points="20,312 69.77230684617349,312 69.77230684617349,270.51851851851853 20,270.51851851851853" fill="#1A7F37"/>
     <g class="win w7">
-  <rect x="767.8861534230867" y="145.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="777.8861534230867" y="145.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="787.8861534230867" y="145.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="767.8861534230867" y="158.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="777.8861534230867" y="158.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
-  <rect x="787.8861534230867" y="158.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="32.886153423086746" y="279.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="42.886153423086746" y="279.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="52.886153423086746" y="279.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="32.886153423086746" y="292.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="42.886153423086746" y="292.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="52.886153423086746" y="292.51851851851853" width="4" height="5" rx="1" fill="#7EE787"/>
     </g>
   </g>
-  <text x="755" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>maeker-v2 — 21 commits on the default branch · 375.0 kB · 0 stars · pushed 18 Aug 2026 (occupied) · private</title>maeker-v2</text>
-  <text x="755" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>maeker-v2 — 21 commits on the default branch · 375.0 kB · 0 stars · pushed 18 Aug 2026 (occupied) · private</title>● 21 · private</text>
+  <text x="20" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#8  maeker-v2 — 21 commits on the default branch · 375.0 kB · 0 stars · pushed 18 Aug 2026 (occupied) · private</title>maeker-v2</text>
+  <text x="20" y="351" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#8  maeker-v2 — 21 commits on the default branch · 375.0 kB · 0 stars · pushed 18 Aug 2026 (occupied) · private</title>● 21 · private</text>
   <g>
-    <title>tbot-v2 — 18 commits on the default branch · 5.3 MB · 1 star · pushed 2 Jul 2026 (dormant) · private</title>
-  <polygon points="920.3651769354362,178 920.3651769354362,140.44444444444446 936.3651769354362,132.44444444444446 936.3651769354362,170" fill="#21262D"/>
-  <polygon points="860,140.44444444444446 920.3651769354362,140.44444444444446 936.3651769354362,132.44444444444446 876,132.44444444444446" fill="#484F58"/>
-  <polygon points="860,178 920.3651769354362,178 920.3651769354362,140.44444444444446 860,140.44444444444446" fill="#30363D"/>
+    <title>#9  tbot-v2 — 18 commits on the default branch · 5.3 MB · 1 star · pushed 2 Jul 2026 (dormant) · private</title>
+  <polygon points="185.36517693543624,312 185.36517693543624,274.44444444444446 201.36517693543624,266.44444444444446 201.36517693543624,304" fill="#21262D"/>
+  <polygon points="125,274.44444444444446 185.36517693543624,274.44444444444446 201.36517693543624,266.44444444444446 141,266.44444444444446" fill="#484F58"/>
+  <polygon points="125,312 185.36517693543624,312 185.36517693543624,274.44444444444446 125,274.44444444444446" fill="#30363D"/>
     <g class="win w8">
-  <rect x="868.1825884677181" y="149.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="878.1825884677181" y="149.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="888.1825884677181" y="149.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="898.1825884677181" y="149.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="908.1825884677181" y="149.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="868.1825884677181" y="162.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="878.1825884677181" y="162.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="888.1825884677181" y="162.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="898.1825884677181" y="162.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
-  <rect x="908.1825884677181" y="162.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="133.18258846771812" y="283.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="143.18258846771812" y="283.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="153.18258846771812" y="283.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="163.18258846771812" y="283.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="173.18258846771812" y="283.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="133.18258846771812" y="296.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="143.18258846771812" y="296.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="153.18258846771812" y="296.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="163.18258846771812" y="296.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="173.18258846771812" y="296.44444444444446" width="4" height="5" rx="1" fill="#0D1117"/>
     </g>
   </g>
-  <polygon points="885.8325884677181,120.44444444444446 886.730724333221,123.20826647703954 889.6368145328987,123.20837646694467 887.2858028246171,124.91662241184937 888.183729476888,127.68051242194424 885.8325884677181,125.97244444444446 883.4814474585482,127.68051242194424 884.3793741108191,124.91662241184937 882.0283624025375,123.20837646694467 884.9344526022152,123.20826647703954" fill="#3FB950"/>
-  <text x="892.8325884677181" y="127.84444444444446" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>tbot-v2 — 18 commits on the default branch · 5.3 MB · 1 star · pushed 2 Jul 2026 (dormant) · private</title>1</text>
-  <text x="860" y="204" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>tbot-v2 — 18 commits on the default branch · 5.3 MB · 1 star · pushed 2 Jul 2026 (dormant) · private</title>tbot-v2</text>
-  <text x="860" y="217" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>tbot-v2 — 18 commits on the default branch · 5.3 MB · 1 star · pushed 2 Jul 2026 (dormant) · private</title>○ 18 · private</text>
-  <rect x="20" y="232" width="9" height="9" rx="2" fill="#3FB950"/>
-  <rect x="22" y="234" width="5" height="5" rx="1" fill="#7EE787"/>
-  <text x="35" y="239" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">●  6 repos occupied — pushed in the last 30 days</text>
-  <rect x="341.59999999999997" y="232" width="9" height="9" rx="2" fill="#484F58"/>
-  <rect x="343.59999999999997" y="234" width="5" height="5" rx="1" fill="#0D1117"/>
-  <text x="356.59999999999997" y="239" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">○  3 repos dormant</text>
-  <text x="20" y="262" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">height = commits on the default branch  ·  footprint = repo size  ·  star = stargazers  ·  bars scaled to the leader</text>
+  <polygon points="150.83258846771813,254.44444444444446 151.73072433322102,257.20826647703956 154.63681453289874,257.2083764669447 152.28580282461712,258.9166224118494 153.183729476888,261.68051242194423 150.83258846771813,259.9724444444445 148.48144745854825,261.68051242194423 149.37937411081913,258.9166224118494 147.0283624025375,257.2083764669447 149.93445260221523,257.20826647703956" fill="#3FB950"/>
+  <text x="157.83258846771813" y="261.84444444444443" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#9  tbot-v2 — 18 commits on the default branch · 5.3 MB · 1 star · pushed 2 Jul 2026 (dormant) · private</title>1</text>
+  <text x="125" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#9  tbot-v2 — 18 commits on the default branch · 5.3 MB · 1 star · pushed 2 Jul 2026 (dormant) · private</title>tbot-v2</text>
+  <text x="125" y="351" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#9  tbot-v2 — 18 commits on the default branch · 5.3 MB · 1 star · pushed 2 Jul 2026 (dormant) · private</title>○ 18 · private</text>
+  <g>
+    <title>#10  Maeker — 17 commits on the default branch · 415.0 kB · 0 stars · pushed 27 Jun 2026 (dormant)</title>
+  <polygon points="279.96839986587383,312 279.96839986587383,275.7530864197531 295.96839986587383,267.7530864197531 295.96839986587383,304" fill="#21262D"/>
+  <polygon points="230,275.7530864197531 279.96839986587383,275.7530864197531 295.96839986587383,267.7530864197531 246,267.7530864197531" fill="#484F58"/>
+  <polygon points="230,312 279.96839986587383,312 279.96839986587383,275.7530864197531 230,275.7530864197531" fill="#30363D"/>
+    <g class="win w9">
+  <rect x="242.98419993293692" y="284.7530864197531" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="252.98419993293692" y="284.7530864197531" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="262.9841999329369" y="284.7530864197531" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="242.98419993293692" y="297.7530864197531" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="252.98419993293692" y="297.7530864197531" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="262.9841999329369" y="297.7530864197531" width="4" height="5" rx="1" fill="#0D1117"/>
+    </g>
+  </g>
+  <text x="230" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#10  Maeker — 17 commits on the default branch · 415.0 kB · 0 stars · pushed 27 Jun 2026 (dormant)</title>Maeker</text>
+  <text x="230" y="351" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#10  Maeker — 17 commits on the default branch · 415.0 kB · 0 stars · pushed 27 Jun 2026 (dormant)</title>○ 17</text>
+  <g>
+    <title>#11  grti — 15 commits on the default branch · 418.0 kB · 0 stars · pushed 5 Apr 2026 (dormant) · private</title>
+  <polygon points="384.9827176509264,312 384.9827176509264,278.3703703703704 400.9827176509264,270.3703703703704 400.9827176509264,304" fill="#21262D"/>
+  <polygon points="335,278.3703703703704 384.9827176509264,278.3703703703704 400.9827176509264,270.3703703703704 351,270.3703703703704" fill="#484F58"/>
+  <polygon points="335,312 384.9827176509264,312 384.9827176509264,278.3703703703704 335,278.3703703703704" fill="#30363D"/>
+    <g class="win w10">
+  <rect x="347.99135882546324" y="287.3703703703704" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="357.99135882546324" y="287.3703703703704" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="367.99135882546324" y="287.3703703703704" width="4" height="5" rx="1" fill="#0D1117"/>
+    </g>
+  </g>
+  <text x="335" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#11  grti — 15 commits on the default branch · 418.0 kB · 0 stars · pushed 5 Apr 2026 (dormant) · private</title>grti</text>
+  <text x="335" y="351" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#11  grti — 15 commits on the default branch · 418.0 kB · 0 stars · pushed 5 Apr 2026 (dormant) · private</title>○ 15 · private</text>
+  <g>
+    <title>#12  tbot — 10 commits on the default branch · 3.7 MB · 1 star · pushed 11 Jan 2026 (dormant)</title>
+  <polygon points="498.01782207357746,312 498.01782207357746,284.91358024691357 514.0178220735775,276.91358024691357 514.0178220735775,304" fill="#21262D"/>
+  <polygon points="440,284.91358024691357 498.01782207357746,284.91358024691357 514.0178220735775,276.91358024691357 456,276.91358024691357" fill="#484F58"/>
+  <polygon points="440,312 498.01782207357746,312 498.01782207357746,284.91358024691357 440,284.91358024691357" fill="#30363D"/>
+    <g class="win w11">
+  <rect x="452.00891103678873" y="293.91358024691357" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="462.00891103678873" y="293.91358024691357" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="472.00891103678873" y="293.91358024691357" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="482.00891103678873" y="293.91358024691357" width="4" height="5" rx="1" fill="#0D1117"/>
+    </g>
+  </g>
+  <polygon points="464.6589110367887,264.91358024691357 465.55704690229163,267.67740227950867 468.4631371019693,267.6775122694138 466.1121253936877,269.3857582143185 467.0100520459586,272.14964822441334 464.6589110367887,270.4415802469136 462.3077700276188,272.14964822441334 463.20569667988974,269.3857582143185 460.8546849716081,267.6775122694138 463.7607751712858,267.67740227950867" fill="#3FB950"/>
+  <text x="471.6589110367887" y="272.31358024691355" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#12  tbot — 10 commits on the default branch · 3.7 MB · 1 star · pushed 11 Jan 2026 (dormant)</title>1</text>
+  <text x="440" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#12  tbot — 10 commits on the default branch · 3.7 MB · 1 star · pushed 11 Jan 2026 (dormant)</title>tbot</text>
+  <text x="440" y="351" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#12  tbot — 10 commits on the default branch · 3.7 MB · 1 star · pushed 11 Jan 2026 (dormant)</title>○ 10</text>
+  <g>
+    <title>#13  outreach — 8 commits on the default branch · 5.1 MB · 0 stars · pushed 4 Aug 2026 (dormant) · private</title>
+  <polygon points="605.0459554508603,312 605.0459554508603,287.5308641975309 621.0459554508603,279.5308641975309 621.0459554508603,304" fill="#21262D"/>
+  <polygon points="545,287.5308641975309 605.0459554508603,287.5308641975309 621.0459554508603,279.5308641975309 561,279.5308641975309" fill="#484F58"/>
+  <polygon points="545,312 605.0459554508603,312 605.0459554508603,287.5308641975309 545,287.5308641975309" fill="#30363D"/>
+    <g class="win w12">
+  <rect x="553.0229777254302" y="296.5308641975309" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="563.0229777254302" y="296.5308641975309" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="573.0229777254302" y="296.5308641975309" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="583.0229777254302" y="296.5308641975309" width="4" height="5" rx="1" fill="#0D1117"/>
+  <rect x="593.0229777254302" y="296.5308641975309" width="4" height="5" rx="1" fill="#0D1117"/>
+    </g>
+  </g>
+  <text x="545" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#13  outreach — 8 commits on the default branch · 5.1 MB · 0 stars · pushed 4 Aug 2026 (dormant) · private</title>outreach</text>
+  <text x="545" y="351" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#13  outreach — 8 commits on the default branch · 5.1 MB · 0 stars · pushed 4 Aug 2026 (dormant) · private</title>○ 8 · private</text>
+  <g>
+    <title>#14  o-o — 7 commits on the default branch · 10.0 kB · 0 stars · pushed 4 Sep 2026 (occupied)</title>
+  <polygon points="696.6160151284222,312 696.6160151284222,288.8395061728395 712.6160151284222,280.8395061728395 712.6160151284222,304" fill="#116329"/>
+  <polygon points="650,288.8395061728395 696.6160151284222,288.8395061728395 712.6160151284222,280.8395061728395 666,280.8395061728395" fill="#3FB950"/>
+  <polygon points="650,312 696.6160151284222,312 696.6160151284222,288.8395061728395 650,288.8395061728395" fill="#1A7F37"/>
+    <g class="win w13">
+  <rect x="661.308007564211" y="297.8395061728395" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="671.308007564211" y="297.8395061728395" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="681.308007564211" y="297.8395061728395" width="4" height="5" rx="1" fill="#7EE787"/>
+    </g>
+  </g>
+  <text x="650" y="338" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#14  o-o — 7 commits on the default branch · 10.0 kB · 0 stars · pushed 4 Sep 2026 (occupied)</title>o-o</text>
+  <text x="650" y="351" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#14  o-o — 7 commits on the default branch · 10.0 kB · 0 stars · pushed 4 Sep 2026 (occupied)</title>● 7</text>
+  <polygon points="20,419 36,411 503.2624553384057,411 503.2624553384057,419" fill="#161B22"/>
+  <rect x="20" y="419" width="483.2624553384057" height="9" rx="0" fill="#161B22"/>
+  <line x1="20" y1="419" x2="503.2624553384057" y2="419" stroke="#30363D" stroke-width="1"/>
+  <g>
+    <title>#15  Agentrouter-setup — 6 commits on the default branch · 11.0 kB · 0 stars · pushed 18 Aug 2026 (occupied)</title>
+  <polygon points="66.64608211729586,419 66.64608211729586,397.14814814814815 82.64608211729586,389.14814814814815 82.64608211729586,411" fill="#116329"/>
+  <polygon points="20,397.14814814814815 66.64608211729586,397.14814814814815 82.64608211729586,389.14814814814815 36,389.14814814814815" fill="#3FB950"/>
+  <polygon points="20,419 66.64608211729586,419 66.64608211729586,397.14814814814815 20,397.14814814814815" fill="#1A7F37"/>
+    <g class="win w14">
+  <rect x="31.323041058647927" y="406.14814814814815" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="41.32304105864793" y="406.14814814814815" width="4" height="5" rx="1" fill="#7EE787"/>
+  <rect x="51.32304105864793" y="406.14814814814815" width="4" height="5" rx="1" fill="#7EE787"/>
+    </g>
+  </g>
+  <text x="20" y="445" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#15  Agentrouter-setup — 6 commits on the default branch · 11.0 kB · 0 stars · pushed 18 Aug 2026 (occupied)</title>Agentrouter-set…</text>
+  <text x="20" y="458" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#15  Agentrouter-setup — 6 commits on the default branch · 11.0 kB · 0 stars · pushed 18 Aug 2026 (occupied)</title>● 6</text>
+  <g>
+    <title>#16  COR-BOT — 5 commits on the default branch · 107.0 kB · 0 stars · pushed 14 Jul 2025 (dormant)</title>
+  <polygon points="173.0150381215653,419 173.0150381215653,398.4567901234568 189.0150381215653,390.4567901234568 189.0150381215653,411" fill="#21262D"/>
+  <polygon points="125,398.4567901234568 173.0150381215653,398.4567901234568 189.0150381215653,390.4567901234568 141,390.4567901234568" fill="#484F58"/>
+  <polygon points="125,419 173.0150381215653,419 173.0150381215653,398.4567901234568 125,398.4567901234568" fill="#30363D"/>
+    <g class="win w15">
+    </g>
+  </g>
+  <text x="125" y="445" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#16  COR-BOT — 5 commits on the default branch · 107.0 kB · 0 stars · pushed 14 Jul 2025 (dormant)</title>COR-BOT</text>
+  <text x="125" y="458" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#16  COR-BOT — 5 commits on the default branch · 107.0 kB · 0 stars · pushed 14 Jul 2025 (dormant)</title>○ 5</text>
+  <g>
+    <title>#17  NEW-Cove — 4 commits on the default branch · 295.0 kB · 0 stars · pushed 2 Dec 2025 (dormant) · private</title>
+  <polygon points="279.34581855965433,419 279.34581855965433,399.7654320987654 295.34581855965433,391.7654320987654 295.34581855965433,411" fill="#21262D"/>
+  <polygon points="230,399.7654320987654 279.34581855965433,399.7654320987654 295.34581855965433,391.7654320987654 246,391.7654320987654" fill="#484F58"/>
+  <polygon points="230,419 279.34581855965433,419 279.34581855965433,399.7654320987654 230,399.7654320987654" fill="#30363D"/>
+    <g class="win w16">
+    </g>
+  </g>
+  <text x="230" y="445" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#17  NEW-Cove — 4 commits on the default branch · 295.0 kB · 0 stars · pushed 2 Dec 2025 (dormant) · private</title>NEW-Cove</text>
+  <text x="230" y="458" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#17  NEW-Cove — 4 commits on the default branch · 295.0 kB · 0 stars · pushed 2 Dec 2025 (dormant) · private</title>○ 4 · private</text>
+  <g>
+    <title>#18  NaijaBoard — 4 commits on the default branch · 89.0 kB · 0 stars · pushed 11 Aug 2026 (occupied) · private</title>
+  <polygon points="382.83774978769156,419 382.83774978769156,399.7654320987654 398.83774978769156,391.7654320987654 398.83774978769156,411" fill="#116329"/>
+  <polygon points="335,399.7654320987654 382.83774978769156,399.7654320987654 398.83774978769156,391.7654320987654 351,391.7654320987654" fill="#3FB950"/>
+  <polygon points="335,419 382.83774978769156,419 382.83774978769156,399.7654320987654 335,399.7654320987654" fill="#1A7F37"/>
+    <g class="win w17">
+    </g>
+  </g>
+  <text x="335" y="445" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#E6EDF3"><title>#18  NaijaBoard — 4 commits on the default branch · 89.0 kB · 0 stars · pushed 11 Aug 2026 (occupied) · private</title>NaijaBoard</text>
+  <text x="335" y="458" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#18  NaijaBoard — 4 commits on the default branch · 89.0 kB · 0 stars · pushed 11 Aug 2026 (occupied) · private</title>● 4 · private</text>
+  <g>
+    <title>#19  AIOS — 2 commits on the default branch · 42.0 kB · 0 stars · pushed 9 Jan 2026 (dormant) · private</title>
+  <polygon points="487.2624553384057,419 487.2624553384057,402.38271604938274 503.2624553384057,394.38271604938274 503.2624553384057,411" fill="#21262D"/>
+  <polygon points="440,402.38271604938274 487.2624553384057,402.38271604938274 503.2624553384057,394.38271604938274 456,394.38271604938274" fill="#484F58"/>
+  <polygon points="440,419 487.2624553384057,419 487.2624553384057,402.38271604938274 440,402.38271604938274" fill="#30363D"/>
+    <g class="win w18">
+    </g>
+  </g>
+  <text x="440" y="445" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="500" fill="#8B949E"><title>#19  AIOS — 2 commits on the default branch · 42.0 kB · 0 stars · pushed 9 Jan 2026 (dormant) · private</title>AIOS</text>
+  <text x="440" y="458" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681"><title>#19  AIOS — 2 commits on the default branch · 42.0 kB · 0 stars · pushed 9 Jan 2026 (dormant) · private</title>○ 2 · private</text>
+  <rect x="20" y="473" width="9" height="9" rx="2" fill="#3FB950"/>
+  <rect x="22" y="475" width="5" height="5" rx="1" fill="#7EE787"/>
+  <text x="35" y="480" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">●  9 repos occupied — pushed in the last 30 days</text>
+  <rect x="341.59999999999997" y="473" width="9" height="9" rx="2" fill="#484F58"/>
+  <rect x="343.59999999999997" y="475" width="5" height="5" rx="1" fill="#0D1117"/>
+  <text x="356.59999999999997" y="480" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">○  10 repos dormant</text>
+  <text x="20" y="512" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">height = commits on the default branch  ·  footprint = repo size  ·  star = stargazers  ·  one scale across every row</text>
 </svg>

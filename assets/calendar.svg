@@ -1,0 +1,1578 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="749" height="199" viewBox="0 0 749 199" role="img" aria-labelledby="t d">
+  <title id="t">Contribution calendar</title>
+  <desc id="d">329 contributions over 53 weeks, one cell per day. Busiest day was 3 September 2026 with 28 contributions. 300 days were quiet. Shading runs in four bands by daily count: 1, 2–3, 4–5 and 6+.</desc>
+  <style>
+    @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
+    .hc{animation:heat 800ms ease-out}
+    @keyframes heat{from{opacity:.35}to{opacity:1}}
+    .hw0{animation-duration:560ms}
+    .hw1{animation-duration:574ms}
+    .hw2{animation-duration:588ms}
+    .hw3{animation-duration:602ms}
+    .hw4{animation-duration:616ms}
+    .hw5{animation-duration:630ms}
+    .hw6{animation-duration:644ms}
+    .hw7{animation-duration:658ms}
+    .hw8{animation-duration:672ms}
+    .hw9{animation-duration:686ms}
+    .hw10{animation-duration:700ms}
+    .hw11{animation-duration:714ms}
+    .hw12{animation-duration:728ms}
+    .hw13{animation-duration:742ms}
+    .hw14{animation-duration:756ms}
+    .hw15{animation-duration:770ms}
+    .hw16{animation-duration:784ms}
+    .hw17{animation-duration:798ms}
+    .hw18{animation-duration:812ms}
+    .hw19{animation-duration:826ms}
+    .hw20{animation-duration:840ms}
+    .hw21{animation-duration:854ms}
+    .hw22{animation-duration:868ms}
+    .hw23{animation-duration:882ms}
+    .hw24{animation-duration:896ms}
+    .hw25{animation-duration:910ms}
+    .hw26{animation-duration:924ms}
+    .hw27{animation-duration:938ms}
+    .hw28{animation-duration:952ms}
+    .hw29{animation-duration:966ms}
+    .hw30{animation-duration:980ms}
+    .hw31{animation-duration:994ms}
+    .hw32{animation-duration:1008ms}
+    .hw33{animation-duration:1022ms}
+    .hw34{animation-duration:1036ms}
+    .hw35{animation-duration:1050ms}
+    .hw36{animation-duration:1064ms}
+    .hw37{animation-duration:1078ms}
+    .hw38{animation-duration:1092ms}
+    .hw39{animation-duration:1106ms}
+    .hw40{animation-duration:1120ms}
+    .hw41{animation-duration:1134ms}
+    .hw42{animation-duration:1148ms}
+    .hw43{animation-duration:1162ms}
+    .hw44{animation-duration:1176ms}
+    .hw45{animation-duration:1190ms}
+    .hw46{animation-duration:1204ms}
+    .hw47{animation-duration:1218ms}
+    .hw48{animation-duration:1232ms}
+    .hw49{animation-duration:1246ms}
+    .hw50{animation-duration:1260ms}
+    .hw51{animation-duration:1274ms}
+    .hw52{animation-duration:1288ms}
+  </style>
+  <rect x="0" y="0" width="749" height="199" rx="8" fill="#0D1117"/>
+  <path d="M0 8a8 8 0 0 1 8-8h733a8 8 0 0 1 8 8v22H0Z" fill="#161B22"/>
+  <line x1="0" y1="30" x2="749" y2="30" stroke="#21262D" stroke-width="1"/>
+  <circle cx="16" cy="15" r="4" fill="#FF5F57" opacity="0.85"/>
+  <circle cx="32" cy="15" r="4" fill="#FEBC2E" opacity="0.85"/>
+  <circle cx="48" cy="15" r="4" fill="#28C840" opacity="0.85"/>
+  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/calendar  ·  329 contributions in 53 weeks</text>
+  <text x="44" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Aug</text>
+  <text x="57" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Sep</text>
+  <text x="109" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Oct</text>
+  <text x="161" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Nov</text>
+  <text x="226" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Dec</text>
+  <text x="278" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Jan</text>
+  <text x="330" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Feb</text>
+  <text x="382" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Mar</text>
+  <text x="447" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Apr</text>
+  <text x="499" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">May</text>
+  <text x="564" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Jun</text>
+  <text x="616" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Jul</text>
+  <text x="668" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Aug</text>
+  <text x="38" y="73.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681" text-anchor="end">Mon</text>
+  <text x="38" y="99.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681" text-anchor="end">Wed</text>
+  <text x="38" y="125.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681" text-anchor="end">Fri</text>
+  <g class="hc hw0">
+    <title>Sun 31 Aug 2025 — 0 contributions</title>
+  <rect x="44" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw0">
+    <title>Mon 1 Sep 2025 — 0 contributions</title>
+  <rect x="44" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw0">
+    <title>Tue 2 Sep 2025 — 0 contributions</title>
+  <rect x="44" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw0">
+    <title>Wed 3 Sep 2025 — 0 contributions</title>
+  <rect x="44" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw0">
+    <title>Thu 4 Sep 2025 — 0 contributions</title>
+  <rect x="44" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw0">
+    <title>Fri 5 Sep 2025 — 0 contributions</title>
+  <rect x="44" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw0">
+    <title>Sat 6 Sep 2025 — 0 contributions</title>
+  <rect x="44" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw1">
+    <title>Sun 7 Sep 2025 — 0 contributions</title>
+  <rect x="57" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw1">
+    <title>Mon 8 Sep 2025 — 0 contributions</title>
+  <rect x="57" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw1">
+    <title>Tue 9 Sep 2025 — 0 contributions</title>
+  <rect x="57" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw1">
+    <title>Wed 10 Sep 2025 — 0 contributions</title>
+  <rect x="57" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw1">
+    <title>Thu 11 Sep 2025 — 0 contributions</title>
+  <rect x="57" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw1">
+    <title>Fri 12 Sep 2025 — 0 contributions</title>
+  <rect x="57" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw1">
+    <title>Sat 13 Sep 2025 — 0 contributions</title>
+  <rect x="57" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw2">
+    <title>Sun 14 Sep 2025 — 0 contributions</title>
+  <rect x="70" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw2">
+    <title>Mon 15 Sep 2025 — 0 contributions</title>
+  <rect x="70" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw2">
+    <title>Tue 16 Sep 2025 — 0 contributions</title>
+  <rect x="70" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw2">
+    <title>Wed 17 Sep 2025 — 0 contributions</title>
+  <rect x="70" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw2">
+    <title>Thu 18 Sep 2025 — 0 contributions</title>
+  <rect x="70" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw2">
+    <title>Fri 19 Sep 2025 — 0 contributions</title>
+  <rect x="70" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw2">
+    <title>Sat 20 Sep 2025 — 0 contributions</title>
+  <rect x="70" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw3">
+    <title>Sun 21 Sep 2025 — 0 contributions</title>
+  <rect x="83" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw3">
+    <title>Mon 22 Sep 2025 — 0 contributions</title>
+  <rect x="83" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw3">
+    <title>Tue 23 Sep 2025 — 0 contributions</title>
+  <rect x="83" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw3">
+    <title>Wed 24 Sep 2025 — 0 contributions</title>
+  <rect x="83" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw3">
+    <title>Thu 25 Sep 2025 — 0 contributions</title>
+  <rect x="83" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw3">
+    <title>Fri 26 Sep 2025 — 0 contributions</title>
+  <rect x="83" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw3">
+    <title>Sat 27 Sep 2025 — 0 contributions</title>
+  <rect x="83" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw4">
+    <title>Sun 28 Sep 2025 — 0 contributions</title>
+  <rect x="96" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw4">
+    <title>Mon 29 Sep 2025 — 0 contributions</title>
+  <rect x="96" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw4">
+    <title>Tue 30 Sep 2025 — 0 contributions</title>
+  <rect x="96" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw4">
+    <title>Wed 1 Oct 2025 — 0 contributions</title>
+  <rect x="96" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw4">
+    <title>Thu 2 Oct 2025 — 0 contributions</title>
+  <rect x="96" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw4">
+    <title>Fri 3 Oct 2025 — 0 contributions</title>
+  <rect x="96" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw4">
+    <title>Sat 4 Oct 2025 — 0 contributions</title>
+  <rect x="96" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw5">
+    <title>Sun 5 Oct 2025 — 0 contributions</title>
+  <rect x="109" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw5">
+    <title>Mon 6 Oct 2025 — 0 contributions</title>
+  <rect x="109" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw5">
+    <title>Tue 7 Oct 2025 — 0 contributions</title>
+  <rect x="109" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw5">
+    <title>Wed 8 Oct 2025 — 5 contributions</title>
+  <rect x="109" y="91" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw5">
+    <title>Thu 9 Oct 2025 — 0 contributions</title>
+  <rect x="109" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw5">
+    <title>Fri 10 Oct 2025 — 0 contributions</title>
+  <rect x="109" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw5">
+    <title>Sat 11 Oct 2025 — 0 contributions</title>
+  <rect x="109" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw6">
+    <title>Sun 12 Oct 2025 — 0 contributions</title>
+  <rect x="122" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw6">
+    <title>Mon 13 Oct 2025 — 0 contributions</title>
+  <rect x="122" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw6">
+    <title>Tue 14 Oct 2025 — 6 contributions</title>
+  <rect x="122" y="78" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw6">
+    <title>Wed 15 Oct 2025 — 3 contributions</title>
+  <rect x="122" y="91" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw6">
+    <title>Thu 16 Oct 2025 — 0 contributions</title>
+  <rect x="122" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw6">
+    <title>Fri 17 Oct 2025 — 0 contributions</title>
+  <rect x="122" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw6">
+    <title>Sat 18 Oct 2025 — 0 contributions</title>
+  <rect x="122" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw7">
+    <title>Sun 19 Oct 2025 — 0 contributions</title>
+  <rect x="135" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw7">
+    <title>Mon 20 Oct 2025 — 0 contributions</title>
+  <rect x="135" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw7">
+    <title>Tue 21 Oct 2025 — 0 contributions</title>
+  <rect x="135" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw7">
+    <title>Wed 22 Oct 2025 — 0 contributions</title>
+  <rect x="135" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw7">
+    <title>Thu 23 Oct 2025 — 3 contributions</title>
+  <rect x="135" y="104" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw7">
+    <title>Fri 24 Oct 2025 — 3 contributions</title>
+  <rect x="135" y="117" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw7">
+    <title>Sat 25 Oct 2025 — 0 contributions</title>
+  <rect x="135" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw8">
+    <title>Sun 26 Oct 2025 — 3 contributions</title>
+  <rect x="148" y="52" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw8">
+    <title>Mon 27 Oct 2025 — 0 contributions</title>
+  <rect x="148" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw8">
+    <title>Tue 28 Oct 2025 — 0 contributions</title>
+  <rect x="148" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw8">
+    <title>Wed 29 Oct 2025 — 0 contributions</title>
+  <rect x="148" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw8">
+    <title>Thu 30 Oct 2025 — 0 contributions</title>
+  <rect x="148" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw8">
+    <title>Fri 31 Oct 2025 — 0 contributions</title>
+  <rect x="148" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw8">
+    <title>Sat 1 Nov 2025 — 0 contributions</title>
+  <rect x="148" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw9">
+    <title>Sun 2 Nov 2025 — 0 contributions</title>
+  <rect x="161" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw9">
+    <title>Mon 3 Nov 2025 — 0 contributions</title>
+  <rect x="161" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw9">
+    <title>Tue 4 Nov 2025 — 0 contributions</title>
+  <rect x="161" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw9">
+    <title>Wed 5 Nov 2025 — 0 contributions</title>
+  <rect x="161" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw9">
+    <title>Thu 6 Nov 2025 — 0 contributions</title>
+  <rect x="161" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw9">
+    <title>Fri 7 Nov 2025 — 0 contributions</title>
+  <rect x="161" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw9">
+    <title>Sat 8 Nov 2025 — 0 contributions</title>
+  <rect x="161" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw10">
+    <title>Sun 9 Nov 2025 — 0 contributions</title>
+  <rect x="174" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw10">
+    <title>Mon 10 Nov 2025 — 0 contributions</title>
+  <rect x="174" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw10">
+    <title>Tue 11 Nov 2025 — 0 contributions</title>
+  <rect x="174" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw10">
+    <title>Wed 12 Nov 2025 — 0 contributions</title>
+  <rect x="174" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw10">
+    <title>Thu 13 Nov 2025 — 0 contributions</title>
+  <rect x="174" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw10">
+    <title>Fri 14 Nov 2025 — 0 contributions</title>
+  <rect x="174" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw10">
+    <title>Sat 15 Nov 2025 — 0 contributions</title>
+  <rect x="174" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw11">
+    <title>Sun 16 Nov 2025 — 0 contributions</title>
+  <rect x="187" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw11">
+    <title>Mon 17 Nov 2025 — 0 contributions</title>
+  <rect x="187" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw11">
+    <title>Tue 18 Nov 2025 — 0 contributions</title>
+  <rect x="187" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw11">
+    <title>Wed 19 Nov 2025 — 0 contributions</title>
+  <rect x="187" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw11">
+    <title>Thu 20 Nov 2025 — 0 contributions</title>
+  <rect x="187" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw11">
+    <title>Fri 21 Nov 2025 — 0 contributions</title>
+  <rect x="187" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw11">
+    <title>Sat 22 Nov 2025 — 0 contributions</title>
+  <rect x="187" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw12">
+    <title>Sun 23 Nov 2025 — 0 contributions</title>
+  <rect x="200" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw12">
+    <title>Mon 24 Nov 2025 — 0 contributions</title>
+  <rect x="200" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw12">
+    <title>Tue 25 Nov 2025 — 0 contributions</title>
+  <rect x="200" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw12">
+    <title>Wed 26 Nov 2025 — 0 contributions</title>
+  <rect x="200" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw12">
+    <title>Thu 27 Nov 2025 — 0 contributions</title>
+  <rect x="200" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw12">
+    <title>Fri 28 Nov 2025 — 0 contributions</title>
+  <rect x="200" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw12">
+    <title>Sat 29 Nov 2025 — 0 contributions</title>
+  <rect x="200" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw13">
+    <title>Sun 30 Nov 2025 — 2 contributions</title>
+  <rect x="213" y="52" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw13">
+    <title>Mon 1 Dec 2025 — 0 contributions</title>
+  <rect x="213" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw13">
+    <title>Tue 2 Dec 2025 — 1 contribution</title>
+  <rect x="213" y="78" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw13">
+    <title>Wed 3 Dec 2025 — 0 contributions</title>
+  <rect x="213" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw13">
+    <title>Thu 4 Dec 2025 — 0 contributions</title>
+  <rect x="213" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw13">
+    <title>Fri 5 Dec 2025 — 0 contributions</title>
+  <rect x="213" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw13">
+    <title>Sat 6 Dec 2025 — 0 contributions</title>
+  <rect x="213" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw14">
+    <title>Sun 7 Dec 2025 — 0 contributions</title>
+  <rect x="226" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw14">
+    <title>Mon 8 Dec 2025 — 0 contributions</title>
+  <rect x="226" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw14">
+    <title>Tue 9 Dec 2025 — 0 contributions</title>
+  <rect x="226" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw14">
+    <title>Wed 10 Dec 2025 — 0 contributions</title>
+  <rect x="226" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw14">
+    <title>Thu 11 Dec 2025 — 0 contributions</title>
+  <rect x="226" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw14">
+    <title>Fri 12 Dec 2025 — 0 contributions</title>
+  <rect x="226" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw14">
+    <title>Sat 13 Dec 2025 — 0 contributions</title>
+  <rect x="226" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw15">
+    <title>Sun 14 Dec 2025 — 0 contributions</title>
+  <rect x="239" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw15">
+    <title>Mon 15 Dec 2025 — 0 contributions</title>
+  <rect x="239" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw15">
+    <title>Tue 16 Dec 2025 — 0 contributions</title>
+  <rect x="239" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw15">
+    <title>Wed 17 Dec 2025 — 0 contributions</title>
+  <rect x="239" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw15">
+    <title>Thu 18 Dec 2025 — 0 contributions</title>
+  <rect x="239" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw15">
+    <title>Fri 19 Dec 2025 — 0 contributions</title>
+  <rect x="239" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw15">
+    <title>Sat 20 Dec 2025 — 0 contributions</title>
+  <rect x="239" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw16">
+    <title>Sun 21 Dec 2025 — 0 contributions</title>
+  <rect x="252" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw16">
+    <title>Mon 22 Dec 2025 — 0 contributions</title>
+  <rect x="252" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw16">
+    <title>Tue 23 Dec 2025 — 0 contributions</title>
+  <rect x="252" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw16">
+    <title>Wed 24 Dec 2025 — 0 contributions</title>
+  <rect x="252" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw16">
+    <title>Thu 25 Dec 2025 — 0 contributions</title>
+  <rect x="252" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw16">
+    <title>Fri 26 Dec 2025 — 0 contributions</title>
+  <rect x="252" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw16">
+    <title>Sat 27 Dec 2025 — 0 contributions</title>
+  <rect x="252" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw17">
+    <title>Sun 28 Dec 2025 — 0 contributions</title>
+  <rect x="265" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw17">
+    <title>Mon 29 Dec 2025 — 0 contributions</title>
+  <rect x="265" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw17">
+    <title>Tue 30 Dec 2025 — 0 contributions</title>
+  <rect x="265" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw17">
+    <title>Wed 31 Dec 2025 — 0 contributions</title>
+  <rect x="265" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw17">
+    <title>Thu 1 Jan 2026 — 0 contributions</title>
+  <rect x="265" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw17">
+    <title>Fri 2 Jan 2026 — 0 contributions</title>
+  <rect x="265" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw17">
+    <title>Sat 3 Jan 2026 — 1 contribution</title>
+  <rect x="265" y="130" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw18">
+    <title>Sun 4 Jan 2026 — 0 contributions</title>
+  <rect x="278" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw18">
+    <title>Mon 5 Jan 2026 — 0 contributions</title>
+  <rect x="278" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw18">
+    <title>Tue 6 Jan 2026 — 0 contributions</title>
+  <rect x="278" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw18">
+    <title>Wed 7 Jan 2026 — 0 contributions</title>
+  <rect x="278" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw18">
+    <title>Thu 8 Jan 2026 — 0 contributions</title>
+  <rect x="278" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw18">
+    <title>Fri 9 Jan 2026 — 1 contribution</title>
+  <rect x="278" y="117" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw18">
+    <title>Sat 10 Jan 2026 — 0 contributions</title>
+  <rect x="278" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw19">
+    <title>Sun 11 Jan 2026 — 0 contributions</title>
+  <rect x="291" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw19">
+    <title>Mon 12 Jan 2026 — 0 contributions</title>
+  <rect x="291" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw19">
+    <title>Tue 13 Jan 2026 — 0 contributions</title>
+  <rect x="291" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw19">
+    <title>Wed 14 Jan 2026 — 0 contributions</title>
+  <rect x="291" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw19">
+    <title>Thu 15 Jan 2026 — 0 contributions</title>
+  <rect x="291" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw19">
+    <title>Fri 16 Jan 2026 — 0 contributions</title>
+  <rect x="291" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw19">
+    <title>Sat 17 Jan 2026 — 0 contributions</title>
+  <rect x="291" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw20">
+    <title>Sun 18 Jan 2026 — 0 contributions</title>
+  <rect x="304" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw20">
+    <title>Mon 19 Jan 2026 — 0 contributions</title>
+  <rect x="304" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw20">
+    <title>Tue 20 Jan 2026 — 0 contributions</title>
+  <rect x="304" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw20">
+    <title>Wed 21 Jan 2026 — 0 contributions</title>
+  <rect x="304" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw20">
+    <title>Thu 22 Jan 2026 — 0 contributions</title>
+  <rect x="304" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw20">
+    <title>Fri 23 Jan 2026 — 0 contributions</title>
+  <rect x="304" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw20">
+    <title>Sat 24 Jan 2026 — 0 contributions</title>
+  <rect x="304" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw21">
+    <title>Sun 25 Jan 2026 — 0 contributions</title>
+  <rect x="317" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw21">
+    <title>Mon 26 Jan 2026 — 0 contributions</title>
+  <rect x="317" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw21">
+    <title>Tue 27 Jan 2026 — 0 contributions</title>
+  <rect x="317" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw21">
+    <title>Wed 28 Jan 2026 — 0 contributions</title>
+  <rect x="317" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw21">
+    <title>Thu 29 Jan 2026 — 0 contributions</title>
+  <rect x="317" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw21">
+    <title>Fri 30 Jan 2026 — 0 contributions</title>
+  <rect x="317" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw21">
+    <title>Sat 31 Jan 2026 — 0 contributions</title>
+  <rect x="317" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw22">
+    <title>Sun 1 Feb 2026 — 0 contributions</title>
+  <rect x="330" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw22">
+    <title>Mon 2 Feb 2026 — 0 contributions</title>
+  <rect x="330" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw22">
+    <title>Tue 3 Feb 2026 — 0 contributions</title>
+  <rect x="330" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw22">
+    <title>Wed 4 Feb 2026 — 0 contributions</title>
+  <rect x="330" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw22">
+    <title>Thu 5 Feb 2026 — 0 contributions</title>
+  <rect x="330" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw22">
+    <title>Fri 6 Feb 2026 — 0 contributions</title>
+  <rect x="330" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw22">
+    <title>Sat 7 Feb 2026 — 0 contributions</title>
+  <rect x="330" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw23">
+    <title>Sun 8 Feb 2026 — 0 contributions</title>
+  <rect x="343" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw23">
+    <title>Mon 9 Feb 2026 — 0 contributions</title>
+  <rect x="343" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw23">
+    <title>Tue 10 Feb 2026 — 0 contributions</title>
+  <rect x="343" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw23">
+    <title>Wed 11 Feb 2026 — 0 contributions</title>
+  <rect x="343" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw23">
+    <title>Thu 12 Feb 2026 — 0 contributions</title>
+  <rect x="343" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw23">
+    <title>Fri 13 Feb 2026 — 0 contributions</title>
+  <rect x="343" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw23">
+    <title>Sat 14 Feb 2026 — 0 contributions</title>
+  <rect x="343" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw24">
+    <title>Sun 15 Feb 2026 — 0 contributions</title>
+  <rect x="356" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw24">
+    <title>Mon 16 Feb 2026 — 0 contributions</title>
+  <rect x="356" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw24">
+    <title>Tue 17 Feb 2026 — 0 contributions</title>
+  <rect x="356" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw24">
+    <title>Wed 18 Feb 2026 — 0 contributions</title>
+  <rect x="356" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw24">
+    <title>Thu 19 Feb 2026 — 0 contributions</title>
+  <rect x="356" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw24">
+    <title>Fri 20 Feb 2026 — 0 contributions</title>
+  <rect x="356" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw24">
+    <title>Sat 21 Feb 2026 — 0 contributions</title>
+  <rect x="356" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw25">
+    <title>Sun 22 Feb 2026 — 0 contributions</title>
+  <rect x="369" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw25">
+    <title>Mon 23 Feb 2026 — 0 contributions</title>
+  <rect x="369" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw25">
+    <title>Tue 24 Feb 2026 — 0 contributions</title>
+  <rect x="369" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw25">
+    <title>Wed 25 Feb 2026 — 0 contributions</title>
+  <rect x="369" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw25">
+    <title>Thu 26 Feb 2026 — 0 contributions</title>
+  <rect x="369" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw25">
+    <title>Fri 27 Feb 2026 — 1 contribution</title>
+  <rect x="369" y="117" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw25">
+    <title>Sat 28 Feb 2026 — 0 contributions</title>
+  <rect x="369" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw26">
+    <title>Sun 1 Mar 2026 — 0 contributions</title>
+  <rect x="382" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw26">
+    <title>Mon 2 Mar 2026 — 0 contributions</title>
+  <rect x="382" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw26">
+    <title>Tue 3 Mar 2026 — 0 contributions</title>
+  <rect x="382" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw26">
+    <title>Wed 4 Mar 2026 — 0 contributions</title>
+  <rect x="382" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw26">
+    <title>Thu 5 Mar 2026 — 0 contributions</title>
+  <rect x="382" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw26">
+    <title>Fri 6 Mar 2026 — 0 contributions</title>
+  <rect x="382" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw26">
+    <title>Sat 7 Mar 2026 — 0 contributions</title>
+  <rect x="382" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw27">
+    <title>Sun 8 Mar 2026 — 0 contributions</title>
+  <rect x="395" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw27">
+    <title>Mon 9 Mar 2026 — 0 contributions</title>
+  <rect x="395" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw27">
+    <title>Tue 10 Mar 2026 — 0 contributions</title>
+  <rect x="395" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw27">
+    <title>Wed 11 Mar 2026 — 0 contributions</title>
+  <rect x="395" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw27">
+    <title>Thu 12 Mar 2026 — 0 contributions</title>
+  <rect x="395" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw27">
+    <title>Fri 13 Mar 2026 — 0 contributions</title>
+  <rect x="395" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw27">
+    <title>Sat 14 Mar 2026 — 0 contributions</title>
+  <rect x="395" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw28">
+    <title>Sun 15 Mar 2026 — 0 contributions</title>
+  <rect x="408" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw28">
+    <title>Mon 16 Mar 2026 — 0 contributions</title>
+  <rect x="408" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw28">
+    <title>Tue 17 Mar 2026 — 0 contributions</title>
+  <rect x="408" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw28">
+    <title>Wed 18 Mar 2026 — 0 contributions</title>
+  <rect x="408" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw28">
+    <title>Thu 19 Mar 2026 — 0 contributions</title>
+  <rect x="408" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw28">
+    <title>Fri 20 Mar 2026 — 0 contributions</title>
+  <rect x="408" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw28">
+    <title>Sat 21 Mar 2026 — 0 contributions</title>
+  <rect x="408" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw29">
+    <title>Sun 22 Mar 2026 — 0 contributions</title>
+  <rect x="421" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw29">
+    <title>Mon 23 Mar 2026 — 0 contributions</title>
+  <rect x="421" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw29">
+    <title>Tue 24 Mar 2026 — 0 contributions</title>
+  <rect x="421" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw29">
+    <title>Wed 25 Mar 2026 — 0 contributions</title>
+  <rect x="421" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw29">
+    <title>Thu 26 Mar 2026 — 0 contributions</title>
+  <rect x="421" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw29">
+    <title>Fri 27 Mar 2026 — 0 contributions</title>
+  <rect x="421" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw29">
+    <title>Sat 28 Mar 2026 — 0 contributions</title>
+  <rect x="421" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw30">
+    <title>Sun 29 Mar 2026 — 0 contributions</title>
+  <rect x="434" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw30">
+    <title>Mon 30 Mar 2026 — 0 contributions</title>
+  <rect x="434" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw30">
+    <title>Tue 31 Mar 2026 — 1 contribution</title>
+  <rect x="434" y="78" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw30">
+    <title>Wed 1 Apr 2026 — 0 contributions</title>
+  <rect x="434" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw30">
+    <title>Thu 2 Apr 2026 — 1 contribution</title>
+  <rect x="434" y="104" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw30">
+    <title>Fri 3 Apr 2026 — 0 contributions</title>
+  <rect x="434" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw30">
+    <title>Sat 4 Apr 2026 — 0 contributions</title>
+  <rect x="434" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw31">
+    <title>Sun 5 Apr 2026 — 0 contributions</title>
+  <rect x="447" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw31">
+    <title>Mon 6 Apr 2026 — 0 contributions</title>
+  <rect x="447" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw31">
+    <title>Tue 7 Apr 2026 — 0 contributions</title>
+  <rect x="447" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw31">
+    <title>Wed 8 Apr 2026 — 0 contributions</title>
+  <rect x="447" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw31">
+    <title>Thu 9 Apr 2026 — 0 contributions</title>
+  <rect x="447" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw31">
+    <title>Fri 10 Apr 2026 — 0 contributions</title>
+  <rect x="447" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw31">
+    <title>Sat 11 Apr 2026 — 1 contribution</title>
+  <rect x="447" y="130" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw32">
+    <title>Sun 12 Apr 2026 — 0 contributions</title>
+  <rect x="460" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw32">
+    <title>Mon 13 Apr 2026 — 8 contributions</title>
+  <rect x="460" y="65" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw32">
+    <title>Tue 14 Apr 2026 — 4 contributions</title>
+  <rect x="460" y="78" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw32">
+    <title>Wed 15 Apr 2026 — 0 contributions</title>
+  <rect x="460" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw32">
+    <title>Thu 16 Apr 2026 — 0 contributions</title>
+  <rect x="460" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw32">
+    <title>Fri 17 Apr 2026 — 2 contributions</title>
+  <rect x="460" y="117" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw32">
+    <title>Sat 18 Apr 2026 — 0 contributions</title>
+  <rect x="460" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw33">
+    <title>Sun 19 Apr 2026 — 0 contributions</title>
+  <rect x="473" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw33">
+    <title>Mon 20 Apr 2026 — 1 contribution</title>
+  <rect x="473" y="65" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw33">
+    <title>Tue 21 Apr 2026 — 0 contributions</title>
+  <rect x="473" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw33">
+    <title>Wed 22 Apr 2026 — 0 contributions</title>
+  <rect x="473" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw33">
+    <title>Thu 23 Apr 2026 — 0 contributions</title>
+  <rect x="473" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw33">
+    <title>Fri 24 Apr 2026 — 0 contributions</title>
+  <rect x="473" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw33">
+    <title>Sat 25 Apr 2026 — 1 contribution</title>
+  <rect x="473" y="130" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw34">
+    <title>Sun 26 Apr 2026 — 0 contributions</title>
+  <rect x="486" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw34">
+    <title>Mon 27 Apr 2026 — 0 contributions</title>
+  <rect x="486" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw34">
+    <title>Tue 28 Apr 2026 — 2 contributions</title>
+  <rect x="486" y="78" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw34">
+    <title>Wed 29 Apr 2026 — 0 contributions</title>
+  <rect x="486" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw34">
+    <title>Thu 30 Apr 2026 — 0 contributions</title>
+  <rect x="486" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw34">
+    <title>Fri 1 May 2026 — 0 contributions</title>
+  <rect x="486" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw34">
+    <title>Sat 2 May 2026 — 0 contributions</title>
+  <rect x="486" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw35">
+    <title>Sun 3 May 2026 — 2 contributions</title>
+  <rect x="499" y="52" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw35">
+    <title>Mon 4 May 2026 — 0 contributions</title>
+  <rect x="499" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw35">
+    <title>Tue 5 May 2026 — 0 contributions</title>
+  <rect x="499" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw35">
+    <title>Wed 6 May 2026 — 0 contributions</title>
+  <rect x="499" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw35">
+    <title>Thu 7 May 2026 — 0 contributions</title>
+  <rect x="499" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw35">
+    <title>Fri 8 May 2026 — 2 contributions</title>
+  <rect x="499" y="117" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw35">
+    <title>Sat 9 May 2026 — 0 contributions</title>
+  <rect x="499" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw36">
+    <title>Sun 10 May 2026 — 0 contributions</title>
+  <rect x="512" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw36">
+    <title>Mon 11 May 2026 — 0 contributions</title>
+  <rect x="512" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw36">
+    <title>Tue 12 May 2026 — 0 contributions</title>
+  <rect x="512" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw36">
+    <title>Wed 13 May 2026 — 0 contributions</title>
+  <rect x="512" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw36">
+    <title>Thu 14 May 2026 — 0 contributions</title>
+  <rect x="512" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw36">
+    <title>Fri 15 May 2026 — 2 contributions</title>
+  <rect x="512" y="117" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw36">
+    <title>Sat 16 May 2026 — 1 contribution</title>
+  <rect x="512" y="130" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw37">
+    <title>Sun 17 May 2026 — 0 contributions</title>
+  <rect x="525" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw37">
+    <title>Mon 18 May 2026 — 0 contributions</title>
+  <rect x="525" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw37">
+    <title>Tue 19 May 2026 — 1 contribution</title>
+  <rect x="525" y="78" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw37">
+    <title>Wed 20 May 2026 — 2 contributions</title>
+  <rect x="525" y="91" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw37">
+    <title>Thu 21 May 2026 — 3 contributions</title>
+  <rect x="525" y="104" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw37">
+    <title>Fri 22 May 2026 — 1 contribution</title>
+  <rect x="525" y="117" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw37">
+    <title>Sat 23 May 2026 — 4 contributions</title>
+  <rect x="525" y="130" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw38">
+    <title>Sun 24 May 2026 — 0 contributions</title>
+  <rect x="538" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw38">
+    <title>Mon 25 May 2026 — 0 contributions</title>
+  <rect x="538" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw38">
+    <title>Tue 26 May 2026 — 1 contribution</title>
+  <rect x="538" y="78" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw38">
+    <title>Wed 27 May 2026 — 0 contributions</title>
+  <rect x="538" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw38">
+    <title>Thu 28 May 2026 — 2 contributions</title>
+  <rect x="538" y="104" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw38">
+    <title>Fri 29 May 2026 — 1 contribution</title>
+  <rect x="538" y="117" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw38">
+    <title>Sat 30 May 2026 — 0 contributions</title>
+  <rect x="538" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw39">
+    <title>Sun 31 May 2026 — 0 contributions</title>
+  <rect x="551" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw39">
+    <title>Mon 1 Jun 2026 — 0 contributions</title>
+  <rect x="551" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw39">
+    <title>Tue 2 Jun 2026 — 0 contributions</title>
+  <rect x="551" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw39">
+    <title>Wed 3 Jun 2026 — 0 contributions</title>
+  <rect x="551" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw39">
+    <title>Thu 4 Jun 2026 — 1 contribution</title>
+  <rect x="551" y="104" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw39">
+    <title>Fri 5 Jun 2026 — 0 contributions</title>
+  <rect x="551" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw39">
+    <title>Sat 6 Jun 2026 — 4 contributions</title>
+  <rect x="551" y="130" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw40">
+    <title>Sun 7 Jun 2026 — 9 contributions</title>
+  <rect x="564" y="52" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw40">
+    <title>Mon 8 Jun 2026 — 0 contributions</title>
+  <rect x="564" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw40">
+    <title>Tue 9 Jun 2026 — 0 contributions</title>
+  <rect x="564" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw40">
+    <title>Wed 10 Jun 2026 — 0 contributions</title>
+  <rect x="564" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw40">
+    <title>Thu 11 Jun 2026 — 0 contributions</title>
+  <rect x="564" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw40">
+    <title>Fri 12 Jun 2026 — 0 contributions</title>
+  <rect x="564" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw40">
+    <title>Sat 13 Jun 2026 — 0 contributions</title>
+  <rect x="564" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw41">
+    <title>Sun 14 Jun 2026 — 2 contributions</title>
+  <rect x="577" y="52" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw41">
+    <title>Mon 15 Jun 2026 — 0 contributions</title>
+  <rect x="577" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw41">
+    <title>Tue 16 Jun 2026 — 0 contributions</title>
+  <rect x="577" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw41">
+    <title>Wed 17 Jun 2026 — 1 contribution</title>
+  <rect x="577" y="91" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw41">
+    <title>Thu 18 Jun 2026 — 0 contributions</title>
+  <rect x="577" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw41">
+    <title>Fri 19 Jun 2026 — 0 contributions</title>
+  <rect x="577" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw41">
+    <title>Sat 20 Jun 2026 — 0 contributions</title>
+  <rect x="577" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw42">
+    <title>Sun 21 Jun 2026 — 0 contributions</title>
+  <rect x="590" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw42">
+    <title>Mon 22 Jun 2026 — 0 contributions</title>
+  <rect x="590" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw42">
+    <title>Tue 23 Jun 2026 — 0 contributions</title>
+  <rect x="590" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw42">
+    <title>Wed 24 Jun 2026 — 0 contributions</title>
+  <rect x="590" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw42">
+    <title>Thu 25 Jun 2026 — 0 contributions</title>
+  <rect x="590" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw42">
+    <title>Fri 26 Jun 2026 — 0 contributions</title>
+  <rect x="590" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw42">
+    <title>Sat 27 Jun 2026 — 5 contributions</title>
+  <rect x="590" y="130" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw43">
+    <title>Sun 28 Jun 2026 — 1 contribution</title>
+  <rect x="603" y="52" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw43">
+    <title>Mon 29 Jun 2026 — 0 contributions</title>
+  <rect x="603" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw43">
+    <title>Tue 30 Jun 2026 — 0 contributions</title>
+  <rect x="603" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw43">
+    <title>Wed 1 Jul 2026 — 0 contributions</title>
+  <rect x="603" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw43">
+    <title>Thu 2 Jul 2026 — 3 contributions</title>
+  <rect x="603" y="104" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw43">
+    <title>Fri 3 Jul 2026 — 0 contributions</title>
+  <rect x="603" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw43">
+    <title>Sat 4 Jul 2026 — 0 contributions</title>
+  <rect x="603" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw44">
+    <title>Sun 5 Jul 2026 — 0 contributions</title>
+  <rect x="616" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw44">
+    <title>Mon 6 Jul 2026 — 0 contributions</title>
+  <rect x="616" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw44">
+    <title>Tue 7 Jul 2026 — 0 contributions</title>
+  <rect x="616" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw44">
+    <title>Wed 8 Jul 2026 — 0 contributions</title>
+  <rect x="616" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw44">
+    <title>Thu 9 Jul 2026 — 0 contributions</title>
+  <rect x="616" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw44">
+    <title>Fri 10 Jul 2026 — 0 contributions</title>
+  <rect x="616" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw44">
+    <title>Sat 11 Jul 2026 — 0 contributions</title>
+  <rect x="616" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw45">
+    <title>Sun 12 Jul 2026 — 0 contributions</title>
+  <rect x="629" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw45">
+    <title>Mon 13 Jul 2026 — 13 contributions</title>
+  <rect x="629" y="65" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw45">
+    <title>Tue 14 Jul 2026 — 5 contributions</title>
+  <rect x="629" y="78" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw45">
+    <title>Wed 15 Jul 2026 — 7 contributions</title>
+  <rect x="629" y="91" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw45">
+    <title>Thu 16 Jul 2026 — 13 contributions</title>
+  <rect x="629" y="104" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw45">
+    <title>Fri 17 Jul 2026 — 9 contributions</title>
+  <rect x="629" y="117" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw45">
+    <title>Sat 18 Jul 2026 — 0 contributions</title>
+  <rect x="629" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw46">
+    <title>Sun 19 Jul 2026 — 0 contributions</title>
+  <rect x="642" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw46">
+    <title>Mon 20 Jul 2026 — 2 contributions</title>
+  <rect x="642" y="65" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw46">
+    <title>Tue 21 Jul 2026 — 4 contributions</title>
+  <rect x="642" y="78" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw46">
+    <title>Wed 22 Jul 2026 — 1 contribution</title>
+  <rect x="642" y="91" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw46">
+    <title>Thu 23 Jul 2026 — 1 contribution</title>
+  <rect x="642" y="104" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw46">
+    <title>Fri 24 Jul 2026 — 0 contributions</title>
+  <rect x="642" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw46">
+    <title>Sat 25 Jul 2026 — 0 contributions</title>
+  <rect x="642" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw47">
+    <title>Sun 26 Jul 2026 — 0 contributions</title>
+  <rect x="655" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw47">
+    <title>Mon 27 Jul 2026 — 0 contributions</title>
+  <rect x="655" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw47">
+    <title>Tue 28 Jul 2026 — 0 contributions</title>
+  <rect x="655" y="78" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw47">
+    <title>Wed 29 Jul 2026 — 0 contributions</title>
+  <rect x="655" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw47">
+    <title>Thu 30 Jul 2026 — 0 contributions</title>
+  <rect x="655" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw47">
+    <title>Fri 31 Jul 2026 — 3 contributions</title>
+  <rect x="655" y="117" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw47">
+    <title>Sat 1 Aug 2026 — 0 contributions</title>
+  <rect x="655" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw48">
+    <title>Sun 2 Aug 2026 — 0 contributions</title>
+  <rect x="668" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw48">
+    <title>Mon 3 Aug 2026 — 0 contributions</title>
+  <rect x="668" y="65" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw48">
+    <title>Tue 4 Aug 2026 — 4 contributions</title>
+  <rect x="668" y="78" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw48">
+    <title>Wed 5 Aug 2026 — 0 contributions</title>
+  <rect x="668" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw48">
+    <title>Thu 6 Aug 2026 — 0 contributions</title>
+  <rect x="668" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw48">
+    <title>Fri 7 Aug 2026 — 0 contributions</title>
+  <rect x="668" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw48">
+    <title>Sat 8 Aug 2026 — 0 contributions</title>
+  <rect x="668" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw49">
+    <title>Sun 9 Aug 2026 — 0 contributions</title>
+  <rect x="681" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw49">
+    <title>Mon 10 Aug 2026 — 9 contributions</title>
+  <rect x="681" y="65" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw49">
+    <title>Tue 11 Aug 2026 — 24 contributions</title>
+  <rect x="681" y="78" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw49">
+    <title>Wed 12 Aug 2026 — 0 contributions</title>
+  <rect x="681" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw49">
+    <title>Thu 13 Aug 2026 — 0 contributions</title>
+  <rect x="681" y="104" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw49">
+    <title>Fri 14 Aug 2026 — 3 contributions</title>
+  <rect x="681" y="117" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw49">
+    <title>Sat 15 Aug 2026 — 19 contributions</title>
+  <rect x="681" y="130" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw50">
+    <title>Sun 16 Aug 2026 — 20 contributions</title>
+  <rect x="694" y="52" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw50">
+    <title>Mon 17 Aug 2026 — 13 contributions</title>
+  <rect x="694" y="65" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw50">
+    <title>Tue 18 Aug 2026 — 12 contributions</title>
+  <rect x="694" y="78" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw50">
+    <title>Wed 19 Aug 2026 — 5 contributions</title>
+  <rect x="694" y="91" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw50">
+    <title>Thu 20 Aug 2026 — 9 contributions</title>
+  <rect x="694" y="104" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw50">
+    <title>Fri 21 Aug 2026 — 11 contributions</title>
+  <rect x="694" y="117" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw50">
+    <title>Sat 22 Aug 2026 — 3 contributions</title>
+  <rect x="694" y="130" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw51">
+    <title>Sun 23 Aug 2026 — 0 contributions</title>
+  <rect x="707" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw51">
+    <title>Mon 24 Aug 2026 — 3 contributions</title>
+  <rect x="707" y="65" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw51">
+    <title>Tue 25 Aug 2026 — 1 contribution</title>
+  <rect x="707" y="78" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw51">
+    <title>Wed 26 Aug 2026 — 1 contribution</title>
+  <rect x="707" y="91" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw51">
+    <title>Thu 27 Aug 2026 — 1 contribution</title>
+  <rect x="707" y="104" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw51">
+    <title>Fri 28 Aug 2026 — 0 contributions</title>
+  <rect x="707" y="117" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw51">
+    <title>Sat 29 Aug 2026 — 0 contributions</title>
+  <rect x="707" y="130" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw52">
+    <title>Sun 30 Aug 2026 — 0 contributions</title>
+  <rect x="720" y="52" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw52">
+    <title>Mon 31 Aug 2026 — 4 contributions</title>
+  <rect x="720" y="65" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw52">
+    <title>Tue 1 Sep 2026 — 1 contribution</title>
+  <rect x="720" y="78" width="11" height="11" rx="2" fill="#116329"/>
+  </g>
+  <g class="hc hw52">
+    <title>Wed 2 Sep 2026 — 0 contributions</title>
+  <rect x="720" y="91" width="11" height="11" rx="2" fill="#21262D"/>
+  </g>
+  <g class="hc hw52">
+    <title>Thu 3 Sep 2026 — 28 contributions</title>
+  <rect x="720" y="104" width="11" height="11" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="hc hw52">
+    <title>Fri 4 Sep 2026 — 2 contributions</title>
+  <rect x="720" y="117" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <text x="44" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">per day</text>
+  <rect x="93.9" y="161" width="9" height="9" rx="2" fill="#21262D"/>
+  <text x="106.9" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">0</text>
+  <rect x="124.60000000000001" y="161" width="9" height="9" rx="2" fill="#116329"/>
+  <text x="137.60000000000002" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">1</text>
+  <rect x="155.3" y="161" width="9" height="9" rx="2" fill="#2EA043"/>
+  <text x="168.3" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">2–3</text>
+  <rect x="197.4" y="161" width="9" height="9" rx="2" fill="#56D364"/>
+  <text x="210.4" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">4–5</text>
+  <rect x="239.5" y="161" width="9" height="9" rx="2" fill="#AFF5B4"/>
+  <text x="252.5" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">6+</text>
+  <text x="731" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681" text-anchor="end">busiest 3 Sep · 28 contributions</text>
+  <text x="18" y="187" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">bands are the quartiles of this year&apos;s active days, so one outlier cannot flatten the scale</text>
+</svg>
