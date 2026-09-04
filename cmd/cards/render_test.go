@@ -95,6 +95,8 @@ func cards(s *Stats) map[string]string {
 		"collab":    renderCollab(s),
 		"calendar":  renderHeatmap(s),
 		"rhythm":    renderRhythm(s),
+		"years":     renderYears(s),
+		"drift":     renderDrift(s),
 		"city":      renderCity(s),
 	}
 }

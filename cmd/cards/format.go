@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
+	"time"
 )
 
 // compact renders a stat-tile value: comma'd below 10k, then K, then M.
@@ -107,5 +108,27 @@ func formatDelta(current, prior, window int) string {
 		return fmt.Sprintf("▼ %.0f%% vs prior %dd", -pct, window)
 	default:
 		return fmt.Sprintf("flat vs prior %dd", window)
+	}
+}
+
+// agoWords renders how long ago something happened, in the coarsest unit that
+// still says something true. "3 days ago" is a fact; "72 hours ago" is the same
+// fact spelled to look more precise than the underlying daily data is.
+func agoWords(now, then time.Time) string {
+	if then.IsZero() {
+		return "at an unknown time"
+	}
+	d := now.Sub(then)
+	switch {
+	case d < time.Hour:
+		return "in the last hour"
+	case d < 24*time.Hour:
+		return plural(int(d/time.Hour), "hour") + " ago"
+	case d < 14*24*time.Hour:
+		return dayCount(int(d/(24*time.Hour))) + " ago"
+	case d < 60*24*time.Hour:
+		return plural(int(d/(7*24*time.Hour)), "week") + " ago"
+	default:
+		return then.Format("2 Jan 2006")
 	}
 }

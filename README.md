@@ -72,6 +72,24 @@ which clock it read.
 
 <br/>
 
+## Years and drift
+
+Left: the whole record at once, one row per year and one cell per month, so a column
+is a season — scan down March and you can see whether March is always busy or was
+busy once. Right: the only derivative on this page. Every other card is a level; this
+one is which way the language mix is moving, in percentage points, measured against a
+reading the archive kept a month ago. It cannot be reconstructed after the fact, so
+it starts the day the archive does.
+
+<div align="center">
+
+<img src="./assets/years.svg" alt="Contributions by year and month: one row per year, twelve monthly cells shaded in four bands by monthly contribution count, with each year's total in a column at the right" width="49%">
+<img src="./assets/drift.svg" alt="Language drift: a dumbbell per language, a hollow dot for its share of tracked bytes a month ago and a filled dot for its share now, with the change in percentage points at the right" width="49%">
+
+</div>
+
+<br/>
+
 ## Featured projects
 
 <div align="center">

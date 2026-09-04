@@ -103,6 +103,8 @@ func run(login, out, fixture, dump, readme, exclude, history, message string) er
 		"collab.svg":    renderCollab(stats),
 		"calendar.svg":  renderHeatmap(stats),
 		"rhythm.svg":    renderRhythm(stats),
+		"years.svg":     renderYears(stats),
+		"drift.svg":     renderDrift(stats),
 		"city.svg":      renderCity(stats),
 	}
 	for name, svg := range cards {

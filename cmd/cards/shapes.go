@@ -176,3 +176,10 @@ func (c *canvas) star(cx, cy, r float64, fill string, attrs ...string) {
 	}
 	c.poly(fill, pts, attrs...)
 }
+
+// dot draws a data point. Markers are 8px or larger by the mark spec, which is
+// what makes a dumbbell's two ends distinguishable at README scale.
+func (c *canvas) dot(cx, cy, r float64, fill string, attrs ...string) {
+	c.raw(`  <circle cx="%s" cy="%s" r="%s" fill="%s"%s/>`,
+		n(cx), n(cy), n(r), fill, joinAttrs(attrs))
+}

@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"io/fs"
+	"math"
 	"os"
 	"sort"
 	"strings"
@@ -42,6 +43,13 @@ type Snapshot struct {
 	Followers     int    `json:"followers"`
 	CurrentStreak int    `json:"streak"`
 	LongestStreak int    `json:"best_streak"`
+
+	// Langs is each language's share in percentage points on the day of the
+	// reading. Stored because a share is the one number on these cards that says
+	// what the work is turning into rather than how much of it there was, and it
+	// cannot be reconstructed later: the API answers only for today. Omitted when
+	// empty so a reading taken before this field existed still round-trips.
+	Langs map[string]float64 `json:"langs,omitempty"`
 }
 
 const snapshotDate = "2006-01-02"
@@ -60,7 +68,62 @@ func (s *Stats) Snapshot() Snapshot {
 		Followers:     s.Followers,
 		CurrentStreak: s.CurrentStreak,
 		LongestStreak: s.LongestStreak,
+		Langs:         langShares(s.Languages),
 	}
+}
+
+// langShares rounds each share to two decimal places of a percent. Rounded
+// because the archive is a committed text file: unrounded float64 noise in the
+// fifteenth digit would make a diff on days when nothing actually moved.
+func langShares(langs []Language) map[string]float64 {
+	if len(langs) == 0 {
+		return nil
+	}
+	out := make(map[string]float64, len(langs))
+	for _, l := range langs {
+		out[l.Name] = math.Round(l.Share*10000) / 100
+	}
+	return out
+}
+
+// LangMove is one language's share at two points in time, in percentage points.
+type LangMove struct {
+	Name      string
+	Then, Now float64
+}
+
+func (m LangMove) Delta() float64 { return m.Now - m.Then }
+
+// LanguageDrift pairs today's shares against the nearest archived reading that
+// recorded them, newest-heaviest first.
+//
+// Percentage points, not percent-of-percent: a language going 40% -> 44% moved
+// four points, and calling that "10% growth" would be a different and much less
+// useful claim. Languages present in only one of the two readings still appear,
+// because an entry appearing or vanishing is the most interesting kind of drift.
+func (s *Stats) LanguageDrift(want int) ([]LangMove, int, bool) {
+	base, age, ok := s.Baseline(want)
+	if !ok || len(base.Langs) == 0 || len(s.Languages) == 0 {
+		return nil, 0, false
+	}
+
+	now := langShares(s.Languages)
+	seen := make(map[string]bool, len(now)+len(base.Langs))
+	var out []LangMove
+	for _, l := range s.Languages { // ranked order, so the card is ranked too
+		seen[l.Name] = true
+		out = append(out, LangMove{Name: l.Name, Then: base.Langs[l.Name], Now: now[l.Name]})
+	}
+	// A language that was there and is not any more has a real story to tell, so
+	// it is drawn falling to zero rather than dropped.
+	var gone []LangMove
+	for name, then := range base.Langs {
+		if !seen[name] {
+			gone = append(gone, LangMove{Name: name, Then: then})
+		}
+	}
+	sort.Slice(gone, func(i, j int) bool { return gone[i].Then > gone[j].Then })
+	return append(out, gone...), age, true
 }
 
 // loadHistory reads the archive, oldest first.

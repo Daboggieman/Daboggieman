@@ -41,6 +41,21 @@ type rhythmSummary struct {
 	Oldest   time.Time
 	Newest   time.Time
 	UTCOnly  int // stamps that came back with no offset at all
+
+	// Weekend and Night are the two readings a 7x24 grid holds but does not
+	// state. The grid shows where the mass is; these say how much of it, which is
+	// the difference between a reader inferring "works late" and being told.
+	Weekend int // commits on Saturday or Sunday
+	Night   int // commits at 22:00-05:59, the hours outside any working day
+}
+
+// Share renders a count as its percentage of the sample, which is the only form in
+// which "38 weekend commits" means anything.
+func (r rhythmSummary) Share(n int) string {
+	if r.Sample <= 0 {
+		return "—"
+	}
+	return fmt.Sprintf("%.0f%%", float64(n)/float64(r.Sample)*100)
 }
 
 func (r rhythmSummary) PeakDay() string { return weekdayLabel(r.PeakRow) }
@@ -82,6 +97,12 @@ func (s *Stats) RhythmGrid() (grid [7][24]int, sum rhythmSummary) {
 		t := st.Local()
 		r, h := rhythmRow(t), t.Hour()
 		grid[r][h]++
+		if r >= 5 {
+			sum.Weekend++
+		}
+		if h >= 22 || h < 6 {
+			sum.Night++
+		}
 		if grid[r][h] > sum.Peak {
 			sum.PeakRow, sum.PeakHour, sum.Peak = r, h, grid[r][h]
 		}
@@ -120,7 +141,9 @@ func renderRhythm(s *Stats) string {
 	gridTop := chromeH + 24.0
 	gridH := 7*step - surfaceGap
 	legendY := gridTop + gridH + 26
-	h := legendY + 34
+	// The extra band under the legend carries the weekend and night shares, which
+	// are readings the grid holds but never states.
+	h := legendY + 52
 
 	peakDay, peakCol, peak := sum.PeakDay(), sum.PeakHour, sum.Peak
 	oldest, newest, clock := sum.Oldest, sum.Newest, sum.Clock()
@@ -128,10 +151,12 @@ func renderRhythm(s *Stats) string {
 	c := newCanvas(w, h, "Commit rhythm",
 		fmt.Sprintf("Hour of day against day of week for a sample of %s, %s to %s. "+
 			"Busiest slot is %s at %02d:00 with %s. Read in %s. "+
+			"%s of the sample is weekend work and %s of it lands between 22:00 and 06:00. "+
 			"Shading runs in four bands by commits per slot: %s, %s, %s and %s.",
 			plural(len(s.CommitStamps), "commit"),
 			oldest.Format("2 Jan 2006"), newest.Format("2 Jan 2006"),
 			peakDay, peakCol, plural(peak, "commit"), clock,
+			sum.Share(sum.Weekend), sum.Share(sum.Night),
 			bandLabel(1, bands[0]), bandLabel(bands[0]+1, bands[1]),
 			bandLabel(bands[1]+1, bands[2]), bandLabel(bands[2]+1, 0)))
 
@@ -172,6 +197,12 @@ func renderRhythm(s *Stats) string {
 	renderHeatLegend(c, pad+gutter, legendY, "per slot", bands)
 	c.text(w-pad, legendY, fmt.Sprintf("busiest %s %02d:00", peakDay, peakCol),
 		textOpts{size: 9.5, fill: inkLow, anchor: "end"})
+	// Text wears ink tokens: the figures sit in primary ink and the words that
+	// qualify them in muted, so nothing here competes with the grid for colour.
+	c.text(pad, legendY+20, fmt.Sprintf("weekends %s  ·  nights 22:00–06:00 %s  ·  %s",
+		sum.Share(sum.Weekend), sum.Share(sum.Night), plural(sum.Sample, "commit")),
+		textOpts{size: 9.5, fill: inkMid})
+
 	caption(c, pad, h-22, w-2*pad, fmt.Sprintf("sample: last 50 commits per repo, %s to %s",
 		oldest.Format("2 Jan 2006"), newest.Format("2 Jan 2006")))
 	caption(c, pad, h-11, w-2*pad, "clock: "+clock)

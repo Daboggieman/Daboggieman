@@ -13,11 +13,12 @@ import (
 
 const endpoint = "https://api.github.com/graphql"
 
-const query = `query($login:String!){
+const queryTemplate = `query($login:String!){
   user(login:$login){
     login
     name
     location
+    createdAt
     followers{totalCount}
     repositories(first:100, ownerAffiliations:OWNER, isFork:false, orderBy:{field:PUSHED_AT,direction:DESC}){
       totalCount
@@ -46,8 +47,48 @@ const query = `query($login:String!){
         weeks{contributionDays{date contributionCount}}
       }
     }
+%s
   }
 }`
+
+// yearSpan is how many calendar years the year grid reaches back, counting the
+// current one. Six fits a decade-shaped career on a card a README can render
+// without shrinking the labels, and years before the account existed come back
+// empty and are trimmed.
+const yearSpan = 6
+
+// buildQuery fills in the per-year aliases. contributionsCollection is capped at
+// one year per call by the API, so the only way to get a decade in one round trip
+// is to ask for each year under its own alias.
+func buildQuery(now time.Time) string {
+	var b strings.Builder
+	for i := 0; i < yearSpan; i++ {
+		y := now.UTC().Year() - i
+		// The window is the whole calendar year, clamped to now for the current one:
+		// asking for a future range is a hard error rather than an empty answer.
+		to := time.Date(y, 12, 31, 23, 59, 59, 0, time.UTC)
+		if to.After(now.UTC()) {
+			to = now.UTC()
+		}
+		fmt.Fprintf(&b, "\n    y%d: contributionsCollection(from:%q, to:%q){\n"+
+			"      contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}\n    }",
+			i, time.Date(y, 1, 1, 0, 0, 0, 0, time.UTC).Format(time.RFC3339), to.Format(time.RFC3339))
+	}
+	return fmt.Sprintf(queryTemplate, b.String())
+}
+
+// yearCalendar is one aliased year's calendar.
+type yearCalendar struct {
+	Calendar struct {
+		TotalContributions int `json:"totalContributions"`
+		Weeks              []struct {
+			ContributionDays []struct {
+				Date              string `json:"date"`
+				ContributionCount int    `json:"contributionCount"`
+			} `json:"contributionDays"`
+		} `json:"weeks"`
+	} `json:"contributionCalendar"`
+}
 
 // apiResponse mirrors the shape of the GraphQL reply. Only the fields the cards
 // consume are modelled.
@@ -57,6 +98,7 @@ type apiResponse struct {
 			Login     string `json:"login"`
 			Name      string `json:"name"`
 			Location  string `json:"location"`
+			CreatedAt string `json:"createdAt"`
 			Followers struct {
 				TotalCount int `json:"totalCount"`
 			} `json:"followers"`
@@ -122,6 +164,15 @@ type apiResponse struct {
 					} `json:"weeks"`
 				} `json:"contributionCalendar"`
 			} `json:"contributionsCollection"`
+			// One field per alias rather than a map, so the decode stays static and
+			// a missing year is a zero value instead of a lookup that has to be
+			// guarded at every use.
+			Y0 yearCalendar `json:"y0"`
+			Y1 yearCalendar `json:"y1"`
+			Y2 yearCalendar `json:"y2"`
+			Y3 yearCalendar `json:"y3"`
+			Y4 yearCalendar `json:"y4"`
+			Y5 yearCalendar `json:"y5"`
 		} `json:"user"`
 	} `json:"data"`
 	Errors []struct {
@@ -133,7 +184,7 @@ type apiResponse struct {
 // decoded result, so callers can persist a fixture for offline rendering.
 func fetch(ctx context.Context, login, token string) (*apiResponse, []byte, error) {
 	body, err := json.Marshal(map[string]any{
-		"query":     query,
+		"query":     buildQuery(time.Now()),
 		"variables": map[string]string{"login": login},
 	})
 	if err != nil {

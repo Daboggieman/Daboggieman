@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"sort"
 	"strings"
 	"time"
@@ -33,6 +34,8 @@ func (r *apiResponse) toStats(now time.Time, hide map[string]bool) *Stats {
 		Reviews:            c.TotalPullRequestReviewContributions,
 		TotalContributions: c.Calendar.TotalContributions + c.RestrictedContributionsCount,
 		GeneratedAt:        now.UTC(),
+		CreatedAt:          parseDay(u.CreatedAt),
+		Years:              yearRows([yearSpan]yearCalendar{u.Y0, u.Y1, u.Y2, u.Y3, u.Y4, u.Y5}, now.UTC()),
 	}
 
 	byLang := map[string]int{}
@@ -189,4 +192,82 @@ func (s *Stats) CityBlocks() []Repo {
 		out = out[:maxCityBlocks]
 	}
 	return out
+}
+
+// parseDay reads an API timestamp, returning the zero time on anything it cannot
+// parse. A missing createdAt costs the year grid its "record starts" note and
+// nothing else, so it is not worth failing the render over.
+func parseDay(s string) time.Time {
+	for _, layout := range []string{time.RFC3339, "2006-01-02"} {
+		if t, err := time.Parse(layout, s); err == nil {
+			return t.UTC()
+		}
+	}
+	return time.Time{}
+}
+
+// yearRows bins each aliased year's calendar into months.
+//
+// Years before the account existed come back empty, and an empty row drawn as a
+// full-width band of "quiet" months is a lie about a year that had not started
+// yet — so leading empty years are trimmed and the card says where the record
+// begins.
+func yearRows(blocks [yearSpan]yearCalendar, now time.Time) []YearRow {
+	rows := make([]YearRow, 0, yearSpan)
+	for i := yearSpan - 1; i >= 0; i-- { // oldest first
+		row := YearRow{Year: now.Year() - i}
+		for _, wk := range blocks[i].Calendar.Weeks {
+			for _, d := range wk.ContributionDays {
+				day := parseDay(d.Date)
+				if day.IsZero() || day.Year() != row.Year || d.ContributionCount == 0 {
+					continue
+				}
+				row.Months[int(day.Month())-1] += d.ContributionCount
+				row.Total += d.ContributionCount
+				row.Active++
+			}
+		}
+		if row.Total == 0 && len(rows) == 0 {
+			continue // the account did not exist yet
+		}
+		rows = append(rows, row)
+	}
+	return rows
+}
+
+// ThisWeek is contributions over the trailing seven days of the calendar. Every
+// other figure on the profile is a year or a lifetime; this is the only window
+// short enough to describe what is happening now rather than what has happened.
+func (s *Stats) ThisWeek() int {
+	if len(s.Days) == 0 {
+		return 0
+	}
+	cut := s.Days[len(s.Days)-1].Date.AddDate(0, 0, -6)
+	n := 0
+	for _, d := range s.Days {
+		if !d.Date.Before(cut) {
+			n += d.Count
+		}
+	}
+	return n
+}
+
+// Focus is the current-work line: the repo pushed most recently, what it is
+// written in, when it moved, and how much has landed in the last seven days.
+//
+// The profile repo is skipped by name. It is pushed every day by the workflow that
+// renders these cards, so leaving it in would make the answer to "what am I working
+// on" permanently "the thing that writes this card", which is true and useless.
+func (s *Stats) Focus() (string, bool) {
+	r, ok := s.TopRepo(s.Login)
+	if !ok || r.PushedAt.IsZero() {
+		return "", false
+	}
+	lang := r.Primary
+	if lang == "" {
+		lang = "no language detected"
+	}
+	return fmt.Sprintf("%s · %s · pushed %s · %s this week",
+		r.Name, lang, agoWords(s.GeneratedAt, r.PushedAt),
+		plural(s.ThisWeek(), "contribution")), true
 }

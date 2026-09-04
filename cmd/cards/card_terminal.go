@@ -50,6 +50,14 @@ func renderTerminal(s *Stats) string {
 		identity = fmt.Sprintf("%s — %s · last push: %s", name, where, r.Name)
 	}
 
+	// The one line on the card with a short shelf life. Everything else here is a
+	// lifetime total that moves a little every year; this says whether the profile
+	// is alive this week, which is what a visitor is actually checking.
+	focus, ok := s.Focus()
+	if !ok {
+		focus = "nothing pushed recently"
+	}
+
 	lines := []termLine{
 		{prompt: true, text: "whoami"},
 		{text: identity, fill: inkHi},
@@ -59,6 +67,8 @@ func renderTerminal(s *Stats) string {
 		{text: fmt.Sprintf("%s commits · %s repos · %s stars · %s followers",
 			compact(s.Commits), compact(s.RepoCount), compact(s.Stars), compact(s.Followers)),
 			fill: inkHi},
+		{prompt: true, text: "./focus --now"},
+		{text: focus, fill: inkHi},
 		{prompt: true, text: "./streak --meter"},
 	}
 
@@ -68,7 +78,7 @@ func renderTerminal(s *Stats) string {
 	c := newCanvas(w, h, "Raph'el Ogah — profile terminal",
 		fmt.Sprintf("%s, based in %s. Works in %s. %s commits, %s repos, %s stars. Current streak %s against a personal best of %s.",
 			name, where, stack, compact(s.Commits), compact(s.RepoCount), compact(s.Stars),
-			dayCount(s.CurrentStreak), dayCount(s.LongestStreak)))
+			dayCount(s.CurrentStreak), dayCount(s.LongestStreak))+" Current focus: "+focus)
 
 	// Every animation here is additive: the settled frame is the base style, and
 	// the keyframes only add motion on top of it. A staggered reveal that starts

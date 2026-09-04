@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"time"
 )
 
 // The generator owns only the text between these markers. Everything else in the
@@ -54,12 +55,30 @@ func updateReadme(path string, s *Stats) (bool, error) {
 func renderTableView(s *Stats) string {
 	var b strings.Builder
 
+	// The terminal card's live line, first because it is the only reading here that
+	// answers "is this profile alive right now" rather than "how big is the total".
+	if focus, ok := s.Focus(); ok {
+		b.WriteString("| Right now | Reading |\n|---|---|\n")
+		fmt.Fprintf(&b, "| Focus | %s |\n", focus)
+		fmt.Fprintf(&b, "| Last 7 days | %s |\n\n", plural(s.ThisWeek(), "contribution"))
+	}
+
 	b.WriteString("| Language | Share | Tracked size |\n|---|---:|---:|\n")
 	if len(s.Languages) == 0 {
 		b.WriteString("| _no data_ | — | — |\n")
 	}
 	for _, l := range s.Languages {
 		fmt.Fprintf(&b, "| %s | %.1f%% | %s |\n", l.Name, l.Share*100, humanBytes(l.Bytes))
+	}
+
+	// The drift card in words. Percentage points in both value columns, because a
+	// share and a change in a share are the same unit and belong on one scale.
+	if moves, age, ok := s.LanguageDrift(30); ok {
+		fmt.Fprintf(&b, "\n| Language | Share %s ago | Share now | Move |\n|---|---:|---:|---:|\n",
+			dayCount(age))
+		for _, m := range moves {
+			fmt.Fprintf(&b, "| %s | %.1f%% | %.1f%% | %s |\n", m.Name, m.Then, m.Now, points(m.Delta()))
+		}
 	}
 
 	// The third column is the same movement the cards print, sourced from the same
@@ -124,7 +143,29 @@ func renderTableView(s *Stats) string {
 			sum.PeakDay(), sum.PeakHour, sum.PeakHour, plural(sum.Peak, "commit"))
 		fmt.Fprintf(&b, "| Sample | %s, %s to %s |\n", plural(sum.Sample, "commit"),
 			sum.Oldest.Format("2 Jan 2006"), sum.Newest.Format("2 Jan 2006"))
+		fmt.Fprintf(&b, "| Weekend work | %s of the sample |\n", sum.Share(sum.Weekend))
+		fmt.Fprintf(&b, "| Nights, 22:00–06:00 | %s of the sample |\n", sum.Share(sum.Night))
 		fmt.Fprintf(&b, "| Clock | %s |\n", sum.Clock())
+	}
+
+	// The year grid as digits. The card's cells are quartile bands; these are the
+	// numbers those bands stand for, which is the reading a band cannot give.
+	if len(s.Years) > 0 {
+		b.WriteString("\n| Year | Contributions | Active days | Busiest month |\n|---|---:|---:|---|\n")
+		best, _ := s.BestYear()
+		for _, y := range s.Years {
+			month, count := y.Peak()
+			label := fmt.Sprintf("%d", y.Year)
+			if y.Year == best.Year {
+				label = "**" + label + "**"
+			}
+			fmt.Fprintf(&b, "| %s | %s | %s | %s (%s) |\n", label, commas(y.Total),
+				commas(y.Active), time.Month(month + 1).String()[:3], commas(count))
+		}
+		if !s.CreatedAt.IsZero() {
+			fmt.Fprintf(&b, "\n<sub>The account opened %s, so anything before that is absent rather than quiet.</sub>\n",
+				s.CreatedAt.Format("2 January 2006"))
+		}
 	}
 
 	// Every repo's height, footprint and lit state, so the city is readable with

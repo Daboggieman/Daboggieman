@@ -21,6 +21,26 @@ type Day struct {
 // and reading those as local would quietly move a night of work into the afternoon.
 // So the offset is kept rather than discarded: the card counts how many stamps
 // arrived with a real offset, states it, and -tz shifts only the ones that did not.
+// YearRow is one calendar year binned into months. Months rather than days
+// because a decade of days is 3,650 cells, which at any size a README will render
+// is texture instead of data.
+type YearRow struct {
+	Year   int
+	Months [12]int
+	Total  int
+	Active int // days with at least one contribution
+}
+
+// Peak is the busiest month of the year and its index.
+func (y YearRow) Peak() (month int, count int) {
+	for i, v := range y.Months {
+		if v > count {
+			month, count = i, v
+		}
+	}
+	return month, count
+}
+
 type CommitStamp struct {
 	At     time.Time
 	Offset int // seconds east of UTC, exactly as the timestamp declared it
@@ -104,6 +124,13 @@ type Stats struct {
 	// History is the archive on disk, oldest first, loaded before rendering. It is
 	// the only source of a baseline: see history.go.
 	History []Snapshot
+
+	// Years is the multi-year record, oldest first, one row per calendar year.
+	Years []YearRow
+
+	// CreatedAt is when the account was opened, so the year grid can say where the
+	// record actually starts rather than implying the empty years are quiet ones.
+	CreatedAt time.Time
 
 	// CommitStamps is a sample of commit timestamps off the default branches,
 	// attributed to this login. It is a sample, not the whole history, and the
