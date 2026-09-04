@@ -137,48 +137,64 @@ testing     Jest · go test
 
 <!-- cards:table:start -->
 
+| Right now | Reading |
+|---|---|
+| Focus | o-o · Python · pushed 1 hour ago · 51 contributions this week |
+| Last 7 days | 51 contributions |
+
 | Language | Share | Tracked size |
 |---|---:|---:|
-| Python | 43.5% | 2.6 MB |
-| TypeScript | 29.7% | 1.8 MB |
-| HTML | 17.3% | 1.0 MB |
-| Go | 4.7% | 286.5 kB |
-| JavaScript | 2.8% | 168.2 kB |
+| Python | 42.2% | 2.6 MB |
+| TypeScript | 30.8% | 1.9 MB |
+| HTML | 16.7% | 1.0 MB |
+| Go | 5.7% | 358.7 kB |
+| JavaScript | 2.7% | 170.3 kB |
 | CSS | 1.1% | 67.8 kB |
-| Other | 0.9% | 52.3 kB |
+| Other | 0.8% | 52.3 kB |
 
 | Metric | Last 365 days | Change |
 |---|---:|---:|
-| Contributions | 329 | — |
-| Commits | 282 | — |
-| Pull requests | 29 | — |
+| Contributions | 345 | — |
+| Commits | 297 | — |
+| Pull requests | 30 | — |
 | Issues | 0 | — |
 | Reviews | 0 | — |
-| Current streak | 2 days | — |
+| Current streak | 5 days | — |
 | Longest streak | 9 days | — |
 | Repositories | 19 | — |
 | Stars earned | 9 | — |
 | Followers | 10 | — |
-| Collaborative acts | 29 (8.8% of all) | — |
+| Collaborative acts | 30 (8.7% of all) | — |
 
 | Calendar | Value |
 |---|---:|
-| Busiest day | 3 Sep 2026 (28 contributions) |
-| Days with nothing | 300 of 370 days |
-| Days with something | 70 |
+| Busiest day | 3 Sep 2026 (36 contributions) |
+| Days with nothing | 299 of 370 days |
+| Days with something | 71 |
 
 | Commit rhythm | Value |
 |---|---:|
-| Busiest slot | Thu 18:00–18:59 (14 commits) |
-| Sample | 295 commits, 14 Mar 2025 to 4 Sep 2026 |
+| Busiest slot | Thu 18:00–18:59 (15 commits) |
+| Sample | 296 commits, 14 Mar 2025 to 4 Sep 2026 |
+| Weekend work | 17% of the sample |
+| Nights, 22:00–06:00 | 15% of the sample |
 | Clock | UTC — every stamp in the sample came back without an offset |
+
+| Year | Contributions | Active days | Busiest month |
+|---|---:|---:|---|
+| 2023 | 1 | 1 | Aug (1) |
+| 2024 | 0 | 0 | Jan (0) |
+| 2025 | 294 | 41 | Jun (147) |
+| **2026** | 319 | 63 | Aug (142) |
+
+<sub>The account opened 12 August 2023, so anything before that is absent rather than quiet.</sub>
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
-| Kairo-v1 | 81 | 8.0 MB | 0 | 4 Sep 2026 | occupied | private |
+| Kairo-v1 | 95 | 8.0 MB | 0 | 4 Sep 2026 | occupied | private |
 | [python-study](https://github.com/Daboggieman/python-study) | 70 | 341.0 kB | 2 | 24 Aug 2026 | occupied | public |
 | RYLA-2025 | 66 | 23.2 MB | 0 | 12 Jul 2025 | dormant | private |
-| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 46 | 6.9 MB | 0 | 4 Sep 2026 | occupied | public |
+| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 48 | 6.9 MB | 0 | 4 Sep 2026 | occupied | public |
 | [gsmhub](https://github.com/Daboggieman/gsmhub) | 38 | 2.4 MB | 1 | 18 Aug 2026 | occupied | public |
 | tbot-v3 | 36 | 7.4 MB | 1 | 11 Aug 2026 | occupied | private |
 | [golang-study](https://github.com/Daboggieman/golang-study) | 23 | 3.8 MB | 3 | 2 Jul 2026 | dormant | public |
@@ -187,8 +203,8 @@ testing     Jest · go test
 | [Maeker](https://github.com/Daboggieman/Maeker) | 17 | 415.0 kB | 0 | 27 Jun 2026 | dormant | public |
 | grti | 15 | 418.0 kB | 0 | 5 Apr 2026 | dormant | private |
 | [tbot](https://github.com/Daboggieman/tbot) | 10 | 3.7 MB | 1 | 11 Jan 2026 | dormant | public |
+| [o-o](https://github.com/Daboggieman/o-o) | 8 | 11.0 kB | 0 | 4 Sep 2026 | occupied | public |
 | outreach | 8 | 5.1 MB | 0 | 4 Aug 2026 | dormant | private |
-| [o-o](https://github.com/Daboggieman/o-o) | 7 | 10.0 kB | 0 | 4 Sep 2026 | occupied | public |
 | [Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup) | 6 | 11.0 kB | 0 | 18 Aug 2026 | occupied | public |
 | [COR-BOT](https://github.com/Daboggieman/COR-BOT) | 5 | 107.0 kB | 0 | 14 Jul 2025 | dormant | public |
 | NEW-Cove | 4 | 295.0 kB | 0 | 2 Dec 2025 | dormant | private |
