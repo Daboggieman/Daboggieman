@@ -12,6 +12,33 @@ type Day struct {
 }
 
 // Language is one aggregated language share across owned, non-fork repos.
+// CommitStamp is when one commit was written, in whatever clock the API reported.
+//
+// GitHub types Commit.committedDate as GitTimestamp, which the reference describes
+// as "not converted in UTC" — so the string normally carries the offset the commit
+// was actually made in and the parsed hour is already the author's own. Some
+// histories come back normalised to Z regardless (CI runners commit with TZ=UTC),
+// and reading those as local would quietly move a night of work into the afternoon.
+// So the offset is kept rather than discarded: the card counts how many stamps
+// arrived with a real offset, states it, and -tz shifts only the ones that did not.
+type CommitStamp struct {
+	At     time.Time
+	Offset int // seconds east of UTC, exactly as the timestamp declared it
+}
+
+// tzFallback is the offset in hours applied to stamps that arrived normalised to
+// UTC. Zero by default: guessing a clock is worse than reporting which clock was
+// read, so this only moves when the profile's owner sets -tz.
+var tzFallback int
+
+// Local puts a stamp on the clock the rhythm card should read it in.
+func (c CommitStamp) Local() time.Time {
+	if c.Offset == 0 && tzFallback != 0 {
+		return c.At.Add(time.Duration(tzFallback) * time.Hour)
+	}
+	return c.At
+}
+
 type Language struct {
 	Name  string
 	Bytes int
@@ -73,23 +100,34 @@ type Stats struct {
 	Repos     []Repo
 
 	GeneratedAt time.Time
+
+	// History is the archive on disk, oldest first, loaded before rendering. It is
+	// the only source of a baseline: see history.go.
+	History []Snapshot
+
+	// CommitStamps is a sample of commit timestamps off the default branches,
+	// attributed to this login. It is a sample, not the whole history, and the
+	// rhythm card says so.
+	CommitStamps []CommitStamp
 }
 
 // maxLanguageSlots caps the language chart. Past the cap the tail folds into
 // "Other" rather than growing the category count.
 const maxLanguageSlots = 6
 
-// maxCityBlocks caps how many buildings the skyline draws. It is a var rather than
-// a const only so -buildings can raise it; nothing mutates it after start-up.
+// maxCityBlocks caps how many buildings the skyline draws; maxCityCols caps how
+// many stand on one street before it wraps.
 //
-// The default is 9, which is where the arithmetic runs out rather than a taste
-// call. The card grows sideways to fit what it is given — 40px of padding plus
-// 105px per building — and a README column renders an image at roughly 860px, so
-// anything wider is downscaled and the 9.5px labels shrink with it. Holding labels
-// at 8px effective allows about 1020px of card, which is 9 buildings. Past that the
-// skyline would be a row of unreadable rectangles, so the cap cuts instead, the
-// chrome says how many of how many are standing, and the table view keeps the rest.
-var maxCityBlocks = 9
+// The column budget is the width argument: 40px of padding plus 105px per
+// building puts eight at 880px, which matches the terminal card and still lands
+// under the ~860px a README column renders an image at, so 9.5px labels arrive
+// close to full size. Past eight the street wraps instead of stretching, so width
+// stops growing and the limit becomes vertical: 30 is roughly four streets, past
+// which the card is taller than a viewport and the table view is the better read.
+var (
+	maxCityBlocks = 30
+	maxCityCols   = 8
+)
 
 // cityFreshWindow is how recently a repo must have been pushed to for its
 // building to read as occupied. Roughly a month: long enough that a normal gap

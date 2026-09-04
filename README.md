@@ -28,12 +28,45 @@ the link would 404 for everyone but me.
 
 <br/>
 
+## Calendar
+
+A year of contributions, one cell per day. The four shades are the quartiles of my
+own active days rather than fractions of the busiest one, so a single heavy day
+cannot flatten the rest of the year into a single tone. Every band prints its
+numeric range in the legend, so the chart still reads with no colour at all.
+
+<div align="center">
+
+<img src="./assets/calendar.svg" alt="Contribution calendar: 53 weeks by 7 days, shaded in four bands by daily contribution count, with the numeric range of each band printed in the legend" width="100%">
+
+</div>
+
+<br/>
+
 ## Languages and activity
 
 <div align="center">
 
 <img src="./assets/languages.svg" alt="Language share by tracked bytes across every non-fork repository" width="49%">
 <img src="./assets/activity.svg" alt="Daily contribution counts over the last 30 days, with the change against the prior 30" width="49%">
+
+</div>
+
+<br/>
+
+## Collaboration and rhythm
+
+Left: the share of a year that involved somebody else. Commits are deliberately not
+one of the bars — a few dozen pull requests beside twelve hundred commits is a
+sliver on a shared axis, so commits are the denominator the headline is quoted
+against instead. Right: when the commits actually land, hour of day against day of
+week, drawn from the last fifty commits on each default branch and labelled with
+which clock it read.
+
+<div align="center">
+
+<img src="./assets/collab.svg" alt="Collaboration card: pull requests, reviews and issues ranked as horizontal bars, with the 30-day movement of each and the collaborative share of all contributions" width="49%">
+<img src="./assets/rhythm.svg" alt="Commit rhythm: a 7 by 24 heatmap of commits by day of week and hour of day, sampled from recent default-branch history" width="49%">
 
 </div>
 

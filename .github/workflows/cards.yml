@@ -54,19 +54,42 @@ jobs:
           # Repos that should not be named on a public page at all, private or
           # not. Excluded before anything is counted, so they leave no trace.
           EXCLUDE: ${{ vars.CARDS_EXCLUDE }}
-        run: go run ./cmd/cards -login "${{ github.repository_owner }}" -exclude "$EXCLUDE"
+          # Hours east of UTC. Only ever applied to commit stamps that arrived with
+          # no offset at all — set the repository variable CARDS_TZ if the rhythm
+          # card reports it read everything in UTC. Unset means UTC, which is what
+          # the card then says it read.
+          TZ_SHIFT: ${{ vars.CARDS_TZ || 0 }}
+        run: |
+          go run ./cmd/cards \
+            -login "${{ github.repository_owner }}" \
+            -exclude "$EXCLUDE" \
+            -tz "$TZ_SHIFT" \
+            -history history.jsonl \
+            -message /tmp/cards-subject
 
       - name: Commit
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # history.jsonl is committed alongside the cards because it is the only
+          # memory the generator has: every delta on every card is measured against
+          # a reading that must survive the runner being thrown away.
           git add assets README.md
-          # The generator is deterministic apart from the render date, so most
-          # runs produce no diff at all. Nothing to commit is the success case.
+          # Guarded rather than listed above: git add fails the step on a pathspec
+          # that matches nothing, and the archive does not exist until the first run
+          # of the generator has written it.
+          if [ -f history.jsonl ]; then
+            git add history.jsonl
+          fi
+          # The rolling 365-day window moves every day, so a diff is the normal
+          # case; an empty one is still fine and is not an error.
           if git diff --cached --quiet; then
             echo "cards unchanged"
             exit 0
           fi
-          git commit -m "cards: refresh from live profile data"
+          # The generator names what actually moved, so the log reads as a record
+          # instead of 365 identical lines. It falls back if the file is missing.
+          subject="$(head -n 1 /tmp/cards-subject 2>/dev/null || true)"
+          git commit -m "${subject:-cards: refresh from live profile data}"
           git push

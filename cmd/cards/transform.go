@@ -54,6 +54,24 @@ func (r *apiResponse) toStats(now time.Time, hide map[string]bool) *Stats {
 		commits := 0
 		if br := node.DefaultBranchRef; br != nil && br.Target != nil {
 			commits = br.Target.History.TotalCount
+			// Attribution matters more than sample size here: a repo with other
+			// contributors would otherwise lend their working hours to this card.
+			// A commit whose author GitHub cannot match to an account is dropped
+			// rather than guessed at, and the card reports the sample it got.
+			for _, cm := range br.Target.Recent.Nodes {
+				if cm.Author == nil || cm.Author.User == nil {
+					continue
+				}
+				if !strings.EqualFold(cm.Author.User.Login, u.Login) {
+					continue
+				}
+				at, err := time.Parse(time.RFC3339, cm.CommittedDate)
+				if err != nil {
+					continue
+				}
+				_, offset := at.Zone()
+				s.CommitStamps = append(s.CommitStamps, CommitStamp{At: at, Offset: offset})
+			}
 		}
 		s.Repos = append(s.Repos, Repo{
 			Name:     node.Name,
@@ -74,6 +92,14 @@ func (r *apiResponse) toStats(now time.Time, hide map[string]bool) *Stats {
 	}
 
 	s.Languages = aggregateLanguages(byLang)
+	// Oldest first, so the committed SVG is stable whatever order the repos came
+	// back in.
+	sort.Slice(s.CommitStamps, func(i, j int) bool {
+		if !s.CommitStamps[i].At.Equal(s.CommitStamps[j].At) {
+			return s.CommitStamps[i].At.Before(s.CommitStamps[j].At)
+		}
+		return s.CommitStamps[i].Offset < s.CommitStamps[j].Offset
+	})
 
 	for _, w := range c.Calendar.Weeks {
 		for _, d := range w.ContributionDays {

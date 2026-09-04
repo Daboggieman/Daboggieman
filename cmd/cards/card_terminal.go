@@ -66,9 +66,9 @@ func renderTerminal(s *Stats) string {
 	h := meterY + 62.0
 
 	c := newCanvas(w, h, "Raph'el Ogah — profile terminal",
-		fmt.Sprintf("%s, based in %s. Works in %s. %s commits, %s repos, %s stars. Current streak %d days against a personal best of %d.",
+		fmt.Sprintf("%s, based in %s. Works in %s. %s commits, %s repos, %s stars. Current streak %s against a personal best of %s.",
 			name, where, stack, compact(s.Commits), compact(s.RepoCount), compact(s.Stars),
-			s.CurrentStreak, s.LongestStreak))
+			dayCount(s.CurrentStreak), dayCount(s.LongestStreak)))
 
 	// Every animation here is additive: the settled frame is the base style, and
 	// the keyframes only add motion on top of it. A staggered reveal that starts
@@ -144,7 +144,7 @@ func renderStreakMeter(c *canvas, s *Stats, x, y, w float64) {
 	// The fill's settled width is its real value; the animation only grows into it.
 	fillW := ratio * trackW
 	c.hBar(x, y, fillW, trackH, accent,
-		fmt.Sprintf("current streak %d days; personal best %d days", s.CurrentStreak, s.LongestStreak),
+		fmt.Sprintf("current streak %s; personal best %s", dayCount(s.CurrentStreak), dayCount(s.LongestStreak)),
 		`class="grow"`)
 	// Two touching fills get a gap in the surface colour, not a stroke. Fill and
 	// track are two steps of one ramp, which is a clear step at full size but a

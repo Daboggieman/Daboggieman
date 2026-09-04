@@ -37,6 +37,16 @@ func commas(v int) string {
 	return joined
 }
 
+// dayCount renders a span in days. plural() would do, except streak counts are
+// worth comma-grouping once they pass a thousand, and "1 days" was on the live
+// profile in four places before this existed.
+func dayCount(n int) string {
+	if n == 1 {
+		return "1 day"
+	}
+	return commas(n) + " days"
+}
+
 func plural(n int, word string) string {
 	if n == 1 {
 		return fmt.Sprintf("%d %s", n, word)

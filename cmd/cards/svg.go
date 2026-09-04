@@ -101,3 +101,12 @@ func (c *canvas) String() string {
 	out.WriteString("</svg>\n")
 	return out.String()
 }
+
+// caption writes a card's footnote and refuses to let it run past the card's edge.
+// An overflowing caption is invisible in a standalone SVG — the viewport simply
+// stops — so the failure looks like a sentence that just ends. Clipping it to a
+// visible ellipsis turns a silent truncation into an obvious one, and any caption
+// that ellipsises is a caption to rewrite.
+func caption(c *canvas, x, y, maxW float64, s string) {
+	c.text(x, y, truncateToWidth(s, 9, maxW), textOpts{size: 9, fill: inkLow})
+}

@@ -2,10 +2,13 @@ package main
 
 import "fmt"
 
-// statTile is one readout in the KPI row: label + value, no plot of its own.
+// statTile is one readout in the KPI row: label + value, no plot of its own, and
+// an optional movement line underneath. delta stays empty where the archive cannot
+// support a claim — see history.go.
 type statTile struct {
 	label string
 	value string
+	delta string
 }
 
 // renderActivity draws the activity card: one hero figure, a KPI row, and a
@@ -24,8 +27,8 @@ func renderActivity(s *Stats) string {
 
 	chromeH := 30.0
 	c := newCanvas(w, 0, "Contribution activity",
-		fmt.Sprintf("%d contributions in the last 365 days; %d day current streak; %d day longest streak.",
-			s.TotalContributions, s.CurrentStreak, s.LongestStreak))
+		fmt.Sprintf("%s contributions in the last 365 days. Current streak %s, longest %s.",
+			commas(s.TotalContributions), dayCount(s.CurrentStreak), dayCount(s.LongestStreak)))
 
 	// --- hero figure: the one number the card leads with ---
 	heroLabelY := chromeH + 24.0
@@ -37,13 +40,15 @@ func renderActivity(s *Stats) string {
 
 	// --- KPI row ---
 	tiles := []statTile{
-		{"current streak", fmt.Sprintf("%dd", s.CurrentStreak)},
-		{"longest streak", fmt.Sprintf("%dd", s.LongestStreak)},
-		{"commits", compact(s.Commits)},
-		{"stars earned", compact(s.Stars)},
+		{label: "current streak", value: fmt.Sprintf("%dd", s.CurrentStreak)},
+		{label: "longest streak", value: fmt.Sprintf("%dd", s.LongestStreak)},
+		{label: "commits", value: compact(s.Commits),
+			delta: s.trendFor(s.Commits, func(p Snapshot) int { return p.Commits })},
+		{label: "stars earned", value: compact(s.Stars),
+			delta: s.trendFor(s.Stars, func(p Snapshot) int { return p.Stars })},
 	}
 	tileTop := heroValueY + 26.0
-	tileH := 40.0
+	tileH := 52.0
 	sparkTop := tileTop + tileH + 26.0
 	h := sparkTop + sparkH + 30.0
 	c.h = h
@@ -67,6 +72,10 @@ func renderActivity(s *Stats) string {
 		x := pad + float64(i)*colW
 		c.text(x, tileTop+4, t.label, textOpts{size: 9.5, fill: inkLow})
 		c.text(x, tileTop+26, t.value, textOpts{size: 17, fill: inkHi, weight: "500"})
+		if t.delta != "" {
+			c.text(x, tileTop+40, truncateToWidth(t.delta, 9, colW-8),
+				textOpts{size: 9, fill: inkLow})
+		}
 	}
 
 	renderSparkline(c, recent, pad, sparkTop, w-2*pad, sparkH)

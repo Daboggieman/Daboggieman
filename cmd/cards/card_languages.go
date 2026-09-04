@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 // renderLanguages draws a horizontal bar chart ranking languages by share of
-// bytes across owned public repos.
+// bytes across every owned non-fork repo the token could see — which, with a
+// repo-scoped PAT, includes private ones. The description says so rather than
+// claiming "public repositories": the token decides what got counted, and a card
+// that overstates its own scope is a wrong number wearing a caption.
 //
 // Form: magnitude comparison, so bars scaled to the leader and one hue for every
 // bar. Languages are nominal categories, so a value-ramp across them would
@@ -32,8 +35,16 @@ func renderLanguages(s *Stats) string {
 	plotTop := chromeH + 18.0
 	h := plotTop + rows*rowPitch + 34.0
 
+	scope := fmt.Sprintf("%d repositories", s.RepoCount)
+	if s.RepoCount == 1 {
+		scope = "1 repository"
+	}
+	if n := s.PrivateCount(); n > 0 {
+		scope += fmt.Sprintf(", %d of them private", n)
+	}
 	c := newCanvas(w, h, "Language mix",
-		fmt.Sprintf("Share of code by bytes across %d public repositories, ranked.", s.RepoCount))
+		fmt.Sprintf("Share of code by bytes across %s, ranked. Largest is %s at %.1f%%.",
+			scope, langs[0].Name, langs[0].Share*100))
 	c.windowChrome(fmt.Sprintf("~/languages  ·  %d repos", s.RepoCount))
 
 	axisX := pad + labelW

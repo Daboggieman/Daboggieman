@@ -62,20 +62,69 @@ func renderTableView(s *Stats) string {
 		fmt.Fprintf(&b, "| %s | %.1f%% | %s |\n", l.Name, l.Share*100, humanBytes(l.Bytes))
 	}
 
-	b.WriteString("\n| Metric | Last 365 days |\n|---|---:|\n")
-	rows := [][2]string{
-		{"Contributions", commas(s.TotalContributions)},
-		{"Commits", commas(s.Commits)},
-		{"Pull requests", commas(s.PullRequests)},
-		{"Issues", commas(s.Issues)},
-		{"Reviews", commas(s.Reviews)},
-		{"Current streak", fmt.Sprintf("%s days", commas(s.CurrentStreak))},
-		{"Longest streak", fmt.Sprintf("%s days", commas(s.LongestStreak))},
-		{"Repositories", commas(s.RepoCount)},
-		{"Stars earned", commas(s.Stars)},
+	// The third column is the same movement the cards print, sourced from the same
+	// archive. It is empty until history.jsonl has a reading old enough to compare
+	// against, which is the honest answer on a first run.
+	b.WriteString("\n| Metric | Last 365 days | Change |\n|---|---:|---:|\n")
+	rows := []struct {
+		label string
+		value string
+		pick  func(Snapshot) int
+		now   int
+	}{
+		{"Contributions", commas(s.TotalContributions), func(p Snapshot) int { return p.Contributions }, s.TotalContributions},
+		{"Commits", commas(s.Commits), func(p Snapshot) int { return p.Commits }, s.Commits},
+		{"Pull requests", commas(s.PullRequests), func(p Snapshot) int { return p.PullRequests }, s.PullRequests},
+		{"Issues", commas(s.Issues), func(p Snapshot) int { return p.Issues }, s.Issues},
+		{"Reviews", commas(s.Reviews), func(p Snapshot) int { return p.Reviews }, s.Reviews},
+		{"Current streak", dayCount(s.CurrentStreak), func(p Snapshot) int { return p.CurrentStreak }, s.CurrentStreak},
+		{"Longest streak", dayCount(s.LongestStreak), func(p Snapshot) int { return p.LongestStreak }, s.LongestStreak},
+		{"Repositories", commas(s.RepoCount), func(p Snapshot) int { return p.Repos }, s.RepoCount},
+		{"Stars earned", commas(s.Stars), func(p Snapshot) int { return p.Stars }, s.Stars},
+		{"Followers", commas(s.Followers), func(p Snapshot) int { return p.Followers }, s.Followers},
 	}
 	for _, r := range rows {
-		fmt.Fprintf(&b, "| %s | %s |\n", r[0], r[1])
+		change := "—"
+		if r.pick != nil {
+			if t := s.trendFor(r.now, r.pick); t != "" {
+				change = t
+			}
+		}
+		fmt.Fprintf(&b, "| %s | %s | %s |\n", r.label, r.value, change)
+	}
+	// The collaboration card's headline is a ratio, and a ratio read off a bar chart
+	// is a guess. The share belongs in the value cell, not in the change column —
+	// one column, one quantity.
+	if acts := s.PullRequests + s.Reviews + s.Issues; s.TotalContributions > 0 {
+		change := "—"
+		if t := s.trendFor(acts, func(p Snapshot) int {
+			return p.PullRequests + p.Reviews + p.Issues
+		}); t != "" {
+			change = t
+		}
+		fmt.Fprintf(&b, "| Collaborative acts | %s (%.1f%% of all) | %s |\n",
+			commas(acts), float64(acts)/float64(s.TotalContributions)*100, change)
+	}
+
+	// The calendar and the rhythm card are both sequential heatmaps, and a heatmap
+	// is the one form that says nothing at all without color. Their headline
+	// readings go here as words so the page still carries them.
+	if busiest, quiet := s.CalendarPeak(); len(s.Days) > 0 {
+		b.WriteString("\n| Calendar | Value |\n|---|---:|\n")
+		fmt.Fprintf(&b, "| Busiest day | %s (%s) |\n",
+			busiest.Date.Format("2 Jan 2006"), plural(busiest.Count, "contribution"))
+		fmt.Fprintf(&b, "| Days with nothing | %s of %s |\n",
+			commas(quiet), plural(len(s.Days), "day"))
+		fmt.Fprintf(&b, "| Days with something | %s |\n", commas(len(s.Days)-quiet))
+	}
+
+	if _, sum := s.RhythmGrid(); sum.Sample > 0 {
+		b.WriteString("\n| Commit rhythm | Value |\n|---|---:|\n")
+		fmt.Fprintf(&b, "| Busiest slot | %s %02d:00–%02d:59 (%s) |\n",
+			sum.PeakDay(), sum.PeakHour, sum.PeakHour, plural(sum.Peak, "commit"))
+		fmt.Fprintf(&b, "| Sample | %s, %s to %s |\n", plural(sum.Sample, "commit"),
+			sum.Oldest.Format("2 Jan 2006"), sum.Newest.Format("2 Jan 2006"))
+		fmt.Fprintf(&b, "| Clock | %s |\n", sum.Clock())
 	}
 
 	// Every repo's height, footprint and lit state, so the city is readable with

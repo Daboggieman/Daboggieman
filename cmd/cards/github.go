@@ -29,7 +29,10 @@ const query = `query($login:String!){
         diskUsage
         primaryLanguage{name}
         languages(first:12, orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}
-        defaultBranchRef{target{... on Commit{history{totalCount}}}}
+        defaultBranchRef{target{... on Commit{
+          history{totalCount}
+          recent: history(first:50){nodes{committedDate author{user{login}}}}
+        }}}
       }
     }
     contributionsCollection{
@@ -78,11 +81,27 @@ type apiResponse struct {
 					} `json:"languages"`
 					// defaultBranchRef is null on an empty repo, and target only
 					// carries history when it is a Commit, so both hops are optional.
+					//
+					// recent is a second, aliased pass over the same history: the
+					// totalCount is the building's height, and these fifty timestamps
+					// are the sample the rhythm card reads. Fifty per repo keeps the
+					// query's node count in the low thousands while still covering
+					// months of work on anything but the busiest repo.
 					DefaultBranchRef *struct {
 						Target *struct {
 							History struct {
 								TotalCount int `json:"totalCount"`
 							} `json:"history"`
+							Recent struct {
+								Nodes []struct {
+									CommittedDate string `json:"committedDate"`
+									Author        *struct {
+										User *struct {
+											Login string `json:"login"`
+										} `json:"user"`
+									} `json:"author"`
+								} `json:"nodes"`
+							} `json:"recent"`
 						} `json:"target"`
 					} `json:"defaultBranchRef"`
 				} `json:"nodes"`

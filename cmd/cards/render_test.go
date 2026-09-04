@@ -92,6 +92,9 @@ func cards(s *Stats) map[string]string {
 		"terminal":  renderTerminal(s),
 		"languages": renderLanguages(s),
 		"activity":  renderActivity(s),
+		"collab":    renderCollab(s),
+		"calendar":  renderHeatmap(s),
+		"rhythm":    renderRhythm(s),
 		"city":      renderCity(s),
 	}
 }
