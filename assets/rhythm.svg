@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="242" viewBox="0 0 460 242" role="img" aria-labelledby="t d">
   <title id="t">Commit rhythm</title>
-  <desc id="d">Hour of day against day of week for a sample of 296 commits, 14 Mar 2025 to 4 Sep 2026. Busiest slot is Thu at 18:00 with 15 commits. Read in UTC — every stamp in the sample came back without an offset. 17% of the sample is weekend work and 15% of it lands between 22:00 and 06:00. Shading runs in four bands by commits per slot: 1, 2–3, 4 and 5+.</desc>
+  <desc id="d">Hour of day against day of week for a sample of 297 commits, 14 Mar 2025 to 4 Sep 2026. Busiest slot is Thu at 18:00 with 15 commits. Read in UTC — every stamp in the sample came back without an offset. 17% of the sample is weekend work and 15% of it lands between 22:00 and 06:00. Shading runs in four bands by commits per slot: 1, 2–3, 4 and 5+.</desc>
   <style>
     @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
     .rc{animation:heat 800ms ease-out}
@@ -36,7 +36,7 @@
   <circle cx="16" cy="15" r="4" fill="#FF5F57" opacity="0.85"/>
   <circle cx="32" cy="15" r="4" fill="#FEBC2E" opacity="0.85"/>
   <circle cx="48" cy="15" r="4" fill="#28C840" opacity="0.85"/>
-  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/rhythm  ·  296 commits sampled</text>
+  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/rhythm  ·  297 commits sampled</text>
   <text x="60" y="46" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681">00</text>
   <text x="108" y="46" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681">03</text>
   <text x="156" y="46" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681">06</text>
@@ -185,7 +185,7 @@
   <rect x="188" y="70" width="14" height="14" rx="2" fill="#2EA043"/>
   </g>
   <g class="rc rh9">
-    <title>Tue 09:00–09:59 — 12 commits</title>
+    <title>Tue 09:00–09:59 — 11 commits</title>
   <rect x="204" y="70" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh10">
@@ -513,8 +513,8 @@
   <rect x="348" y="118" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh19">
-    <title>Fri 19:00–19:59 — 1 commit</title>
-  <rect x="364" y="118" width="14" height="14" rx="2" fill="#116329"/>
+    <title>Fri 19:00–19:59 — 3 commits</title>
+  <rect x="364" y="118" width="14" height="14" rx="2" fill="#2EA043"/>
   </g>
   <g class="rc rh20">
     <title>Fri 20:00–20:59 — 0 commits</title>
@@ -736,7 +736,7 @@
   <rect x="249.79999999999995" y="182" width="9" height="9" rx="2" fill="#AFF5B4"/>
   <text x="262.79999999999995" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">5+</text>
   <text x="442" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681" text-anchor="end">busiest Thu 18:00</text>
-  <text x="18" y="210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">weekends 17%  ·  nights 22:00–06:00 15%  ·  296 commits</text>
+  <text x="18" y="210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">weekends 17%  ·  nights 22:00–06:00 15%  ·  297 commits</text>
   <text x="18" y="220" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">sample: last 50 commits per repo, 14 Mar 2025 to 4 Sep 2026</text>
   <text x="18" y="231" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">clock: UTC — every stamp in the sample came back without an offset</text>
 </svg>
