@@ -17,8 +17,6 @@
 
 Every repository I own is a building: height is commits on the default branch,
 footprint is size on disk, a lit facade means I pushed to it in the last 30 days.
-Private repos are in here too — counted for their activity, never linked, because
-the link would 404 for everyone but me.
 
 <div align="center">
 
@@ -28,12 +26,10 @@ the link would 404 for everyone but me.
 
 <br/>
 
-## Calendar
+## Contribution Calendar
 
 A year of contributions, one cell per day. The four shades are the quartiles of my
-own active days rather than fractions of the busiest one, so a single heavy day
-cannot flatten the rest of the year into a single tone. Every band prints its
-numeric range in the legend, so the chart still reads with no colour at all.
+own active days rather than fractions of the busiest one
 
 <div align="center">
 
@@ -56,13 +52,6 @@ numeric range in the legend, so the chart still reads with no colour at all.
 
 ## Collaboration and rhythm
 
-Left: the share of a year that involved somebody else. Commits are deliberately not
-one of the bars — a few dozen pull requests beside twelve hundred commits is a
-sliver on a shared axis, so commits are the denominator the headline is quoted
-against instead. Right: when the commits actually land, hour of day against day of
-week, drawn from the last fifty commits on each default branch and labelled with
-which clock it read.
-
 <div align="center">
 
 <img src="./assets/collab.svg" alt="Collaboration card: pull requests, reviews and issues ranked as horizontal bars, with the 30-day movement of each and the collaborative share of all contributions" width="49%">
@@ -73,13 +62,6 @@ which clock it read.
 <br/>
 
 ## Years and drift
-
-Left: the whole record at once, one row per year and one cell per month, so a column
-is a season — scan down March and you can see whether March is always busy or was
-busy once. Right: the only derivative on this page. Every other card is a level; this
-one is which way the language mix is moving, in percentage points, measured against a
-reading the archive kept a month ago. It cannot be reconstructed after the fact, so
-it starts the day the archive does.
 
 <div align="center">
 
@@ -97,11 +79,11 @@ it starts the day the archive does.
 | Project | What it is |
 |---|---|
 | 🏋️ **Kairo** | Personal all-in-one fitness app — workouts, progress, GPS tracking, offline-first *(in development, private)* |
-| 🐍 **[python-study](https://github.com/Daboggieman/python-study)** | Python experiments and learning projects |
+| 🐍 **[python-study](https://github.com/Daboggieman/python-study)** | Python experiments and learning projects (extremely detailed)|
 | 📡 **[gsmhub](https://github.com/Daboggieman/gsmhub)** | check it out yourself, its kinda cringe tho |
 | 🐹 **[golang-study](https://github.com/Daboggieman/golang-study)** | Go experiments and learning projects |
 | 🛠️ **[Maeker](https://github.com/Daboggieman/Maeker)** | Python project |
-| 🤖 **[tbot](https://github.com/Daboggieman/tbot)** | Python-based trading algorithm project *(in development)* |
+| 🤖 **tbot** | Python-based trading algorithm project *(in development,private)* |
 | 🔌 **[Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup)** | Shell scripts for setting up an agent router |
 | 🐍 **[COR-BOT](https://github.com/Daboggieman/COR-BOT)** | Baby Tbot *tbot-v0* |
 
