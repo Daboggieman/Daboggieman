@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="749" height="199" viewBox="0 0 749 199" role="img" aria-labelledby="t d">
   <title id="t">Contribution calendar</title>
-  <desc id="d">347 contributions over 53 weeks, one cell per day. Busiest day was 3 September 2026 with 36 contributions. 299 days were quiet. Shading runs in four bands by daily count: 1, 2–3, 4–5 and 6+.</desc>
+  <desc id="d">349 contributions over 53 weeks, one cell per day. Busiest day was 3 September 2026 with 36 contributions. 299 days were quiet. Shading runs in four bands by daily count: 1, 2–3, 4–5 and 6+.</desc>
   <style>
     @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
     .hc{animation:heat 800ms ease-out}
@@ -65,7 +65,7 @@
   <circle cx="16" cy="15" r="4" fill="#FF5F57" opacity="0.85"/>
   <circle cx="32" cy="15" r="4" fill="#FEBC2E" opacity="0.85"/>
   <circle cx="48" cy="15" r="4" fill="#28C840" opacity="0.85"/>
-  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/calendar  ·  347 contributions in 53 weeks</text>
+  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/calendar  ·  349 contributions in 53 weeks</text>
   <text x="44" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Aug</text>
   <text x="57" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Sep</text>
   <text x="109" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Oct</text>
@@ -1559,7 +1559,7 @@
   <rect x="720" y="104" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw52">
-    <title>Fri 4 Sep 2026 — 8 contributions</title>
+    <title>Fri 4 Sep 2026 — 10 contributions</title>
   <rect x="720" y="117" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <text x="44" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">per day</text>
