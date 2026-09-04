@@ -68,13 +68,39 @@ func (s *Stats) Snapshot() Snapshot {
 		Followers:     s.Followers,
 		CurrentStreak: s.CurrentStreak,
 		LongestStreak: s.LongestStreak,
-		Langs:         langShares(s.Languages),
+		Langs:         s.langShareMap(),
 	}
 }
 
 // langShares rounds each share to two decimal places of a percent. Rounded
 // because the archive is a committed text file: unrounded float64 noise in the
 // fifteenth digit would make a diff on days when nothing actually moved.
+// langShareMap is the share map the archive stores and the drift card reads. It
+// prefers the unfolded map and falls back to the drawn slice, so a Stats built by
+// hand still archives the shares it does have.
+func (s *Stats) langShareMap() map[string]float64 {
+	if len(s.LangShares) > 0 {
+		return s.LangShares
+	}
+	return langShares(s.Languages)
+}
+
+// sharesOfBytes turns raw byte counts into percentage points of the whole.
+func sharesOfBytes(byLang map[string]int) map[string]float64 {
+	total := 0
+	for _, b := range byLang {
+		total += b
+	}
+	if total == 0 {
+		return nil
+	}
+	out := make(map[string]float64, len(byLang))
+	for name, b := range byLang {
+		out[name] = math.Round(float64(b)/float64(total)*10000) / 100
+	}
+	return out
+}
+
 func langShares(langs []Language) map[string]float64 {
 	if len(langs) == 0 {
 		return nil
@@ -95,35 +121,67 @@ type LangMove struct {
 func (m LangMove) Delta() float64 { return m.Now - m.Then }
 
 // LanguageDrift pairs today's shares against the nearest archived reading that
-// recorded them, newest-heaviest first.
+// recorded them, biggest mover first.
 //
 // Percentage points, not percent-of-percent: a language going 40% -> 44% moved
 // four points, and calling that "10% growth" would be a different and much less
-// useful claim. Languages present in only one of the two readings still appear,
-// because an entry appearing or vanishing is the most interesting kind of drift.
+// useful claim.
+//
+// Both sides come from the unfolded share map, never from the drawn slice. The
+// languages card folds its tail into "Other", and comparing two folded readings
+// makes a language that merely crossed the fold look like it was deleted — a wrong
+// number rather than a missing one. "Other" itself is excluded for the same reason:
+// it is a bucket whose membership changes between readings, so its movement measures
+// the fold, not the work.
+//
+// Ranked by the size of the move rather than by share, because that is the quantity
+// this card exists to show; a caller that wants share order has the languages card
+// and the table view. Languages present in only one reading still appear, since an
+// entry appearing or vanishing is the most interesting kind of drift.
 func (s *Stats) LanguageDrift(want int) ([]LangMove, int, bool) {
 	base, age, ok := s.Baseline(want)
-	if !ok || len(base.Langs) == 0 || len(s.Languages) == 0 {
+	if !ok {
+		return nil, 0, false
+	}
+	then, now := withoutOther(base.Langs), withoutOther(s.langShareMap())
+	if len(then) == 0 || len(now) == 0 {
 		return nil, 0, false
 	}
 
-	now := langShares(s.Languages)
-	seen := make(map[string]bool, len(now)+len(base.Langs))
-	var out []LangMove
-	for _, l := range s.Languages { // ranked order, so the card is ranked too
-		seen[l.Name] = true
-		out = append(out, LangMove{Name: l.Name, Then: base.Langs[l.Name], Now: now[l.Name]})
+	out := make([]LangMove, 0, len(now)+len(then))
+	for name, v := range now {
+		out = append(out, LangMove{Name: name, Then: then[name], Now: v})
 	}
-	// A language that was there and is not any more has a real story to tell, so
-	// it is drawn falling to zero rather than dropped.
-	var gone []LangMove
-	for name, then := range base.Langs {
-		if !seen[name] {
-			gone = append(gone, LangMove{Name: name, Then: then})
+	for name, v := range then {
+		if _, held := now[name]; !held {
+			out = append(out, LangMove{Name: name, Then: v})
 		}
 	}
-	sort.Slice(gone, func(i, j int) bool { return gone[i].Then > gone[j].Then })
-	return append(out, gone...), age, true
+	sort.Slice(out, func(i, j int) bool {
+		a, b := math.Abs(out[i].Delta()), math.Abs(out[j].Delta())
+		switch {
+		case a != b:
+			return a > b
+		case out[i].Now != out[j].Now:
+			return out[i].Now > out[j].Now
+		}
+		return out[i].Name < out[j].Name
+	})
+	return out, age, true
+}
+
+// withoutOther copies a share map with the folded bucket left out.
+func withoutOther(m map[string]float64) map[string]float64 {
+	if len(m) == 0 {
+		return nil
+	}
+	out := make(map[string]float64, len(m))
+	for name, v := range m {
+		if name != "Other" {
+			out[name] = v
+		}
+	}
+	return out
 }
 
 // loadHistory reads the archive, oldest first.

@@ -95,6 +95,7 @@ func (r *apiResponse) toStats(now time.Time, hide map[string]bool) *Stats {
 	}
 
 	s.Languages = aggregateLanguages(byLang)
+	s.LangShares = sharesOfBytes(byLang)
 	// Oldest first, so the committed SVG is stable whatever order the repos came
 	// back in.
 	sort.Slice(s.CommitStamps, func(i, j int) bool {

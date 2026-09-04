@@ -126,6 +126,12 @@ type Stats struct {
 	History []Snapshot
 
 	// Years is the multi-year record, oldest first, one row per calendar year.
+	// LangShares is every language's share in percentage points, taken before the
+	// tail is folded into "Other". The Languages slice above is what the chart can
+	// draw; this is what the archive has to keep, because a language that crosses
+	// the fold between two readings would otherwise look like it disappeared.
+	LangShares map[string]float64
+
 	Years []YearRow
 
 	// CreatedAt is when the account was opened, so the year grid can say where the

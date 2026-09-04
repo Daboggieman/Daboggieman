@@ -68,6 +68,21 @@ func renderYears(s *Stats) string {
 	legendY := gridTop + gridH + 26.0
 	h := legendY + 30.0
 
+	// A month that has not happened yet, or predates the account, is absent — not
+	// quiet. Drawing it as a zero cell is the same false zero the calendar card
+	// leaves out, and on the current year's row it would claim four empty months.
+	gen := s.GeneratedAt
+	outside := func(year, month int) bool {
+		if year > gen.Year() || (year == gen.Year() && month > int(gen.Month())) {
+			return true
+		}
+		if s.CreatedAt.IsZero() {
+			return false
+		}
+		return year < s.CreatedAt.Year() ||
+			(year == s.CreatedAt.Year() && month < int(s.CreatedAt.Month()))
+	}
+
 	peakMonth, peakCount := best.Peak()
 	c := newCanvas(w, h, "Contributions by month and year",
 		fmt.Sprintf("%s across %s, one cell per month. Busiest year was %d with %s, "+
@@ -100,6 +115,9 @@ func renderYears(s *Stats) string {
 			textOpts{size: 9.5, fill: inkMid})
 
 		for m, v := range y.Months {
+			if outside(y.Year, m+1) {
+				continue
+			}
 			fill := gridline
 			if lvl := heatLevel(v, bands); lvl > 0 {
 				fill = heatSteps[lvl-1]
@@ -125,11 +143,12 @@ func renderYears(s *Stats) string {
 
 	// Where the record starts, so the empty months at the top of the first row read
 	// as "before this account existed" rather than as quiet ones.
-	note := fmt.Sprintf("busiest %d · %s", best.Year, commas(best.Total))
+	note := fmt.Sprintf("busiest %d with %s", best.Year, commas(best.Total))
 	if !s.CreatedAt.IsZero() {
-		note = fmt.Sprintf("account opened %s · %s", s.CreatedAt.Format("Jan 2006"), note)
+		note = fmt.Sprintf("opened %s · %s · blank = outside the record",
+			s.CreatedAt.Format("Jan 2006"), note)
 	}
-	caption(c, pad, h-11, w-2*pad, note+" · bands are the quartiles of the active months shown")
+	caption(c, pad, h-11, w-2*pad, note)
 	return c.String()
 }
 

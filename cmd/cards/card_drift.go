@@ -43,11 +43,16 @@ func renderDrift(s *Stats) string {
 		nameSize = 10.5
 	)
 
-	// Cap the rows so a profile with a long tail of one-off languages does not
-	// grow the card past the column it is rendered in.
-	if len(moves) > 8 {
-		moves = moves[:8]
+	// Cap the rows so a profile with a long tail of one-off languages does not grow
+	// the card past the column it is rendered in. LanguageDrift ranks by the size of
+	// the move, so the cap keeps the biggest movers rather than an arbitrary eight —
+	// and the table view carries the whole list either way.
+	const maxRows = 8
+	shown, hidden := moves, 0
+	if len(shown) > maxRows {
+		shown, hidden = shown[:maxRows], len(shown)-maxRows
 	}
+	moves = shown
 
 	top := 0.0
 	for _, m := range moves {
@@ -63,18 +68,13 @@ func renderDrift(s *Stats) string {
 	plotTop := headY + 20.0
 	h := math.Ceil(plotTop + float64(len(moves))*rowPitch + 34)
 
-	biggest := moves[0]
-	for _, m := range moves {
-		if math.Abs(m.Delta()) > math.Abs(biggest.Delta()) {
-			biggest = m
-		}
-	}
+	biggest := moves[0] // already the largest move: LanguageDrift sorts by it
 
 	c := newCanvas(w, h, "Language drift",
-		fmt.Sprintf("Change in each language's share of tracked bytes over the last %d days, "+
-			"in percentage points. Biggest mover is %s at %s. Each row shows the share then "+
-			"as a hollow dot and now as a filled one.",
-			age, biggest.Name, points(biggest.Delta())))
+		fmt.Sprintf("The %s that moved most as a share of tracked bytes over the last %d days, "+
+			"in percentage points, biggest move first. Biggest mover is %s at %s. Each row shows "+
+			"the share then as a hollow dot and now as a filled one.",
+			plural(len(moves), "language"), age, biggest.Name, points(biggest.Delta())))
 
 	// Additive only: the connector grows from its "then" end, and both dots are at
 	// full opacity in the settled frame.
@@ -114,15 +114,21 @@ func renderDrift(s *Stats) string {
 		// mark, so which end is "now" never depends on colour.
 		c.dot(thenX, y, dotR, surface)
 		c.dot(thenX, y, dotR, "none", `stroke="`+inkMid+`"`, `stroke-width="1.5"`)
-		c.dot(nowX, y, dotR, accent, `class="dr"`)
+		c.dot(nowX, y, dotR, accent, `stroke="`+surface+`"`, `stroke-width="2"`, `class="dr"`)
 		c.groupEnd()
 
 		c.text(w-pad, y+3.5, points(m.Delta()),
 			textOpts{size: 10, fill: moveInk(m.Delta()), anchor: "end"})
 	}
 
+	// The caption has one line, so the tail displaces the gloss rather than
+	// extending past the card and getting cut.
+	tail := "points of all tracked bytes"
+	if hidden > 0 {
+		tail = fmt.Sprintf("%d more in the table below", hidden)
+	}
 	caption(c, pad, h-11, w-2*pad,
-		fmt.Sprintf("hollow = %d days ago  ·  filled = today  ·  points of total tracked bytes, not percent of a percent", age))
+		fmt.Sprintf("hollow = %d days ago  ·  filled = today  ·  %s", age, tail))
 	return c.String()
 }
 
