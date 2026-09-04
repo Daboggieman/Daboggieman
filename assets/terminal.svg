@@ -32,5 +32,5 @@
   <text x="602.6" y="206" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E">1 / 9 days  ·  current vs personal best</text>
   <text x="20" y="235" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
   <rect x="152.6" y="225" width="7.8" height="13" rx="1" fill="#3FB950" class="cur"/>
-  <text x="20" y="251" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">rendered by ./cmd/cards · 2026-09-03</text>
+  <text x="20" y="251" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">rendered by ./cmd/cards · 2026-09-04</text>
 </svg>
