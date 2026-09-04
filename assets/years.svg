@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="195" viewBox="0 0 460 195" role="img" aria-labelledby="t d">
+  <title id="t">Contributions by month and year</title>
+  <desc id="d">614 across 4 years, one cell per month. Busiest year was 2026 with 319, peaking in August at 142 contributions. Shading runs in four bands by monthly count: 1, 2–20, 21–47 and 48+.</desc>
+  <style>
+    @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
+    .yc{animation:yearIn 700ms ease-out}
+    @keyframes yearIn{from{opacity:.4}to{opacity:1}}
+    .yr0{animation-duration:520ms}
+    .yr1{animation-duration:610ms}
+    .yr2{animation-duration:700ms}
+    .yr3{animation-duration:790ms}
+  </style>
+  <rect x="0" y="0" width="460" height="195" rx="8" fill="#0D1117"/>
+  <path d="M0 8a8 8 0 0 1 8-8h444a8 8 0 0 1 8 8v22H0Z" fill="#161B22"/>
+  <line x1="0" y1="30" x2="460" y2="30" stroke="#21262D" stroke-width="1"/>
+  <circle cx="16" cy="15" r="4" fill="#FF5F57" opacity="0.85"/>
+  <circle cx="32" cy="15" r="4" fill="#FEBC2E" opacity="0.85"/>
+  <circle cx="48" cy="15" r="4" fill="#28C840" opacity="0.85"/>
+  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/years · 614 over 4 years</text>
+  <text x="63" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Jan</text>
+  <text x="91" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Feb</text>
+  <text x="119" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Mar</text>
+  <text x="147" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Apr</text>
+  <text x="175" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">May</text>
+  <text x="203" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Jun</text>
+  <text x="231" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Jul</text>
+  <text x="259" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Aug</text>
+  <text x="287" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Sep</text>
+  <text x="315" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Oct</text>
+  <text x="343" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Nov</text>
+  <text x="371" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="middle">Dec</text>
+  <text x="442" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="8.5" font-weight="400" fill="#6E7681" text-anchor="end">total</text>
+  <text x="18" y="73.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">2023</text>
+  <g class="yc yr0">
+    <title>January 2023 — 0 contributions</title>
+  <rect x="50" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>February 2023 — 0 contributions</title>
+  <rect x="78" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>March 2023 — 0 contributions</title>
+  <rect x="106" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>April 2023 — 0 contributions</title>
+  <rect x="134" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>May 2023 — 0 contributions</title>
+  <rect x="162" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>June 2023 — 0 contributions</title>
+  <rect x="190" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>July 2023 — 0 contributions</title>
+  <rect x="218" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>August 2023 — 1 contribution</title>
+  <rect x="246" y="61" width="26" height="18" rx="2" fill="#116329"/>
+  </g>
+  <g class="yc yr0">
+    <title>September 2023 — 0 contributions</title>
+  <rect x="274" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>October 2023 — 0 contributions</title>
+  <rect x="302" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>November 2023 — 0 contributions</title>
+  <rect x="330" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr0">
+    <title>December 2023 — 0 contributions</title>
+  <rect x="358" y="61" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <text x="442" y="73.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#8B949E" text-anchor="end">1</text>
+  <text x="18" y="93.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">2024</text>
+  <g class="yc yr1">
+    <title>January 2024 — 0 contributions</title>
+  <rect x="50" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>February 2024 — 0 contributions</title>
+  <rect x="78" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>March 2024 — 0 contributions</title>
+  <rect x="106" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>April 2024 — 0 contributions</title>
+  <rect x="134" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>May 2024 — 0 contributions</title>
+  <rect x="162" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>June 2024 — 0 contributions</title>
+  <rect x="190" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>July 2024 — 0 contributions</title>
+  <rect x="218" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>August 2024 — 0 contributions</title>
+  <rect x="246" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>September 2024 — 0 contributions</title>
+  <rect x="274" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>October 2024 — 0 contributions</title>
+  <rect x="302" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>November 2024 — 0 contributions</title>
+  <rect x="330" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr1">
+    <title>December 2024 — 0 contributions</title>
+  <rect x="358" y="81" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <text x="442" y="93.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#8B949E" text-anchor="end">0</text>
+  <text x="18" y="113.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">2025</text>
+  <g class="yc yr2">
+    <title>January 2025 — 0 contributions</title>
+  <rect x="50" y="101" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr2">
+    <title>February 2025 — 0 contributions</title>
+  <rect x="78" y="101" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr2">
+    <title>March 2025 — 5 contributions</title>
+  <rect x="106" y="101" width="26" height="18" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="yc yr2">
+    <title>April 2025 — 0 contributions</title>
+  <rect x="134" y="101" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr2">
+    <title>May 2025 — 0 contributions</title>
+  <rect x="162" y="101" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr2">
+    <title>June 2025 — 147 contributions</title>
+  <rect x="190" y="101" width="26" height="18" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="yc yr2">
+    <title>July 2025 — 116 contributions</title>
+  <rect x="218" y="101" width="26" height="18" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="yc yr2">
+    <title>August 2025 — 0 contributions</title>
+  <rect x="246" y="101" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr2">
+    <title>September 2025 — 0 contributions</title>
+  <rect x="274" y="101" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr2">
+    <title>October 2025 — 23 contributions</title>
+  <rect x="302" y="101" width="26" height="18" rx="2" fill="#56D364"/>
+  </g>
+  <g class="yc yr2">
+    <title>November 2025 — 2 contributions</title>
+  <rect x="330" y="101" width="26" height="18" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="yc yr2">
+    <title>December 2025 — 1 contribution</title>
+  <rect x="358" y="101" width="26" height="18" rx="2" fill="#116329"/>
+  </g>
+  <text x="442" y="113.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#8B949E" text-anchor="end">294</text>
+  <text x="18" y="133.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">2026</text>
+  <g class="yc yr3">
+    <title>January 2026 — 2 contributions</title>
+  <rect x="50" y="121" width="26" height="18" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="yc yr3">
+    <title>February 2026 — 1 contribution</title>
+  <rect x="78" y="121" width="26" height="18" rx="2" fill="#116329"/>
+  </g>
+  <g class="yc yr3">
+    <title>March 2026 — 1 contribution</title>
+  <rect x="106" y="121" width="26" height="18" rx="2" fill="#116329"/>
+  </g>
+  <g class="yc yr3">
+    <title>April 2026 — 20 contributions</title>
+  <rect x="134" y="121" width="26" height="18" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="yc yr3">
+    <title>May 2026 — 22 contributions</title>
+  <rect x="162" y="121" width="26" height="18" rx="2" fill="#56D364"/>
+  </g>
+  <g class="yc yr3">
+    <title>June 2026 — 23 contributions</title>
+  <rect x="190" y="121" width="26" height="18" rx="2" fill="#56D364"/>
+  </g>
+  <g class="yc yr3">
+    <title>July 2026 — 61 contributions</title>
+  <rect x="218" y="121" width="26" height="18" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="yc yr3">
+    <title>August 2026 — 142 contributions</title>
+  <rect x="246" y="121" width="26" height="18" rx="2" fill="#AFF5B4"/>
+  </g>
+  <g class="yc yr3">
+    <title>September 2026 — 47 contributions</title>
+  <rect x="274" y="121" width="26" height="18" rx="2" fill="#56D364"/>
+  </g>
+  <g class="yc yr3">
+    <title>October 2026 — 0 contributions</title>
+  <rect x="302" y="121" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr3">
+    <title>November 2026 — 0 contributions</title>
+  <rect x="330" y="121" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <g class="yc yr3">
+    <title>December 2026 — 0 contributions</title>
+  <rect x="358" y="121" width="26" height="18" rx="2" fill="#21262D"/>
+  </g>
+  <text x="442" y="133.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">319</text>
+  <text x="50" y="165" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">per month</text>
+  <rect x="111.3" y="157" width="9" height="9" rx="2" fill="#21262D"/>
+  <text x="124.3" y="165" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">0</text>
+  <rect x="142" y="157" width="9" height="9" rx="2" fill="#116329"/>
+  <text x="155" y="165" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">1</text>
+  <rect x="172.7" y="157" width="9" height="9" rx="2" fill="#2EA043"/>
+  <text x="185.7" y="165" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">2–20</text>
+  <rect x="220.5" y="157" width="9" height="9" rx="2" fill="#56D364"/>
+  <text x="233.5" y="165" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">21–47</text>
+  <rect x="274" y="157" width="9" height="9" rx="2" fill="#AFF5B4"/>
+  <text x="287" y="165" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">48+</text>
+  <text x="18" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">account opened Aug 2023 · busiest 2026 · 319 · bands are the quartiles of the…</text>
+</svg>
