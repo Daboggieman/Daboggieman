@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="262" viewBox="0 0 460 262" role="img" aria-labelledby="t d">
   <title id="t">Contribution activity</title>
-  <desc id="d">365 contributions in the last 365 days. Current streak 1 day, longest 9 days.</desc>
+  <desc id="d">365 contributions in the last 365 days. Current streak 0 days, longest 9 days.</desc>
   <rect x="0" y="0" width="460" height="262" rx="8" fill="#0D1117"/>
   <path d="M0 8a8 8 0 0 1 8-8h444a8 8 0 0 1 8 8v22H0Z" fill="#161B22"/>
   <line x1="0" y1="30" x2="460" y2="30" stroke="#21262D" stroke-width="1"/>
@@ -10,10 +10,10 @@
   <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/activity  ·  last 365 days</text>
   <text x="18" y="54" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#6E7681">contributions</text>
   <text x="18" y="94" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="40" font-weight="700" fill="#E6EDF3"><title>365 contributions in the last 365 days</title>365</text>
-  <text x="102" y="92" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#8B949E">▲ 176% vs prior 30d</text>
+  <text x="102" y="92" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#8B949E">▲ 81% vs prior 30d</text>
   <line x1="18" y1="106" x2="442" y2="106" stroke="#21262D" stroke-width="1"/>
   <text x="18" y="124" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">current streak</text>
-  <text x="18" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" font-weight="500" fill="#E6EDF3">1d</text>
+  <text x="18" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" font-weight="500" fill="#E6EDF3">0d</text>
   <text x="124" y="124" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">longest streak</text>
   <text x="124" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" font-weight="500" fill="#E6EDF3">9d</text>
   <text x="230" y="124" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">commits</text>
@@ -22,37 +22,37 @@
   <text x="336" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" font-weight="500" fill="#E6EDF3">10</text>
   <text x="18" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">last 30 days</text>
   <line x1="18" y1="232" x2="442" y2="232" stroke="#21262D" stroke-width="1"/>
-  <path d="M18 232V213.33333333333334A4 4 0 0 1 22 209.33333333333334H26.133333333333333A4 4 0 0 1 30.133333333333333 213.33333333333334V232Z" fill="#1A7F37"><title>Tue 11 Aug — 24 contributions</title></path>
+  <rect x="18" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
   <rect x="32.13333333333333" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
-  <rect x="46.266666666666666" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
-  <path d="M60.4 232V232A2.833333333333333 2.833333333333333 0 0 1 63.233333333333334 229.16666666666666H69.7A2.833333333333333 2.833333333333333 0 0 1 72.53333333333333 232V232Z" fill="#1A7F37"><title>Fri 14 Aug — 3 contributions</title></path>
-  <path d="M74.53333333333333 232V218.05555555555554A4 4 0 0 1 78.53333333333333 214.05555555555554H82.66666666666666A4 4 0 0 1 86.66666666666666 218.05555555555554V232Z" fill="#1A7F37"><title>Sat 15 Aug — 19 contributions</title></path>
-  <path d="M88.66666666666666 232V217.11111111111111A4 4 0 0 1 92.66666666666666 213.11111111111111H96.79999999999998A4 4 0 0 1 100.79999999999998 217.11111111111111V232Z" fill="#1A7F37"><title>Sun 16 Aug — 20 contributions</title></path>
-  <path d="M102.8 232V223.72222222222223A4 4 0 0 1 106.8 219.72222222222223H110.93333333333334A4 4 0 0 1 114.93333333333334 223.72222222222223V232Z" fill="#1A7F37"><title>Mon 17 Aug — 13 contributions</title></path>
-  <path d="M116.93333333333334 232V224.66666666666666A4 4 0 0 1 120.93333333333334 220.66666666666666H125.06666666666666A4 4 0 0 1 129.06666666666666 224.66666666666666V232Z" fill="#1A7F37"><title>Tue 18 Aug — 12 contributions</title></path>
-  <path d="M131.06666666666666 232V231.27777777777777A4 4 0 0 1 135.06666666666666 227.27777777777777H139.2A4 4 0 0 1 143.2 231.27777777777777V232Z" fill="#1A7F37"><title>Wed 19 Aug — 5 contributions</title></path>
-  <path d="M145.2 232V227.5A4 4 0 0 1 149.2 223.5H153.33333333333331A4 4 0 0 1 157.33333333333331 227.5V232Z" fill="#1A7F37"><title>Thu 20 Aug — 9 contributions</title></path>
-  <path d="M159.33333333333331 232V225.61111111111111A4 4 0 0 1 163.33333333333331 221.61111111111111H167.46666666666664A4 4 0 0 1 171.46666666666664 225.61111111111111V232Z" fill="#1A7F37"><title>Fri 21 Aug — 11 contributions</title></path>
-  <path d="M173.46666666666667 232V232A2.833333333333333 2.833333333333333 0 0 1 176.3 229.16666666666666H182.76666666666665A2.833333333333333 2.833333333333333 0 0 1 185.6 232V232Z" fill="#1A7F37"><title>Sat 22 Aug — 3 contributions</title></path>
-  <rect x="187.6" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
-  <path d="M201.73333333333332 232V232A2.833333333333333 2.833333333333333 0 0 1 204.56666666666666 229.16666666666666H211.0333333333333A2.833333333333333 2.833333333333333 0 0 1 213.86666666666665 232V232Z" fill="#1A7F37"><title>Mon 24 Aug — 3 contributions</title></path>
-  <path d="M215.86666666666667 232V232A2 2 0 0 1 217.86666666666667 230H226A2 2 0 0 1 228 232V232Z" fill="#1A7F37"><title>Tue 25 Aug — 1 contribution</title></path>
-  <path d="M230 232V232A2 2 0 0 1 232 230H240.13333333333333A2 2 0 0 1 242.13333333333333 232V232Z" fill="#1A7F37"><title>Wed 26 Aug — 1 contribution</title></path>
-  <path d="M244.13333333333333 232V232A2 2 0 0 1 246.13333333333333 230H254.26666666666665A2 2 0 0 1 256.26666666666665 232V232Z" fill="#1A7F37"><title>Thu 27 Aug — 1 contribution</title></path>
+  <path d="M46.266666666666666 232V232A2.833333333333333 2.833333333333333 0 0 1 49.1 229.16666666666666H55.56666666666666A2.833333333333333 2.833333333333333 0 0 1 58.4 232V232Z" fill="#1A7F37"><title>Fri 14 Aug — 3 contributions</title></path>
+  <path d="M60.4 232V218.05555555555554A4 4 0 0 1 64.4 214.05555555555554H68.53333333333333A4 4 0 0 1 72.53333333333333 218.05555555555554V232Z" fill="#1A7F37"><title>Sat 15 Aug — 19 contributions</title></path>
+  <path d="M74.53333333333333 232V217.11111111111111A4 4 0 0 1 78.53333333333333 213.11111111111111H82.66666666666666A4 4 0 0 1 86.66666666666666 217.11111111111111V232Z" fill="#1A7F37"><title>Sun 16 Aug — 20 contributions</title></path>
+  <path d="M88.66666666666666 232V223.72222222222223A4 4 0 0 1 92.66666666666666 219.72222222222223H96.79999999999998A4 4 0 0 1 100.79999999999998 223.72222222222223V232Z" fill="#1A7F37"><title>Mon 17 Aug — 13 contributions</title></path>
+  <path d="M102.8 232V224.66666666666666A4 4 0 0 1 106.8 220.66666666666666H110.93333333333334A4 4 0 0 1 114.93333333333334 224.66666666666666V232Z" fill="#1A7F37"><title>Tue 18 Aug — 12 contributions</title></path>
+  <path d="M116.93333333333334 232V231.27777777777777A4 4 0 0 1 120.93333333333334 227.27777777777777H125.06666666666666A4 4 0 0 1 129.06666666666666 231.27777777777777V232Z" fill="#1A7F37"><title>Wed 19 Aug — 5 contributions</title></path>
+  <path d="M131.06666666666666 232V227.5A4 4 0 0 1 135.06666666666666 223.5H139.2A4 4 0 0 1 143.2 227.5V232Z" fill="#1A7F37"><title>Thu 20 Aug — 9 contributions</title></path>
+  <path d="M145.2 232V225.61111111111111A4 4 0 0 1 149.2 221.61111111111111H153.33333333333331A4 4 0 0 1 157.33333333333331 225.61111111111111V232Z" fill="#1A7F37"><title>Fri 21 Aug — 11 contributions</title></path>
+  <path d="M159.33333333333331 232V232A2.833333333333333 2.833333333333333 0 0 1 162.16666666666666 229.16666666666666H168.6333333333333A2.833333333333333 2.833333333333333 0 0 1 171.46666666666664 232V232Z" fill="#1A7F37"><title>Sat 22 Aug — 3 contributions</title></path>
+  <rect x="173.46666666666667" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
+  <path d="M187.6 232V232A2.833333333333333 2.833333333333333 0 0 1 190.43333333333334 229.16666666666666H196.89999999999998A2.833333333333333 2.833333333333333 0 0 1 199.73333333333332 232V232Z" fill="#1A7F37"><title>Mon 24 Aug — 3 contributions</title></path>
+  <path d="M201.73333333333332 232V232A2 2 0 0 1 203.73333333333332 230H211.86666666666665A2 2 0 0 1 213.86666666666665 232V232Z" fill="#1A7F37"><title>Tue 25 Aug — 1 contribution</title></path>
+  <path d="M215.86666666666667 232V232A2 2 0 0 1 217.86666666666667 230H226A2 2 0 0 1 228 232V232Z" fill="#1A7F37"><title>Wed 26 Aug — 1 contribution</title></path>
+  <path d="M230 232V232A2 2 0 0 1 232 230H240.13333333333333A2 2 0 0 1 242.13333333333333 232V232Z" fill="#1A7F37"><title>Thu 27 Aug — 1 contribution</title></path>
+  <rect x="244.13333333333333" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
   <rect x="258.26666666666665" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
   <rect x="272.4" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
-  <rect x="286.5333333333333" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
-  <path d="M300.66666666666663 232V232A3.7777777777777777 3.7777777777777777 0 0 1 304.4444444444444 228.22222222222223H309.0222222222222A3.7777777777777777 3.7777777777777777 0 0 1 312.79999999999995 232V232Z" fill="#1A7F37"><title>Mon 31 Aug — 4 contributions</title></path>
-  <path d="M314.8 232V232A2.833333333333333 2.833333333333333 0 0 1 317.6333333333333 229.16666666666666H324.1A2.833333333333333 2.833333333333333 0 0 1 326.93333333333334 232V232Z" fill="#1A7F37"><title>Tue 1 Sep — 3 contributions</title></path>
-  <path d="M328.93333333333334 232V232A2 2 0 0 1 330.93333333333334 230H339.06666666666666A2 2 0 0 1 341.06666666666666 232V232Z" fill="#1A7F37"><title>Wed 2 Sep — 2 contributions</title></path>
-  <path d="M343.06666666666666 232V202A4 4 0 0 1 347.06666666666666 198H351.2A4 4 0 0 1 355.2 202V232Z" fill="#1A7F37"><title>Thu 3 Sep — 36 contributions</title></path>
-  <path d="M357.2 232V225.61111111111111A4 4 0 0 1 361.2 221.61111111111111H365.3333333333333A4 4 0 0 1 369.3333333333333 225.61111111111111V232Z" fill="#1A7F37"><title>Fri 4 Sep — 11 contributions</title></path>
-  <path d="M371.3333333333333 232V230.33333333333334A4 4 0 0 1 375.3333333333333 226.33333333333334H379.46666666666664A4 4 0 0 1 383.46666666666664 230.33333333333334V232Z" fill="#1A7F37"><title>Sat 5 Sep — 6 contributions</title></path>
-  <path d="M385.46666666666664 232V232A2.833333333333333 2.833333333333333 0 0 1 388.29999999999995 229.16666666666666H394.76666666666665A2.833333333333333 2.833333333333333 0 0 1 397.59999999999997 232V232Z" fill="#1A7F37"><title>Sun 6 Sep — 3 contributions</title></path>
-  <rect x="399.59999999999997" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
-  <path d="M413.73333333333335 232V230.33333333333334A4 4 0 0 1 417.73333333333335 226.33333333333334H421.8666666666667A4 4 0 0 1 425.8666666666667 230.33333333333334V232Z" fill="#1A7F37"><title>Tue 8 Sep — 6 contributions</title></path>
+  <path d="M286.5333333333333 232V232A3.7777777777777777 3.7777777777777777 0 0 1 290.3111111111111 228.22222222222223H294.88888888888886A3.7777777777777777 3.7777777777777777 0 0 1 298.66666666666663 232V232Z" fill="#1A7F37"><title>Mon 31 Aug — 4 contributions</title></path>
+  <path d="M300.66666666666663 232V232A2.833333333333333 2.833333333333333 0 0 1 303.49999999999994 229.16666666666666H309.96666666666664A2.833333333333333 2.833333333333333 0 0 1 312.79999999999995 232V232Z" fill="#1A7F37"><title>Tue 1 Sep — 3 contributions</title></path>
+  <path d="M314.8 232V232A2 2 0 0 1 316.8 230H324.93333333333334A2 2 0 0 1 326.93333333333334 232V232Z" fill="#1A7F37"><title>Wed 2 Sep — 2 contributions</title></path>
+  <path d="M328.93333333333334 232V202A4 4 0 0 1 332.93333333333334 198H337.06666666666666A4 4 0 0 1 341.06666666666666 202V232Z" fill="#1A7F37"><title>Thu 3 Sep — 36 contributions</title></path>
+  <path d="M343.06666666666666 232V225.61111111111111A4 4 0 0 1 347.06666666666666 221.61111111111111H351.2A4 4 0 0 1 355.2 225.61111111111111V232Z" fill="#1A7F37"><title>Fri 4 Sep — 11 contributions</title></path>
+  <path d="M357.2 232V230.33333333333334A4 4 0 0 1 361.2 226.33333333333334H365.3333333333333A4 4 0 0 1 369.3333333333333 230.33333333333334V232Z" fill="#1A7F37"><title>Sat 5 Sep — 6 contributions</title></path>
+  <path d="M371.3333333333333 232V232A2.833333333333333 2.833333333333333 0 0 1 374.16666666666663 229.16666666666666H380.6333333333333A2.833333333333333 2.833333333333333 0 0 1 383.46666666666664 232V232Z" fill="#1A7F37"><title>Sun 6 Sep — 3 contributions</title></path>
+  <rect x="385.46666666666664" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
+  <path d="M399.59999999999997 232V230.33333333333334A4 4 0 0 1 403.59999999999997 226.33333333333334H407.7333333333333A4 4 0 0 1 411.7333333333333 230.33333333333334V232Z" fill="#1A7F37"><title>Tue 8 Sep — 6 contributions</title></path>
+  <rect x="413.73333333333335" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
   <rect x="427.8666666666667" y="230.5" width="12.133333333333333" height="1.5" rx="0" fill="#21262D"/>
-  <text x="18" y="246" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">11 Aug</text>
-  <text x="442" y="246" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681" text-anchor="end">9 Sep</text>
+  <text x="18" y="246" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">12 Aug</text>
+  <text x="442" y="246" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681" text-anchor="end">10 Sep</text>
   <text x="442" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681" text-anchor="end">peak 36 contributions</text>
 </svg>
