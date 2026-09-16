@@ -217,4 +217,7 @@ $ go test ./...
 
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=3FB950)](https://github.com/Daboggieman)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/adakole-ogah-392a56253/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-0D1117?style=flat-square&logo=whatsapp&logoColor=25D366)](https://wa.me/2348029462739)
+[![X](https://img.shields.io/badge/X-0D1117?style=flat-square&logo=x&logoColor=FFFFFF)](YOUR_X_LINK)
+
 </div>
