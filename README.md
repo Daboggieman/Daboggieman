@@ -217,5 +217,4 @@ $ go test ./...
 
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=3FB950)](https://github.com/Daboggieman)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/adakole-ogah-392a56253/)
-
 </div>
