@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="314" viewBox="0 0 460 314" role="img" aria-labelledby="t d">
   <title id="t">Language drift</title>
-  <desc id="d">The 8 languages that moved most as a share of tracked bytes over the last 15 days, in percentage points, biggest move first. Biggest mover is HTML at ▲ 18.6 pt. Each row shows the share then as a hollow dot and now as a filled one.</desc>
+  <desc id="d">The 8 languages that moved most as a share of tracked bytes over the last 15 days, in percentage points, biggest move first. Biggest mover is HTML at ▲ 17.8 pt. Each row shows the share then as a hollow dot and now as a filled one.</desc>
   <style>
     @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
     .dr{animation:driftIn 700ms ease-out}
@@ -18,72 +18,72 @@
   <text x="442" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681" text-anchor="end">move</text>
   <text x="18" y="88.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">HTML</text>
   <rect x="122" y="84" width="258" height="2" rx="1" fill="#161B22"/>
-  <rect x="223.90327169274536" y="83.5" width="113.89189189189193" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
+  <rect x="223.90327169274536" y="83.5" width="109.12091038406828" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
   <g>
-    <title>HTML: 16.7% then, 35.3% now (▲ 18.6 pt over 15d)</title>
+    <title>HTML: 16.7% then, 34.5% now (▲ 17.8 pt over 15d)</title>
   <circle cx="223.90327169274536" cy="85" r="4.5" fill="#0D1117"/>
   <circle cx="223.90327169274536" cy="85" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="337.7951635846373" cy="85" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="333.02418207681364" cy="85" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
-  <text x="442" y="88.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▲ 18.6 pt</text>
+  <text x="442" y="88.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▲ 17.8 pt</text>
   <text x="18" y="114.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">Python</text>
   <rect x="122" y="110" width="258" height="2" rx="1" fill="#161B22"/>
-  <rect x="314.3072546230441" y="109.5" width="65.69274537695588" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
+  <rect x="310.0256045519203" y="109.5" width="69.97439544807969" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
   <g>
-    <title>Python: 42.2% then, 31.4% now (▼ 10.7 pt over 15d)</title>
+    <title>Python: 42.2% then, 30.7% now (▼ 11.4 pt over 15d)</title>
   <circle cx="380" cy="111" r="4.5" fill="#0D1117"/>
   <circle cx="380" cy="111" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="314.3072546230441" cy="111" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="310.0256045519203" cy="111" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
-  <text x="442" y="114.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 10.7 pt</text>
+  <text x="442" y="114.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 11.4 pt</text>
   <text x="18" y="140.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">TypeScript</text>
   <rect x="122" y="136" width="258" height="2" rx="1" fill="#161B22"/>
-  <rect x="281.39971550497864" y="135.5" width="29.054054054054063" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
+  <rect x="291.4310099573257" y="135.5" width="19.02275960170698" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
   <g>
-    <title>TypeScript: 30.8% then, 26.1% now (▼ 4.8 pt over 15d)</title>
+    <title>TypeScript: 30.8% then, 27.7% now (▼ 3.1 pt over 15d)</title>
   <circle cx="310.4537695590327" cy="137" r="4.5" fill="#0D1117"/>
   <circle cx="310.4537695590327" cy="137" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="281.39971550497864" cy="137" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="291.4310099573257" cy="137" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
-  <text x="442" y="140.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 4.8 pt</text>
+  <text x="442" y="140.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 3.1 pt</text>
   <text x="18" y="166.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">Go</text>
   <rect x="122" y="162" width="258" height="2" rx="1" fill="#161B22"/>
-  <rect x="146.7112375533428" y="161.5" width="10.39829302987198" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
+  <rect x="146.16073968705547" y="161.5" width="10.948790896159323" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
   <g>
-    <title>Go: 5.7% then, 4.0% now (▼ 1.7 pt over 15d)</title>
+    <title>Go: 5.7% then, 4.0% now (▼ 1.8 pt over 15d)</title>
   <circle cx="157.1095305832148" cy="163" r="4.5" fill="#0D1117"/>
   <circle cx="157.1095305832148" cy="163" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="146.7112375533428" cy="163" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="146.16073968705547" cy="163" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
-  <text x="442" y="166.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 1.7 pt</text>
+  <text x="442" y="166.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 1.8 pt</text>
   <text x="18" y="192.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">JavaScript</text>
   <rect x="122" y="188" width="258" height="2" rx="1" fill="#161B22"/>
-  <rect x="133.86628733997156" y="187.5" width="4.648648648648646" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
+  <rect x="133.6216216216216" y="187.5" width="4.893314366998595" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
   <g>
     <title>JavaScript: 2.7% then, 1.9% now (▼ 0.8 pt over 15d)</title>
   <circle cx="138.5149359886202" cy="189" r="4.5" fill="#0D1117"/>
   <circle cx="138.5149359886202" cy="189" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="133.86628733997156" cy="189" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="133.6216216216216" cy="189" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
   <text x="442" y="192.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 0.8 pt</text>
   <text x="18" y="218.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">CSS</text>
   <rect x="122" y="214" width="258" height="2" rx="1" fill="#161B22"/>
-  <rect x="126.77098150782362" y="213.5" width="1.834992887624452" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
+  <rect x="126.64864864864865" y="213.5" width="1.9573257467994267" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
   <g>
     <title>CSS: 1.1% then, 0.8% now (▼ 0.3 pt over 15d)</title>
   <circle cx="128.60597439544807" cy="215" r="4.5" fill="#0D1117"/>
   <circle cx="128.60597439544807" cy="215" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="126.77098150782362" cy="215" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="126.64864864864865" cy="215" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
   <text x="442" y="218.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 0.3 pt</text>
   <text x="18" y="244.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">Batchfile</text>
   <rect x="122" y="240" width="258" height="2" rx="1" fill="#161B22"/>
-  <rect x="123.4068278805121" y="239.5" width="1.5903271692745307" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
+  <rect x="123.34566145092461" y="239.5" width="1.651493598862018" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
   <g>
     <title>Batchfile: 0.5% then, 0.2% now (▼ 0.3 pt over 15d)</title>
   <circle cx="124.99715504978663" cy="241" r="4.5" fill="#0D1117"/>
   <circle cx="124.99715504978663" cy="241" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="123.4068278805121" cy="241" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="123.34566145092461" cy="241" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
   <text x="442" y="244.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 0.3 pt</text>
   <text x="18" y="270.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">Shell</text>
@@ -92,7 +92,7 @@
     <title>Shell: 0.2% then, 0.1% now (▼ 0.1 pt over 15d)</title>
   <circle cx="123.28449502133712" cy="267" r="4.5" fill="#0D1117"/>
   <circle cx="123.28449502133712" cy="267" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="122.91749644381224" cy="267" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="122.85633001422475" cy="267" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
   <text x="442" y="270.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 0.1 pt</text>
   <text x="18" y="303" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">hollow = 15 days ago  ·  filled = today  ·  3 more in the table below</text>

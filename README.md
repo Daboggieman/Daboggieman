@@ -121,14 +121,14 @@ testing     Jest · go test
 
 | Right now | Reading |
 |---|---|
-| Focus | typescript-study · no language detected · pushed 1 hour ago · 62 contributions this week |
-| Last 7 days | 62 contributions |
+| Focus | typescript-study · TypeScript · pushed in the last hour · 70 contributions this week |
+| Last 7 days | 70 contributions |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| HTML | 35.3% | 3.1 MB |
-| Python | 31.4% | 2.7 MB |
-| TypeScript | 26.1% | 2.3 MB |
+| HTML | 34.5% | 3.1 MB |
+| Python | 30.7% | 2.7 MB |
+| TypeScript | 27.7% | 2.5 MB |
 | Go | 4.0% | 361.7 kB |
 | JavaScript | 1.9% | 173.4 kB |
 | CSS | 0.8% | 69.4 kB |
@@ -136,10 +136,10 @@ testing     Jest · go test
 
 | Language | Share 15 days ago | Share now | Move |
 |---|---:|---:|---:|
-| HTML | 16.7% | 35.3% | ▲ 18.6 pt |
-| Python | 42.2% | 31.4% | ▼ 10.7 pt |
-| TypeScript | 30.8% | 26.1% | ▼ 4.8 pt |
-| Go | 5.7% | 4.0% | ▼ 1.7 pt |
+| HTML | 16.7% | 34.5% | ▲ 17.8 pt |
+| Python | 42.2% | 30.7% | ▼ 11.4 pt |
+| TypeScript | 30.8% | 27.7% | ▼ 3.1 pt |
+| Go | 5.7% | 4.0% | ▼ 1.8 pt |
 | JavaScript | 2.7% | 1.9% | ▼ 0.8 pt |
 | CSS | 1.1% | 0.8% | ▼ 0.3 pt |
 | Batchfile | 0.5% | 0.2% | ▼ 0.3 pt |
@@ -150,8 +150,8 @@ testing     Jest · go test
 
 | Metric | Last 365 days | Change |
 |---|---:|---:|
-| Contributions | 441 | ▲ 92 in 15d |
-| Commits | 377 | ▲ 76 in 15d |
+| Contributions | 449 | ▲ 100 in 15d |
+| Commits | 385 | ▲ 84 in 15d |
 | Pull requests | 40 | ▲ 10 in 15d |
 | Issues | 0 | flat over 15d |
 | Reviews | 0 | flat over 15d |
@@ -160,7 +160,7 @@ testing     Jest · go test
 | Repositories | 23 | ▲ 4 in 15d |
 | Stars earned | 12 | ▲ 3 in 15d |
 | Followers | 11 | ▲ 1 in 15d |
-| Collaborative acts | 40 (9.1% of all) | ▲ 10 in 15d |
+| Collaborative acts | 40 (8.9% of all) | ▲ 10 in 15d |
 
 | Calendar | Value |
 |---|---:|
@@ -171,8 +171,8 @@ testing     Jest · go test
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Sun 17:00–17:59 (14 commits) |
-| Sample | 330 commits, 14 Mar 2025 to 19 Sep 2026 |
-| Weekend work | 24% of the sample |
+| Sample | 337 commits, 14 Mar 2025 to 19 Sep 2026 |
+| Weekend work | 26% of the sample |
 | Nights, 22:00–06:00 | 19% of the sample |
 | Clock | UTC — every stamp in the sample came back without an offset |
 
@@ -181,16 +181,16 @@ testing     Jest · go test
 | 2023 | 1 | 1 | Aug (1) |
 | 2024 | 0 | 0 | Jan (0) |
 | 2025 | 294 | 42 | Jun (147) |
-| **2026** | 415 | 77 | Sep (143) |
+| **2026** | 423 | 77 | Sep (151) |
 
 <sub>The account opened 12 August 2023, so anything before that is absent rather than quiet.</sub>
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
-| Kairo-v1 | 118 | 81.2 MB | 0 | 18 Sep 2026 | occupied | private |
-| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 75 | 7.1 MB | 0 | 19 Sep 2026 | occupied | public |
+| Kairo-v1 | 118 | 81.3 MB | 0 | 19 Sep 2026 | occupied | private |
+| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 76 | 7.1 MB | 0 | 19 Sep 2026 | occupied | public |
 | [python-study](https://github.com/Daboggieman/python-study) | 71 | 342.0 kB | 5 | 4 Sep 2026 | occupied | public |
-| o-o | 67 | 42.0 kB | 0 | 19 Sep 2026 | occupied | private |
+| o-o | 68 | 43.0 kB | 0 | 19 Sep 2026 | occupied | private |
 | RYLA-2025 | 66 | 23.2 MB | 0 | 12 Jul 2025 | dormant | private |
 | tbot-v3 | 44 | 7.8 MB | 1 | 18 Sep 2026 | occupied | private |
 | [gsmhub](https://github.com/Daboggieman/gsmhub) | 38 | 2.4 MB | 1 | 18 Aug 2026 | dormant | public |
@@ -202,6 +202,7 @@ testing     Jest · go test
 | [tbot](https://github.com/Daboggieman/tbot) | 13 | 3.7 MB | 1 | 13 Sep 2026 | occupied | public |
 | cee-tailor | 10 | 128.2 MB | 0 | 18 Sep 2026 | occupied | private |
 | outreach | 8 | 5.1 MB | 0 | 4 Aug 2026 | dormant | private |
+| [typescript-study](https://github.com/Daboggieman/typescript-study) | 7 | 382.0 kB | 0 | 19 Sep 2026 | occupied | public |
 | [Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup) | 6 | 11.0 kB | 0 | 18 Aug 2026 | dormant | public |
 | [COR-BOT](https://github.com/Daboggieman/COR-BOT) | 5 | 107.0 kB | 0 | 14 Jul 2025 | dormant | public |
 | NEW-Cove | 4 | 295.0 kB | 0 | 2 Dec 2025 | dormant | private |

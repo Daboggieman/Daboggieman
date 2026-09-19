@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="262" viewBox="0 0 460 262" role="img" aria-labelledby="t d">
   <title id="t">Contribution activity</title>
-  <desc id="d">441 contributions in the last 365 days. Current streak 7 days, longest 9 days.</desc>
+  <desc id="d">449 contributions in the last 365 days. Current streak 7 days, longest 9 days.</desc>
   <rect x="0" y="0" width="460" height="262" rx="8" fill="#0D1117"/>
   <path d="M0 8a8 8 0 0 1 8-8h444a8 8 0 0 1 8 8v22H0Z" fill="#161B22"/>
   <line x1="0" y1="30" x2="460" y2="30" stroke="#21262D" stroke-width="1"/>
@@ -9,16 +9,16 @@
   <circle cx="48" cy="15" r="4" fill="#28C840" opacity="0.85"/>
   <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/activity  ·  last 365 days</text>
   <text x="18" y="54" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#6E7681">contributions</text>
-  <text x="18" y="94" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="40" font-weight="700" fill="#E6EDF3"><title>441 contributions in the last 365 days</title>441</text>
-  <text x="102" y="92" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#8B949E">▲ 36% vs prior 30d</text>
+  <text x="18" y="94" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="40" font-weight="700" fill="#E6EDF3"><title>449 contributions in the last 365 days</title>449</text>
+  <text x="102" y="92" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#8B949E">▲ 42% vs prior 30d</text>
   <line x1="18" y1="106" x2="442" y2="106" stroke="#21262D" stroke-width="1"/>
   <text x="18" y="124" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">current streak</text>
   <text x="18" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" font-weight="500" fill="#E6EDF3">7d</text>
   <text x="124" y="124" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">longest streak</text>
   <text x="124" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" font-weight="500" fill="#E6EDF3">9d</text>
   <text x="230" y="124" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">commits</text>
-  <text x="230" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" font-weight="500" fill="#E6EDF3">377</text>
-  <text x="230" y="160" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">▲ 76 in 15d</text>
+  <text x="230" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" font-weight="500" fill="#E6EDF3">385</text>
+  <text x="230" y="160" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">▲ 84 in 15d</text>
   <text x="336" y="124" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">stars earned</text>
   <text x="336" y="146" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="17" font-weight="500" fill="#E6EDF3">12</text>
   <text x="336" y="160" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">▲ 3 in 15d</text>
@@ -53,7 +53,7 @@
   <path d="M385.46666666666664 232V222.77777777777777A4 4 0 0 1 389.46666666666664 218.77777777777777H393.59999999999997A4 4 0 0 1 397.59999999999997 222.77777777777777V232Z" fill="#1A7F37"><title>Wed 16 Sep — 14 contributions</title></path>
   <path d="M399.59999999999997 232V229.38888888888889A4 4 0 0 1 403.59999999999997 225.38888888888889H407.7333333333333A4 4 0 0 1 411.7333333333333 229.38888888888889V232Z" fill="#1A7F37"><title>Thu 17 Sep — 7 contributions</title></path>
   <path d="M413.73333333333335 232V227.5A4 4 0 0 1 417.73333333333335 223.5H421.8666666666667A4 4 0 0 1 425.8666666666667 227.5V232Z" fill="#1A7F37"><title>Fri 18 Sep — 9 contributions</title></path>
-  <path d="M427.8666666666667 232V232A3.7777777777777777 3.7777777777777777 0 0 1 431.64444444444445 228.22222222222223H436.22222222222223A3.7777777777777777 3.7777777777777777 0 0 1 440 232V232Z" fill="#3FB950"><title>Sat 19 Sep — 4 contributions</title></path>
+  <path d="M427.8666666666667 232V224.66666666666666A4 4 0 0 1 431.8666666666667 220.66666666666666H436A4 4 0 0 1 440 224.66666666666666V232Z" fill="#3FB950"><title>Sat 19 Sep — 12 contributions</title></path>
   <text x="18" y="246" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">21 Aug</text>
   <text x="442" y="246" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681" text-anchor="end">19 Sep</text>
   <text x="442" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681" text-anchor="end">peak 36 contributions</text>
