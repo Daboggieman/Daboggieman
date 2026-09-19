@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="309" viewBox="0 0 880 309" role="img" aria-labelledby="t d">
   <title id="t">Raph&apos;el Ogah — profile terminal</title>
-  <desc id="d">Raph&apos;el Ogah, based in Nigeria. Works in html · python · typescript · go · javascript. 377 commits, 23 repos, 12 stars. Current streak 7 days against a personal best of 9 days. Current focus: typescript-study · no language detected · pushed in the last hour · 61 contributions this week</desc>
+  <desc id="d">Raph&apos;el Ogah, based in Nigeria. Works in html · python · typescript · go · javascript. 377 commits, 23 repos, 12 stars. Current streak 7 days against a personal best of 9 days. Current focus: typescript-study · no language detected · pushed 1 hour ago · 62 contributions this week</desc>
   <style>
     @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
     .cur{animation:blink 1.1s steps(1,end) infinite}
@@ -26,7 +26,7 @@
   <text x="20" y="163" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">377 commits · 23 repos · 12 stars · 11 followers</text>
   <text x="20" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
   <text x="152.6" y="184" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">./focus --now</text>
-  <text x="20" y="205" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">typescript-study · no language detected · pushed in the last hour · 61 contributions this week</text>
+  <text x="20" y="205" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">typescript-study · no language detected · pushed 1 hour ago · 62 contributions this week</text>
   <text x="20" y="226" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="500" fill="#3FB950">raphel@github:~$ </text>
   <text x="152.6" y="226" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#E6EDF3">./streak --meter</text>
   <path d="M20 241H584.6A4 4 0 0 1 588.6 245V245A4 4 0 0 1 584.6 249H20Z" fill="#116329"/>
