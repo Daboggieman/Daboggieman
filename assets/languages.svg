@@ -13,7 +13,7 @@
   <path d="M122 48H374A4 4 0 0 1 378 52V54A4 4 0 0 1 374 58H122Z" fill="#3FB950"><title>HTML — 33.9% (3.1 MB)</title></path>
   <text x="442" y="57" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">33.9%</text>
   <text x="18" y="81" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Python — 30.9% (2.8 MB)</title>Python</text>
-  <path d="M122 72H351.82940070705274A4 4 0 0 1 355.82940070705274 76V78A4 4 0 0 1 351.82940070705274 82H122Z" fill="#3FB950"><title>Python — 30.9% (2.8 MB)</title></path>
+  <path d="M122 72H351.8389856810217A4 4 0 0 1 355.8389856810217 76V78A4 4 0 0 1 351.8389856810217 82H122Z" fill="#3FB950"><title>Python — 30.9% (2.8 MB)</title></path>
   <text x="442" y="81" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">30.9%</text>
   <text x="18" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>TypeScript — 28.2% (2.6 MB)</title>TypeScript</text>
   <path d="M122 96H330.8676963541143A4 4 0 0 1 334.8676963541143 100V102A4 4 0 0 1 330.8676963541143 106H122Z" fill="#3FB950"><title>TypeScript — 28.2% (2.6 MB)</title></path>
@@ -28,7 +28,7 @@
   <path d="M122 168H123.79510694752803A4 4 0 0 1 127.79510694752803 172V174A4 4 0 0 1 123.79510694752803 178H122Z" fill="#3FB950"><title>CSS — 0.8% (71.4 kB)</title></path>
   <text x="442" y="177" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">0.8%</text>
   <text x="18" y="201" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Other — 0.5% (43.3 kB)</title>Other</text>
-  <path d="M122 192H122A3.5119027763810355 3.5119027763810355 0 0 1 125.51190277638104 195.51190277638105V198.48809722361895A3.5119027763810355 3.5119027763810355 0 0 1 122 202H122Z" fill="#484F58"><title>Other — 0.5% (43.3 kB)</title></path>
+  <path d="M122 192H122A3.5119027763810347 3.5119027763810347 0 0 1 125.51190277638104 195.51190277638102V198.48809722361898A3.5119027763810347 3.5119027763810347 0 0 1 122 202H122Z" fill="#484F58"><title>Other — 0.5% (43.3 kB)</title></path>
   <text x="442" y="201" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">0.5%</text>
   <text x="18" y="236" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#6E7681">% of code by bytes  ·  bars scaled to the leader</text>
 </svg>
