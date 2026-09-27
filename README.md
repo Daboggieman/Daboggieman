@@ -221,14 +221,6 @@ testing     Jest · go test
 
 <br/>
 
-```console
-$ go run ./cmd/cards -login Daboggieman     # live data
-$ go run ./cmd/cards -fixture testdata/profile.json   # offline, deterministic
-$ go test ./...
-```
-
-<br/>
-
 ## Connect
 
 <div align="center">
