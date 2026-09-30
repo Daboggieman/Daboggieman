@@ -78,14 +78,19 @@ own active days rather than fractions of the busiest one
 
 | Project | What it is |
 |---|---|
-| 🏋️ **Kairo** | Personal all-in-one fitness app — workouts, progress, GPS tracking, offline-first *(in development, private)* |
-| 🐍 **[python-study](https://github.com/Daboggieman/python-study)** | Python experiments and learning projects (extremely detailed)|
-| 📡 **[gsmhub](https://github.com/Daboggieman/gsmhub)** | check it out yourself, its kinda cringe tho |
-| 🐹 **[golang-study](https://github.com/Daboggieman/golang-study)** | Go experiments and learning projects |
-| 🛠️ **[Maeker](https://github.com/Daboggieman/Maeker)** | Python project |
-| 🤖 **tbot** | Python-based trading algorithm project *(in development,private)* |
-| 🔌 **[Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup)** | Shell scripts for setting up an agent router |
-| 🐍 **[COR-BOT](https://github.com/Daboggieman/COR-BOT)** | Baby Tbot *tbot-v0* |
+| **Kairo** | Personal all-in-one fitness app — workouts, progress, GPS tracking, offline-first *(in development, private)* |
+| **[python-study](https://github.com/Daboggieman/python-study)** | Python experiments and learning projects (extremely detailed)|
+| **[gsmhub](https://github.com/Daboggieman/gsmhub)** | check it out yourself, its kinda cringe tho |
+| **[golang-study](https://github.com/Daboggieman/golang-study)** | Go experiments and learning projects |
+| **[Maeker](https://github.com/Daboggieman/Maeker)** | Python project |
+| **[tbot](https://github.com/Daboggieman/tbot)** | base working version trading algorithm project  |
+| **[tbot-v2](https://github.com/Daboggieman/tbot-v2)** | risk aware working version of trading algorithm project |
+| **tbot-v3** | editable parameters and implementing a dual-trade system, risk management and reconfigured skills and strategies arsenal *(in development - private)* |
+| **tbot-ML** | Machine learning capable version of working tbot-v3 *(in development,private)* |
+| **[Agentrouter-setup](https://github.com/Daboggieman/Agentrouter-setup)** | Shell scripts for setting up an agent router |
+| **[COR-BOT](https://github.com/Daboggieman/COR-BOT)** | Baby tbot *tbot-v0* (where tbot started) |
+| **[typescript-tutorial](https://github.com/Daboggieman/typescript-tutorial)** | Typescript experiments and learning projects *(in development)* |
+| **[skills-and-mcp](https://github.com/Daboggieman/skills-and-mcp)** | compilation of agents, skills and MCPs to improve AI assistants in working projects |
 
 </div>
 
