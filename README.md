@@ -126,8 +126,8 @@ testing     Jest · go test
 
 | Right now | Reading |
 |---|---|
-| Focus | o-o · Python · pushed 2 hours ago · 42 contributions this week |
-| Last 7 days | 42 contributions |
+| Focus | ai-router-setup · Shell · pushed 3 hours ago · 40 contributions this week |
+| Last 7 days | 40 contributions |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
@@ -136,47 +136,47 @@ testing     Jest · go test
 | TypeScript | 27.8% | 2.6 MB |
 | Go | 3.8% | 361.7 kB |
 | JavaScript | 1.9% | 177.4 kB |
-| Shell | 1.1% | 102.5 kB |
+| Shell | 1.0% | 99.2 kB |
 | Other | 1.1% | 101.6 kB |
 
 | Language | Share 30 days ago | Share now | Move |
 |---|---:|---:|---:|
-| HTML | 16.7% | 33.8% | ▲ 17.1 pt |
-| Python | 42.2% | 30.6% | ▼ 11.6 pt |
-| TypeScript | 30.8% | 27.8% | ▼ 3.0 pt |
+| HTML | 16.6% | 33.8% | ▲ 17.2 pt |
+| Python | 42.5% | 30.6% | ▼ 11.9 pt |
+| TypeScript | 30.7% | 27.8% | ▼ 2.9 pt |
 | Go | 5.7% | 3.8% | ▼ 1.9 pt |
 | Shell | 0.2% | 1.1% | ▲ 0.9 pt |
 | JavaScript | 2.7% | 1.9% | ▼ 0.8 pt |
 | CSS | 1.1% | 0.8% | ▼ 0.3 pt |
-| Batchfile | 0.5% | 0.2% | ▼ 0.3 pt |
+| Batchfile | 0.3% | 0.2% | ▼ 0.1 pt |
 | MQL5 | 0.1% | 0.0% | flat |
 | Dockerfile | 0.1% | 0.1% | flat |
 | Mako | 0.0% | 0.0% | flat |
 
 | Metric | Last 365 days | Change |
 |---|---:|---:|
-| Contributions | 542 | ▲ 192 in 30d |
-| Commits | 476 | ▲ 174 in 30d |
-| Pull requests | 40 | ▲ 10 in 30d |
+| Contributions | 546 | ▲ 187 in 30d |
+| Commits | 480 | ▲ 172 in 30d |
+| Pull requests | 40 | ▲ 7 in 30d |
 | Issues | 0 | flat over 30d |
 | Reviews | 0 | flat over 30d |
-| Current streak | 23 days | ▲ 18 in 30d |
-| Longest streak | 23 days | ▲ 14 in 30d |
+| Current streak | 24 days | ▲ 17 in 30d |
+| Longest streak | 24 days | ▲ 15 in 30d |
 | Repositories | 24 | ▲ 5 in 30d |
 | Stars earned | 12 | ▲ 2 in 30d |
 | Followers | 11 | ▲ 1 in 30d |
-| Collaborative acts | 40 (7.4% of all) | ▲ 10 in 30d |
+| Collaborative acts | 40 (7.3% of all) | ▲ 7 in 30d |
 
 | Calendar | Value |
 |---|---:|
 | Busiest day | 3 Sep 2026 (36 contributions) |
-| Days with nothing | 267 of 366 days |
-| Days with something | 99 |
+| Days with nothing | 267 of 367 days |
+| Days with something | 100 |
 
 | Commit rhythm | Value |
 |---|---:|
 | Busiest slot | Thu 14:00–14:59 (11 commits) |
-| Sample | 375 commits, 14 Mar 2025 to 5 Oct 2026 |
+| Sample | 377 commits, 14 Mar 2025 to 6 Oct 2026 |
 | Weekend work | 26% of the sample |
 | Nights, 22:00–06:00 | 19% of the sample |
 | Clock | UTC — every stamp in the sample came back without an offset |
@@ -186,15 +186,15 @@ testing     Jest · go test
 | 2023 | 1 | 1 | Aug (1) |
 | 2024 | 0 | 0 | Jan (0) |
 | 2025 | 294 | 41 | Jun (147) |
-| **2026** | 516 | 91 | Sep (214) |
+| **2026** | 520 | 92 | Sep (214) |
 
 <sub>The account opened 12 August 2023, so anything before that is absent rather than quiet.</sub>
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
-| o-o | 122 | 72.0 kB | 0 | 5 Oct 2026 | occupied | private |
+| o-o | 124 | 75.0 kB | 0 | 6 Oct 2026 | occupied | private |
 | Kairo-v1 | 118 | 81.6 MB | 0 | 3 Oct 2026 | occupied | private |
-| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 98 | 7.2 MB | 0 | 5 Oct 2026 | occupied | public |
+| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 99 | 7.2 MB | 0 | 6 Oct 2026 | occupied | public |
 | [python-study](https://github.com/Daboggieman/python-study) | 72 | 343.0 kB | 5 | 27 Sep 2026 | occupied | public |
 | RYLA-2025 | 66 | 23.2 MB | 0 | 12 Jul 2025 | dormant | private |
 | tbot-v3 | 45 | 8.1 MB | 1 | 25 Sep 2026 | occupied | private |
@@ -206,9 +206,9 @@ testing     Jest · go test
 | [Maeker](https://github.com/Daboggieman/Maeker) | 17 | 415.0 kB | 0 | 27 Jun 2026 | dormant | public |
 | grti | 15 | 418.0 kB | 0 | 5 Apr 2026 | dormant | private |
 | [tbot](https://github.com/Daboggieman/tbot) | 13 | 3.7 MB | 1 | 13 Sep 2026 | occupied | public |
+| [ai-router-setup](https://github.com/Daboggieman/ai-router-setup) | 10 | 56.0 kB | 0 | 6 Oct 2026 | occupied | public |
 | [crosswise](https://github.com/Daboggieman/crosswise) | 10 | 25.0 kB | 0 | 3 Oct 2026 | occupied | public |
 | [typescript-study](https://github.com/Daboggieman/typescript-study) | 10 | 447.0 kB | 0 | 27 Sep 2026 | occupied | public |
-| [ai-router-setup](https://github.com/Daboggieman/ai-router-setup) | 9 | 43.0 kB | 0 | 1 Oct 2026 | occupied | public |
 | outreach | 8 | 5.1 MB | 0 | 4 Aug 2026 | dormant | private |
 | [COR-BOT](https://github.com/Daboggieman/COR-BOT) | 5 | 107.0 kB | 0 | 14 Jul 2025 | dormant | public |
 | NEW-Cove | 4 | 295.0 kB | 0 | 2 Dec 2025 | dormant | private |
@@ -219,7 +219,7 @@ testing     Jest · go test
 
 <sub>Building height is commits on the default branch, footprint is repo size, and a lit facade means pushed within 30 days. Private repositories are listed for their activity only — they are not linked, because the link would 404 for everyone but me.</sub>
 
-<sub>Generated by <code>./cmd/cards</code> on 5 October 2026. Includes 12 private repositories, counted for activity but not linked.</sub>
+<sub>Generated by <code>./cmd/cards</code> on 6 October 2026. Includes 12 private repositories, counted for activity but not linked.</sub>
 
 <!-- cards:table:end -->
 
