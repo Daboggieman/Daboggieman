@@ -13,16 +13,16 @@
   <path d="M122 48H374A4 4 0 0 1 378 52V54A4 4 0 0 1 374 58H122Z" fill="#3FB950"><title>Python — 46.7% (3.9 MB)</title></path>
   <text x="442" y="57" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">46.7%</text>
   <text x="18" y="81" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>TypeScript — 30.7% (2.6 MB)</title>TypeScript</text>
-  <path d="M122 72H286.198198298882A4 4 0 0 1 290.198198298882 76V78A4 4 0 0 1 286.198198298882 82H122Z" fill="#3FB950"><title>TypeScript — 30.7% (2.6 MB)</title></path>
+  <path d="M122 72H286.20130811499223A4 4 0 0 1 290.20130811499223 76V78A4 4 0 0 1 286.20130811499223 82H122Z" fill="#3FB950"><title>TypeScript — 30.7% (2.6 MB)</title></path>
   <text x="442" y="81" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">30.7%</text>
-  <text x="18" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>HTML — 13.4% (1.1 MB)</title>HTML</text>
-  <path d="M122 96H191.1658253561286A4 4 0 0 1 195.1658253561286 100V102A4 4 0 0 1 191.1658253561286 106H122Z" fill="#3FB950"><title>HTML — 13.4% (1.1 MB)</title></path>
-  <text x="442" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">13.4%</text>
+  <text x="18" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>HTML — 13.3% (1.1 MB)</title>HTML</text>
+  <path d="M122 96H191.1658253561286A4 4 0 0 1 195.1658253561286 100V102A4 4 0 0 1 191.1658253561286 106H122Z" fill="#3FB950"><title>HTML — 13.3% (1.1 MB)</title></path>
+  <text x="442" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">13.3%</text>
   <text x="18" y="129" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Go — 4.2% (361.7 kB)</title>Go</text>
   <path d="M122 120H141.0352786771814A4 4 0 0 1 145.0352786771814 124V126A4 4 0 0 1 141.0352786771814 130H122Z" fill="#3FB950"><title>Go — 4.2% (361.7 kB)</title></path>
   <text x="442" y="129" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">4.2%</text>
-  <text x="18" y="153" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>JavaScript — 2.0% (168.2 kB)</title>JavaScript</text>
-  <path d="M122 144H128.71101523591236A4 4 0 0 1 132.71101523591236 148V150A4 4 0 0 1 128.71101523591236 154H122Z" fill="#3FB950"><title>JavaScript — 2.0% (168.2 kB)</title></path>
+  <text x="18" y="153" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>JavaScript — 2.0% (169.8 kB)</title>JavaScript</text>
+  <path d="M122 144H128.81656239469447A4 4 0 0 1 132.81656239469447 148V150A4 4 0 0 1 128.81656239469447 154H122Z" fill="#3FB950"><title>JavaScript — 2.0% (169.8 kB)</title></path>
   <text x="442" y="153" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">2.0%</text>
   <text x="18" y="177" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Shell — 1.3% (115.4 kB)</title>Shell</text>
   <path d="M122 168H125.34924182440278A4 4 0 0 1 129.34924182440278 172V174A4 4 0 0 1 125.34924182440278 178H122Z" fill="#3FB950"><title>Shell — 1.3% (115.4 kB)</title></path>
