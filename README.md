@@ -126,60 +126,60 @@ testing     Jest · go test
 
 | Right now | Reading |
 |---|---|
-| Focus | o-o · Python · pushed in the last hour · 168 contributions this week |
-| Last 7 days | 168 contributions |
+| Focus | o-o · Python · pushed 6 hours ago · 159 contributions this week |
+| Last 7 days | 159 contributions |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| Python | 45.7% | 4.7 MB |
-| TypeScript | 32.4% | 3.3 MB |
-| HTML | 11.5% | 1.2 MB |
-| Go | 3.5% | 361.7 kB |
+| Python | 45.8% | 4.7 MB |
+| TypeScript | 32.0% | 3.3 MB |
+| HTML | 11.4% | 1.2 MB |
+| Go | 3.4% | 361.7 kB |
 | JavaScript | 2.6% | 271.1 kB |
-| Shell | 2.0% | 204.7 kB |
-| Other | 2.4% | 255.6 kB |
+| Shell | 1.9% | 204.7 kB |
+| Other | 2.9% | 306.7 kB |
 
 | Language | Share 30 days ago | Share now | Move |
 |---|---:|---:|---:|
-| HTML | 33.8% | 11.5% | ▼ 22.3 pt |
-| Python | 30.6% | 45.7% | ▲ 15.0 pt |
-| TypeScript | 27.8% | 32.4% | ▲ 4.6 pt |
-| PowerShell | 0.0% | 1.3% | ▲ 1.3 pt |
-| Shell | 1.1% | 1.9% | ▲ 0.9 pt |
-| JavaScript | 1.9% | 2.6% | ▲ 0.7 pt |
-| Go | 3.8% | 3.5% | ▼ 0.4 pt |
-| CSS | 0.8% | 0.7% | ▼ 0.1 pt |
-| Dockerfile | 0.1% | 0.1% | ▲ 0.1 pt |
+| Python | 41.5% | 45.8% | ▲ 4.3 pt |
+| HTML | 14.8% | 11.4% | ▼ 3.4 pt |
+| PowerShell | 0.3% | 1.8% | ▲ 1.5 pt |
+| TypeScript | 33.5% | 32.0% | ▼ 1.5 pt |
+| Go | 4.8% | 3.4% | ▼ 1.4 pt |
+| Shell | 1.5% | 1.9% | ▲ 0.5 pt |
+| JavaScript | 2.3% | 2.6% | ▲ 0.3 pt |
+| CSS | 0.9% | 0.7% | ▼ 0.2 pt |
+| Batchfile | 0.3% | 0.2% | ▼ 0.1 pt |
+| MQL5 | 0.1% | 0.0% | flat |
 | SCSS | 0.0% | 0.0% | flat |
-| Batchfile | 0.2% | 0.2% | flat |
-| Makefile | 0.0% | 0.0% | flat |
-| MQL5 | 0.0% | 0.0% | flat |
 | Mako | 0.0% | 0.0% | flat |
+| Makefile | 0.0% | 0.0% | flat |
+| Dockerfile | 0.1% | 0.1% | flat |
 
 | Metric | Last 365 days | Change |
 |---|---:|---:|
-| Contributions | 1,206 | ▲ 656 in 30d |
-| Commits | 1,088 | ▲ 604 in 30d |
-| Pull requests | 73 | ▲ 33 in 30d |
+| Contributions | 1,222 | ▲ 655 in 30d |
+| Commits | 1,102 | ▲ 602 in 30d |
+| Pull requests | 75 | ▲ 35 in 30d |
 | Issues | 1 | ▲ 1 in 30d |
 | Reviews | 1 | ▲ 1 in 30d |
-| Current streak | 55 days | ▲ 30 in 30d |
-| Longest streak | 55 days | ▲ 30 in 30d |
-| Repositories | 33 | ▲ 9 in 30d |
+| Current streak | 56 days | ▲ 30 in 30d |
+| Longest streak | 56 days | ▲ 30 in 30d |
+| Repositories | 33 | ▲ 8 in 30d |
 | Stars earned | 13 | ▲ 1 in 30d |
 | Followers | 14 | ▲ 3 in 30d |
-| Collaborative acts | 75 (6.2% of all) | ▲ 35 in 30d |
+| Collaborative acts | 77 (6.3% of all) | ▲ 37 in 30d |
 
 | Calendar | Value |
 |---|---:|
 | Busiest day | 24 Oct 2026 (62 contributions) |
-| Days with nothing | 245 of 370 days |
-| Days with something | 125 |
+| Days with nothing | 245 of 371 days |
+| Days with something | 126 |
 
 | Commit rhythm | Value |
 |---|---:|
-| Busiest slot | Fri 12:00–12:59 (16 commits) |
-| Sample | 667 commits, 14 Mar 2025 to 6 Nov 2026 |
+| Busiest slot | Fri 14:00–14:59 (19 commits) |
+| Sample | 676 commits, 14 Mar 2025 to 7 Nov 2026 |
 | Weekend work | 24% of the sample |
 | Nights, 22:00–06:00 | 12% of the sample |
 | Clock | UTC — every stamp in the sample came back without an offset |
@@ -189,41 +189,41 @@ testing     Jest · go test
 | 2023 | 1 | 1 | Aug (1) |
 | 2024 | 0 | 0 | Jan (0) |
 | 2025 | 294 | 41 | Jun (147) |
-| **2026** | 1,203 | 123 | Oct (557) |
+| **2026** | 1,219 | 124 | Oct (557) |
 
 <sub>The account opened 12 August 2023, so anything before that is absent rather than quiet.</sub>
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
-| Kairo | 259 | 82.4 MB | 1 | 5 Nov 2026 | occupied | private |
-| o-o | 238 | 142.0 kB | 0 | 6 Nov 2026 | occupied | private |
+| Kairo | 259 | 82.5 MB | 1 | 7 Nov 2026 | occupied | private |
+| o-o | 241 | 150.0 kB | 0 | 7 Nov 2026 | occupied | private |
 | [projectlearn-project-based-learning](https://github.com/Daboggieman/projectlearn-project-based-learning) | 238 | 14.1 MB | 0 | 30 May 2026 | dormant | public |
-| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 130 | 7.5 MB | 0 | 6 Nov 2026 | occupied | public |
-| [gsmhub](https://github.com/Daboggieman/gsmhub) | 112 | 2.0 MB | 1 | 6 Nov 2026 | occupied | public |
+| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 131 | 7.5 MB | 0 | 7 Nov 2026 | occupied | public |
+| [gsmhub](https://github.com/Daboggieman/gsmhub) | 113 | 2.0 MB | 1 | 6 Nov 2026 | occupied | public |
 | tbot-v3 | 110 | 8.7 MB | 1 | 6 Nov 2026 | occupied | private |
 | [python-study](https://github.com/Daboggieman/python-study) | 72 | 343.0 kB | 5 | 27 Sep 2026 | dormant | public |
 | RYLA-2025 | 66 | 23.2 MB | 0 | 12 Jul 2025 | dormant | private |
-| cee-tailor | 58 | 519.0 kB | 0 | 6 Nov 2026 | occupied | private |
-| [seeker](https://github.com/Daboggieman/seeker) | 51 | 2.3 MB | 0 | 6 Nov 2026 | occupied | public |
+| cee-tailor | 59 | 541.0 kB | 0 | 6 Nov 2026 | occupied | private |
+| [seeker](https://github.com/Daboggieman/seeker) | 51 | 2.1 MB | 0 | 6 Nov 2026 | occupied | public |
 | [campusflow-adogah](https://github.com/Daboggieman/campusflow-adogah) | 38 | 56.0 kB | 0 | 14 Oct 2026 | occupied | public |
 | [crosswise](https://github.com/Daboggieman/crosswise) | 37 | 165.0 kB | 0 | 2 Nov 2026 | occupied | public |
 | [learn2earn-lender](https://github.com/Daboggieman/learn2earn-lender) | 24 | 467.0 kB | 0 | 9 Oct 2026 | occupied | public |
 | [golang-study](https://github.com/Daboggieman/golang-study) | 23 | 3.8 MB | 3 | 2 Jul 2026 | dormant | public |
 | maeker-v2 | 21 | 375.0 kB | 0 | 18 Aug 2026 | dormant | private |
 | tbot-v2 | 20 | 5.3 MB | 1 | 13 Sep 2026 | dormant | private |
+| [sessium](https://github.com/Daboggieman/sessium) | 19 | 225.0 kB | 0 | 7 Nov 2026 | occupied | public |
 | [Maeker](https://github.com/Daboggieman/Maeker) | 17 | 415.0 kB | 0 | 27 Jun 2026 | dormant | public |
 | [ai-router-setup](https://github.com/Daboggieman/ai-router-setup) | 16 | 117.0 kB | 0 | 1 Nov 2026 | occupied | public |
 | grti | 15 | 418.0 kB | 0 | 5 Apr 2026 | dormant | private |
 | [markbook](https://github.com/Daboggieman/markbook) | 13 | 523.0 kB | 0 | 6 Nov 2026 | occupied | public |
 | [tbot](https://github.com/Daboggieman/tbot) | 13 | 3.7 MB | 1 | 13 Sep 2026 | dormant | public |
-| [sessium](https://github.com/Daboggieman/sessium) | 12 | 114.0 kB | 0 | 5 Nov 2026 | occupied | public |
 | [campusflow-next](https://github.com/Daboggieman/campusflow-next) | 10 | 154.0 kB | 0 | 20 Oct 2026 | occupied | public |
 | [typescript-study](https://github.com/Daboggieman/typescript-study) | 10 | 447.0 kB | 0 | 27 Sep 2026 | dormant | public |
 | outreach | 8 | 5.1 MB | 0 | 4 Aug 2026 | dormant | private |
 | [COR-BOT](https://github.com/Daboggieman/COR-BOT) | 5 | 107.0 kB | 0 | 14 Jul 2025 | dormant | public |
+| [javascript-study](https://github.com/Daboggieman/javascript-study) | 5 | 314.0 kB | 0 | 6 Nov 2026 | occupied | public |
 | NEW-Cove | 4 | 295.0 kB | 0 | 2 Dec 2025 | dormant | private |
 | NaijaBoard | 4 | 89.0 kB | 0 | 11 Aug 2026 | dormant | private |
-| [javascript-study](https://github.com/Daboggieman/javascript-study) | 4 | 312.0 kB | 0 | 1 Nov 2026 | occupied | public |
 | [skills-and-mcp](https://github.com/Daboggieman/skills-and-mcp) | 3 | 63.0 kB | 0 | 18 Sep 2026 | dormant | public |
 | AIOS | 2 | 42.0 kB | 0 | 9 Jan 2026 | dormant | private |
 | [tourneylab](https://github.com/Daboggieman/tourneylab) | 1 | 31.0 kB | 0 | 3 Nov 2026 | occupied | public |
@@ -231,7 +231,7 @@ testing     Jest · go test
 
 <sub>Building height is commits on the default branch, footprint is repo size, and a lit facade means pushed within 30 days. The skyline draws the top 30; the rest are listed here. Private repositories are listed for their activity only — they are not linked, because the link would 404 for everyone but me.</sub>
 
-<sub>Generated by <code>./cmd/cards</code> on 6 November 2026. Includes 12 private repositories, counted for activity but not linked.</sub>
+<sub>Generated by <code>./cmd/cards</code> on 7 November 2026. Includes 12 private repositories, counted for activity but not linked.</sub>
 
 <!-- cards:table:end -->
 
