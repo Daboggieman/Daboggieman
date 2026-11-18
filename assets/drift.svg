@@ -18,12 +18,12 @@
   <text x="442" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681" text-anchor="end">move</text>
   <text x="18" y="88.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">HTML</text>
   <rect x="122" y="84" width="258" height="2" rx="1" fill="#161B22"/>
-  <rect x="195.70641025641027" y="83.5" width="127.78717948717946" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
+  <rect x="195.70641025641027" y="83.5" width="127.73205128205126" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
   <g>
     <title>HTML: 13.4% then, 36.5% now (▲ 23.2 pt over 30d)</title>
   <circle cx="195.70641025641027" cy="85" r="4.5" fill="#0D1117"/>
   <circle cx="195.70641025641027" cy="85" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="323.4935897435897" cy="85" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="323.4384615384615" cy="85" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
   <text x="442" y="88.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▲ 23.2 pt</text>
   <text x="18" y="114.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">Python</text>
@@ -68,12 +68,12 @@
   <text x="442" y="192.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▲ 1.4 pt</text>
   <text x="18" y="218.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">CSS</text>
   <rect x="122" y="214" width="258" height="2" rx="1" fill="#161B22"/>
-  <rect x="124.92179487179487" y="213.5" width="2.8115384615384613" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
+  <rect x="125.03205128205128" y="213.5" width="2.7012820512820497" height="3" rx="1.5" fill="#1A7F37" class="dr"/>
   <g>
-    <title>CSS: 1.0% then, 0.5% now (▼ 0.5 pt over 30d)</title>
+    <title>CSS: 1.0% then, 0.6% now (▼ 0.5 pt over 30d)</title>
   <circle cx="127.73333333333333" cy="215" r="4.5" fill="#0D1117"/>
   <circle cx="127.73333333333333" cy="215" r="4.5" fill="none" stroke="#8B949E" stroke-width="1.5"/>
-  <circle cx="124.92179487179487" cy="215" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
+  <circle cx="125.03205128205128" cy="215" r="4.5" fill="#3FB950" stroke="#0D1117" stroke-width="2" class="dr"/>
   </g>
   <text x="442" y="218.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="400" fill="#E6EDF3" text-anchor="end">▼ 0.5 pt</text>
   <text x="18" y="244.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="400" fill="#E6EDF3">JavaScript</text>
