@@ -1,0 +1,78 @@
+name: gitea-cards
+
+# Renders the profile cards on gitea.talentnation.ai/adaraph722 from GitHub's
+# runners.
+#
+# Why here: the Gitea instance has Actions disabled (the admin declined to
+# enable them), so nothing on the Gitea side can schedule work. This job is
+# the same loop the Gitea workflow would have run — clone, render, commit,
+# push — aimed at the Gitea repository from the outside. The Gitea instance
+# only ever sees a normal authenticated user pushing commits, which is what
+# the git remote protocol is for.
+#
+# The credential is the Gitea access token (scopes: write:repository,
+# read:user), stored as the repository secret GITEA_CARDS_TOKEN. It is minted
+# at gitea.talentnation.ai/user/settings/applications; SETUP.md in the Gitea
+# repo has the full story.
+on:
+  schedule:
+    # 00:17, 06:17, 12:17, 18:17 UTC — every 6 hours, off the hour.
+    - cron: "17 0,6,12,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gitea-cards
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone the Gitea profile repo
+        env:
+          TOKEN: ${{ secrets.GITEA_CARDS_TOKEN }}
+        run: |
+          git clone --depth 1 https://adaraph722:${TOKEN}@gitea.talentnation.ai/adaraph722/.profile.git .
+          git config user.name  "adaraph722"
+          git config user.email "adaraph722@gmail.com"
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+          cache: false
+
+      - name: Test
+        run: go test ./...
+
+      - name: Render cards
+        env:
+          # The same token, this time for the render: private repositories and
+          # the feed/search walks ride on it. Without it the cards render
+          # public-only, which the README footer says out loud.
+          GITEA_TOKEN: ${{ secrets.GITEA_CARDS_TOKEN }}
+        run: |
+          go run ./cmd/cards -history history.jsonl -message /tmp/cards-subject
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          # Only the generator's own files. A hand edit anywhere else in this
+          # repo is never picked up or overwritten from here.
+          git add assets README.md
+          if [ -f history.jsonl ]; then
+            git add history.jsonl
+          fi
+          # The rolling 365-day window moves every day, so a diff is the normal
+          # case; an empty one is still fine and is not an error.
+          if git diff --cached --quiet; then
+            echo "cards unchanged"
+            exit 0
+          fi
+          # The generator names what actually moved, so the log reads as a
+          # record instead of 1,460 identical lines a year.
+          subject="$(head -n 1 /tmp/cards-subject 2>/dev/null || true)"
+          git commit -m "${subject:-cards: refresh from live profile data}"
+          git push
