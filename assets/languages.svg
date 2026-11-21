@@ -13,13 +13,13 @@
   <path d="M122 48H374A4 4 0 0 1 378 52V54A4 4 0 0 1 374 58H122Z" fill="#3FB950"><title>HTML — 36.1% (5.7 MB)</title></path>
   <text x="442" y="57" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">36.1%</text>
   <text x="18" y="81" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Python — 33.6% (5.3 MB)</title>Python</text>
-  <path d="M122 72H355.73466818304746A4 4 0 0 1 359.73466818304746 76V78A4 4 0 0 1 355.73466818304746 82H122Z" fill="#3FB950"><title>Python — 33.6% (5.3 MB)</title></path>
+  <path d="M122 72H355.96441649998786A4 4 0 0 1 359.96441649998786 76V78A4 4 0 0 1 355.96441649998786 82H122Z" fill="#3FB950"><title>Python — 33.6% (5.3 MB)</title></path>
   <text x="442" y="81" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">33.6%</text>
   <text x="18" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>TypeScript — 21.5% (3.4 MB)</title>TypeScript</text>
   <path d="M122 96H270.60452898448284A4 4 0 0 1 274.60452898448284 100V102A4 4 0 0 1 270.60452898448284 106H122Z" fill="#3FB950"><title>TypeScript — 21.5% (3.4 MB)</title></path>
   <text x="442" y="105" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">21.5%</text>
-  <text x="18" y="129" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>PowerShell — 2.8% (449.8 kB)</title>PowerShell</text>
-  <path d="M122 120H137.61146280071623A4 4 0 0 1 141.61146280071623 124V126A4 4 0 0 1 137.61146280071623 130H122Z" fill="#3FB950"><title>PowerShell — 2.8% (449.8 kB)</title></path>
+  <text x="18" y="129" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>PowerShell — 2.8% (456.7 kB)</title>PowerShell</text>
+  <path d="M122 120H137.91188980670802A4 4 0 0 1 141.91188980670802 124V126A4 4 0 0 1 137.91188980670802 130H122Z" fill="#3FB950"><title>PowerShell — 2.8% (456.7 kB)</title></path>
   <text x="442" y="129" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="500" fill="#E6EDF3" text-anchor="end">2.8%</text>
   <text x="18" y="153" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#8B949E"><title>Go — 2.2% (361.7 kB)</title>Go</text>
   <path d="M122 144H133.769181922781A4 4 0 0 1 137.769181922781 148V150A4 4 0 0 1 133.769181922781 154H122Z" fill="#3FB950"><title>Go — 2.2% (361.7 kB)</title></path>
