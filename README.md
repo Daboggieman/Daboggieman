@@ -126,14 +126,14 @@ testing     Jest · go test
 
 | Right now | Reading |
 |---|---|
-| Focus | gsmhub · HTML · pushed in the last hour · 49 contributions this week |
-| Last 7 days | 49 contributions |
+| Focus | Kairo · TypeScript · pushed in the last hour · 52 contributions this week |
+| Last 7 days | 52 contributions |
 
 | Language | Share | Tracked size |
 |---|---:|---:|
-| HTML | 35.9% | 5.8 MB |
-| Python | 33.2% | 5.3 MB |
-| TypeScript | 22.2% | 3.6 MB |
+| HTML | 35.3% | 5.8 MB |
+| Python | 34.4% | 5.6 MB |
+| TypeScript | 21.8% | 3.6 MB |
 | PowerShell | 2.8% | 464.3 kB |
 | Go | 2.2% | 361.7 kB |
 | JavaScript | 1.7% | 280.7 kB |
@@ -141,13 +141,13 @@ testing     Jest · go test
 
 | Language | Share 30 days ago | Share now | Move |
 |---|---:|---:|---:|
-| HTML | 12.2% | 35.9% | ▲ 23.7 pt |
-| Python | 46.9% | 33.2% | ▼ 13.7 pt |
-| TypeScript | 31.1% | 22.2% | ▼ 8.9 pt |
-| PowerShell | 0.8% | 2.8% | ▲ 2.0 pt |
-| Go | 4.0% | 2.2% | ▼ 1.8 pt |
+| HTML | 12.2% | 35.3% | ▲ 23.0 pt |
+| Python | 46.9% | 34.4% | ▼ 12.5 pt |
+| TypeScript | 31.1% | 21.8% | ▼ 9.3 pt |
+| PowerShell | 0.8% | 2.8% | ▲ 1.9 pt |
+| Go | 4.0% | 2.1% | ▼ 1.8 pt |
 | Shell | 1.8% | 1.2% | ▼ 0.6 pt |
-| CSS | 1.0% | 0.5% | ▼ 0.4 pt |
+| CSS | 1.0% | 0.5% | ▼ 0.5 pt |
 | JavaScript | 1.9% | 1.7% | ▼ 0.2 pt |
 | Batchfile | 0.2% | 0.1% | ▼ 0.1 pt |
 | Dockerfile | 0.1% | 0.1% | flat |
@@ -158,30 +158,30 @@ testing     Jest · go test
 
 | Metric | Last 365 days | Change |
 |---|---:|---:|
-| Contributions | 1,533 | ▲ 605 in 30d |
-| Commits | 1,401 | ▲ 571 in 30d |
-| Pull requests | 85 | ▲ 19 in 30d |
+| Contributions | 1,645 | ▲ 707 in 30d |
+| Commits | 1,509 | ▲ 669 in 30d |
+| Pull requests | 89 | ▲ 23 in 30d |
 | Issues | 1 | flat over 30d |
 | Reviews | 1 | flat over 30d |
-| Current streak | 75 days | ▲ 30 in 30d |
-| Longest streak | 75 days | ▲ 30 in 30d |
+| Current streak | 77 days | ▲ 30 in 30d |
+| Longest streak | 77 days | ▲ 30 in 30d |
 | Repositories | 34 | ▲ 6 in 30d |
 | Stars earned | 13 | ▲ 1 in 30d |
 | Followers | 12 | ▲ 1 in 30d |
-| Collaborative acts | 87 (5.7% of all) | ▲ 19 in 30d |
+| Collaborative acts | 91 (5.5% of all) | ▲ 23 in 30d |
 
 | Calendar | Value |
 |---|---:|
-| Busiest day | 24 Oct 2026 (62 contributions) |
-| Days with nothing | 224 of 369 days |
-| Days with something | 145 |
+| Busiest day | 30 Oct 2026 (74 contributions) |
+| Days with nothing | 224 of 371 days |
+| Days with something | 147 |
 
 | Commit rhythm | Value |
 |---|---:|
-| Busiest slot | Thu 16:00–16:59 (21 commits) |
-| Sample | 761 commits, 14 Mar 2025 to 26 Nov 2026 |
-| Weekend work | 20% of the sample |
-| Nights, 22:00–06:00 | 15% of the sample |
+| Busiest slot | Thu 16:00–16:59 (22 commits) |
+| Sample | 761 commits, 14 Mar 2025 to 28 Nov 2026 |
+| Weekend work | 21% of the sample |
+| Nights, 22:00–06:00 | 14% of the sample |
 | Clock | UTC — every stamp in the sample came back without an offset |
 
 | Year | Contributions | Active days | Busiest month |
@@ -189,20 +189,20 @@ testing     Jest · go test
 | 2023 | 1 | 1 | Aug (1) |
 | 2024 | 0 | 0 | Jan (0) |
 | 2025 | 294 | 41 | Jun (147) |
-| **2026** | 1,530 | 143 | Oct (594) |
+| **2026** | 1,642 | 145 | Oct (638) |
 
 <sub>The account opened 12 August 2023, so anything before that is absent rather than quiet.</sub>
 
 | Building | Commits | Size | Stars | Last push | State | Access |
 |---|---:|---:|---:|---|---|---|
-| Kairo | 293 | 82.5 MB | 1 | 23 Nov 2026 | occupied | private |
-| o-o | 292 | 163.0 kB | 0 | 26 Nov 2026 | occupied | private |
+| Kairo | 298 | 82.5 MB | 1 | 28 Nov 2026 | occupied | private |
+| o-o | 298 | 179.0 kB | 0 | 28 Nov 2026 | occupied | private |
 | [projectlearn-project-based-learning](https://github.com/Daboggieman/projectlearn-project-based-learning) | 238 | 14.1 MB | 0 | 30 May 2026 | dormant | public |
-| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 149 | 7.6 MB | 0 | 26 Nov 2026 | occupied | public |
-| [gsmhub](https://github.com/Daboggieman/gsmhub) | 141 | 2.4 MB | 1 | 26 Nov 2026 | occupied | public |
-| tbot-v3 | 110 | 8.9 MB | 1 | 25 Nov 2026 | occupied | private |
-| cee-tailor | 96 | 1.2 MB | 0 | 26 Nov 2026 | occupied | private |
-| [markbook](https://github.com/Daboggieman/markbook) | 84 | 1.5 MB | 0 | 25 Nov 2026 | occupied | public |
+| tbot-v3 | 204 | 8.9 MB | 1 | 27 Nov 2026 | occupied | private |
+| [Daboggieman](https://github.com/Daboggieman/Daboggieman) | 150 | 7.6 MB | 0 | 28 Nov 2026 | occupied | public |
+| [gsmhub](https://github.com/Daboggieman/gsmhub) | 143 | 2.4 MB | 1 | 27 Nov 2026 | occupied | public |
+| cee-tailor | 96 | 1.2 MB | 0 | 27 Nov 2026 | occupied | private |
+| [markbook](https://github.com/Daboggieman/markbook) | 84 | 2.6 MB | 0 | 28 Nov 2026 | occupied | public |
 | [python-study](https://github.com/Daboggieman/python-study) | 75 | 343.0 kB | 5 | 10 Nov 2026 | occupied | public |
 | RYLA-2025 | 66 | 23.2 MB | 0 | 12 Jul 2025 | dormant | private |
 | [seeker](https://github.com/Daboggieman/seeker) | 65 | 2.2 MB | 0 | 23 Nov 2026 | occupied | public |
@@ -232,7 +232,7 @@ testing     Jest · go test
 
 <sub>Building height is commits on the default branch, footprint is repo size, and a lit facade means pushed within 30 days. The skyline draws the top 30; the rest are listed here. Private repositories are listed for their activity only — they are not linked, because the link would 404 for everyone but me.</sub>
 
-<sub>Generated by <code>./cmd/cards</code> on 26 November 2026. Includes 12 private repositories, counted for activity but not linked.</sub>
+<sub>Generated by <code>./cmd/cards</code> on 28 November 2026. Includes 12 private repositories, counted for activity but not linked.</sub>
 
 <!-- cards:table:end -->
 

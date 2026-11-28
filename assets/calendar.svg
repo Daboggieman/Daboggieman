@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="749" height="199" viewBox="0 0 749 199" role="img" aria-labelledby="t d">
   <title id="t">Contribution calendar</title>
-  <desc id="d">1,533 contributions over 53 weeks, one cell per day. Busiest day was 24 October 2026 with 62 contributions. 224 days were quiet. Shading runs in four bands by daily count: 1–2, 3–7, 8–13 and 14+.</desc>
+  <desc id="d">1,645 contributions over 53 weeks, one cell per day. Busiest day was 30 October 2026 with 74 contributions. 224 days were quiet. Shading runs in four bands by daily count: 1–2, 3–8, 9–13 and 14+.</desc>
   <style>
     @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
     .hc{animation:heat 800ms ease-out}
@@ -65,7 +65,7 @@
   <circle cx="16" cy="15" r="4" fill="#FF5F57" opacity="0.85"/>
   <circle cx="32" cy="15" r="4" fill="#FEBC2E" opacity="0.85"/>
   <circle cx="48" cy="15" r="4" fill="#28C840" opacity="0.85"/>
-  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/calendar  ·  1,533 contributions in 53 weeks</text>
+  <text x="72" y="19.5" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="400" fill="#6E7681">~/calendar  ·  1,645 contributions in 53 weeks</text>
   <text x="44" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Nov</text>
   <text x="70" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Dec</text>
   <text x="122" y="44" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">Jan</text>
@@ -648,7 +648,7 @@
   </g>
   <g class="hc hw20">
     <title>Mon 13 Apr 2026 — 8 contributions</title>
-  <rect x="304" y="65" width="11" height="11" rx="2" fill="#56D364"/>
+  <rect x="304" y="65" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw20">
     <title>Tue 14 Apr 2026 — 4 contributions</title>
@@ -1268,7 +1268,7 @@
   </g>
   <g class="hc hw42">
     <title>Tue 15 Sep 2026 — 8 contributions</title>
-  <rect x="590" y="78" width="11" height="11" rx="2" fill="#56D364"/>
+  <rect x="590" y="78" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw42">
     <title>Wed 16 Sep 2026 — 14 contributions</title>
@@ -1292,7 +1292,7 @@
   </g>
   <g class="hc hw43">
     <title>Mon 21 Sep 2026 — 8 contributions</title>
-  <rect x="603" y="65" width="11" height="11" rx="2" fill="#56D364"/>
+  <rect x="603" y="65" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw43">
     <title>Tue 22 Sep 2026 — 10 contributions</title>
@@ -1328,7 +1328,7 @@
   </g>
   <g class="hc hw44">
     <title>Wed 30 Sep 2026 — 8 contributions</title>
-  <rect x="616" y="91" width="11" height="11" rx="2" fill="#56D364"/>
+  <rect x="616" y="91" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw44">
     <title>Thu 1 Oct 2026 — 13 contributions</title>
@@ -1352,7 +1352,7 @@
   </g>
   <g class="hc hw45">
     <title>Tue 6 Oct 2026 — 8 contributions</title>
-  <rect x="629" y="78" width="11" height="11" rx="2" fill="#56D364"/>
+  <rect x="629" y="78" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw45">
     <title>Wed 7 Oct 2026 — 17 contributions</title>
@@ -1368,7 +1368,7 @@
   </g>
   <g class="hc hw45">
     <title>Sat 10 Oct 2026 — 8 contributions</title>
-  <rect x="629" y="130" width="11" height="11" rx="2" fill="#56D364"/>
+  <rect x="629" y="130" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw46">
     <title>Sun 11 Oct 2026 — 15 contributions</title>
@@ -1403,7 +1403,7 @@
   <rect x="655" y="52" width="11" height="11" rx="2" fill="#116329"/>
   </g>
   <g class="hc hw47">
-    <title>Mon 19 Oct 2026 — 7 contributions</title>
+    <title>Mon 19 Oct 2026 — 8 contributions</title>
   <rect x="655" y="65" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw47">
@@ -1415,8 +1415,8 @@
   <rect x="655" y="91" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw47">
-    <title>Thu 22 Oct 2026 — 12 contributions</title>
-  <rect x="655" y="104" width="11" height="11" rx="2" fill="#56D364"/>
+    <title>Thu 22 Oct 2026 — 14 contributions</title>
+  <rect x="655" y="104" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw47">
     <title>Fri 23 Oct 2026 — 14 contributions</title>
@@ -1431,23 +1431,23 @@
   <rect x="668" y="52" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw48">
-    <title>Mon 26 Oct 2026 — 43 contributions</title>
+    <title>Mon 26 Oct 2026 — 55 contributions</title>
   <rect x="668" y="65" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw48">
-    <title>Tue 27 Oct 2026 — 16 contributions</title>
+    <title>Tue 27 Oct 2026 — 23 contributions</title>
   <rect x="668" y="78" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw48">
-    <title>Wed 28 Oct 2026 — 9 contributions</title>
-  <rect x="668" y="91" width="11" height="11" rx="2" fill="#56D364"/>
+    <title>Wed 28 Oct 2026 — 14 contributions</title>
+  <rect x="668" y="91" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw48">
-    <title>Thu 29 Oct 2026 — 25 contributions</title>
+    <title>Thu 29 Oct 2026 — 30 contributions</title>
   <rect x="668" y="104" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw48">
-    <title>Fri 30 Oct 2026 — 62 contributions</title>
+    <title>Fri 30 Oct 2026 — 74 contributions</title>
   <rect x="668" y="117" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw48">
@@ -1459,23 +1459,23 @@
   <rect x="681" y="52" width="11" height="11" rx="2" fill="#56D364"/>
   </g>
   <g class="hc hw49">
-    <title>Mon 2 Nov 2026 — 28 contributions</title>
+    <title>Mon 2 Nov 2026 — 31 contributions</title>
   <rect x="681" y="65" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw49">
-    <title>Tue 3 Nov 2026 — 41 contributions</title>
+    <title>Tue 3 Nov 2026 — 45 contributions</title>
   <rect x="681" y="78" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw49">
-    <title>Wed 4 Nov 2026 — 43 contributions</title>
+    <title>Wed 4 Nov 2026 — 47 contributions</title>
   <rect x="681" y="91" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw49">
-    <title>Thu 5 Nov 2026 — 33 contributions</title>
+    <title>Thu 5 Nov 2026 — 38 contributions</title>
   <rect x="681" y="104" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw49">
-    <title>Fri 6 Nov 2026 — 31 contributions</title>
+    <title>Fri 6 Nov 2026 — 36 contributions</title>
   <rect x="681" y="117" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw49">
@@ -1483,11 +1483,11 @@
   <rect x="681" y="130" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw50">
-    <title>Sun 8 Nov 2026 — 8 contributions</title>
+    <title>Sun 8 Nov 2026 — 9 contributions</title>
   <rect x="694" y="52" width="11" height="11" rx="2" fill="#56D364"/>
   </g>
   <g class="hc hw50">
-    <title>Mon 9 Nov 2026 — 33 contributions</title>
+    <title>Mon 9 Nov 2026 — 44 contributions</title>
   <rect x="694" y="65" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw50">
@@ -1495,15 +1495,15 @@
   <rect x="694" y="78" width="11" height="11" rx="2" fill="#56D364"/>
   </g>
   <g class="hc hw50">
-    <title>Wed 11 Nov 2026 — 27 contributions</title>
+    <title>Wed 11 Nov 2026 — 32 contributions</title>
   <rect x="694" y="91" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw50">
-    <title>Thu 12 Nov 2026 — 22 contributions</title>
+    <title>Thu 12 Nov 2026 — 24 contributions</title>
   <rect x="694" y="104" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw50">
-    <title>Fri 13 Nov 2026 — 11 contributions</title>
+    <title>Fri 13 Nov 2026 — 13 contributions</title>
   <rect x="694" y="117" width="11" height="11" rx="2" fill="#56D364"/>
   </g>
   <g class="hc hw50">
@@ -1515,16 +1515,16 @@
   <rect x="707" y="52" width="11" height="11" rx="2" fill="#56D364"/>
   </g>
   <g class="hc hw51">
-    <title>Mon 16 Nov 2026 — 19 contributions</title>
+    <title>Mon 16 Nov 2026 — 22 contributions</title>
   <rect x="707" y="65" width="11" height="11" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="hc hw51">
-    <title>Tue 17 Nov 2026 — 9 contributions</title>
+    <title>Tue 17 Nov 2026 — 11 contributions</title>
   <rect x="707" y="78" width="11" height="11" rx="2" fill="#56D364"/>
   </g>
   <g class="hc hw51">
     <title>Wed 18 Nov 2026 — 8 contributions</title>
-  <rect x="707" y="91" width="11" height="11" rx="2" fill="#56D364"/>
+  <rect x="707" y="91" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw51">
     <title>Thu 19 Nov 2026 — 5 contributions</title>
@@ -1540,23 +1540,31 @@
   </g>
   <g class="hc hw52">
     <title>Sun 22 Nov 2026 — 8 contributions</title>
-  <rect x="720" y="52" width="11" height="11" rx="2" fill="#56D364"/>
+  <rect x="720" y="52" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw52">
-    <title>Mon 23 Nov 2026 — 7 contributions</title>
-  <rect x="720" y="65" width="11" height="11" rx="2" fill="#2EA043"/>
+    <title>Mon 23 Nov 2026 — 9 contributions</title>
+  <rect x="720" y="65" width="11" height="11" rx="2" fill="#56D364"/>
   </g>
   <g class="hc hw52">
     <title>Tue 24 Nov 2026 — 3 contributions</title>
   <rect x="720" y="78" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw52">
-    <title>Wed 25 Nov 2026 — 5 contributions</title>
+    <title>Wed 25 Nov 2026 — 7 contributions</title>
   <rect x="720" y="91" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <g class="hc hw52">
-    <title>Thu 26 Nov 2026 — 8 contributions</title>
+    <title>Thu 26 Nov 2026 — 10 contributions</title>
   <rect x="720" y="104" width="11" height="11" rx="2" fill="#56D364"/>
+  </g>
+  <g class="hc hw52">
+    <title>Fri 27 Nov 2026 — 7 contributions</title>
+  <rect x="720" y="117" width="11" height="11" rx="2" fill="#2EA043"/>
+  </g>
+  <g class="hc hw52">
+    <title>Sat 28 Nov 2026 — 8 contributions</title>
+  <rect x="720" y="130" width="11" height="11" rx="2" fill="#2EA043"/>
   </g>
   <text x="44" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681">per day</text>
   <rect x="93.9" y="161" width="9" height="9" rx="2" fill="#21262D"/>
@@ -1564,11 +1572,11 @@
   <rect x="124.60000000000001" y="161" width="9" height="9" rx="2" fill="#116329"/>
   <text x="137.60000000000002" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">1–2</text>
   <rect x="166.7" y="161" width="9" height="9" rx="2" fill="#2EA043"/>
-  <text x="179.7" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">3–7</text>
+  <text x="179.7" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">3–8</text>
   <rect x="208.79999999999998" y="161" width="9" height="9" rx="2" fill="#56D364"/>
-  <text x="221.79999999999998" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">8–13</text>
+  <text x="221.79999999999998" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">9–13</text>
   <rect x="256.59999999999997" y="161" width="9" height="9" rx="2" fill="#AFF5B4"/>
   <text x="269.59999999999997" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">14+</text>
-  <text x="731" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681" text-anchor="end">busiest 24 Oct · 62 contributions</text>
+  <text x="731" y="169" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681" text-anchor="end">busiest 30 Oct · 74 contributions</text>
   <text x="18" y="187" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">bands are the quartiles of this year&apos;s active days, so one outlier cannot flatten the scale</text>
 </svg>

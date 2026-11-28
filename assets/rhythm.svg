@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="242" viewBox="0 0 460 242" role="img" aria-labelledby="t d">
   <title id="t">Commit rhythm</title>
-  <desc id="d">Hour of day against day of week for a sample of 761 commits, 14 Mar 2025 to 26 Nov 2026. Busiest slot is Thu at 16:00 with 21 commits. Read in UTC — every stamp in the sample came back without an offset. 20% of the sample is weekend work and 15% of it lands between 22:00 and 06:00. Shading runs in four bands by commits per slot: 1–2, 3–4, 5–8 and 9+.</desc>
+  <desc id="d">Hour of day against day of week for a sample of 761 commits, 14 Mar 2025 to 28 Nov 2026. Busiest slot is Thu at 16:00 with 22 commits. Read in UTC — every stamp in the sample came back without an offset. 21% of the sample is weekend work and 14% of it lands between 22:00 and 06:00. Shading runs in four bands by commits per slot: 1–2, 3–4, 5–8 and 9+.</desc>
   <style>
     @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
     .rc{animation:heat 800ms ease-out}
@@ -69,8 +69,8 @@
   <rect x="108" y="54" width="14" height="14" rx="2" fill="#21262D"/>
   </g>
   <g class="rc rh4">
-    <title>Mon 04:00–04:59 — 1 commit</title>
-  <rect x="124" y="54" width="14" height="14" rx="2" fill="#116329"/>
+    <title>Mon 04:00–04:59 — 0 commits</title>
+  <rect x="124" y="54" width="14" height="14" rx="2" fill="#21262D"/>
   </g>
   <g class="rc rh5">
     <title>Mon 05:00–05:59 — 1 commit</title>
@@ -85,19 +85,19 @@
   <rect x="172" y="54" width="14" height="14" rx="2" fill="#21262D"/>
   </g>
   <g class="rc rh8">
-    <title>Mon 08:00–08:59 — 5 commits</title>
+    <title>Mon 08:00–08:59 — 8 commits</title>
   <rect x="188" y="54" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh9">
-    <title>Mon 09:00–09:59 — 7 commits</title>
-  <rect x="204" y="54" width="14" height="14" rx="2" fill="#56D364"/>
+    <title>Mon 09:00–09:59 — 9 commits</title>
+  <rect x="204" y="54" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh10">
     <title>Mon 10:00–10:59 — 5 commits</title>
   <rect x="220" y="54" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh11">
-    <title>Mon 11:00–11:59 — 5 commits</title>
+    <title>Mon 11:00–11:59 — 6 commits</title>
   <rect x="236" y="54" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh12">
@@ -109,15 +109,15 @@
   <rect x="268" y="54" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh14">
-    <title>Mon 14:00–14:59 — 9 commits</title>
+    <title>Mon 14:00–14:59 — 10 commits</title>
   <rect x="284" y="54" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh15">
-    <title>Mon 15:00–15:59 — 11 commits</title>
+    <title>Mon 15:00–15:59 — 14 commits</title>
   <rect x="300" y="54" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh16">
-    <title>Mon 16:00–16:59 — 17 commits</title>
+    <title>Mon 16:00–16:59 — 18 commits</title>
   <rect x="316" y="54" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh17">
@@ -137,7 +137,7 @@
   <rect x="380" y="54" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh21">
-    <title>Mon 21:00–21:59 — 3 commits</title>
+    <title>Mon 21:00–21:59 — 4 commits</title>
   <rect x="396" y="54" width="14" height="14" rx="2" fill="#2EA043"/>
   </g>
   <g class="rc rh22">
@@ -145,7 +145,7 @@
   <rect x="412" y="54" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh23">
-    <title>Mon 23:00–23:59 — 7 commits</title>
+    <title>Mon 23:00–23:59 — 6 commits</title>
   <rect x="428" y="54" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh0">
@@ -173,8 +173,8 @@
   <rect x="140" y="70" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh6">
-    <title>Tue 06:00–06:59 — 4 commits</title>
-  <rect x="156" y="70" width="14" height="14" rx="2" fill="#2EA043"/>
+    <title>Tue 06:00–06:59 — 1 commit</title>
+  <rect x="156" y="70" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh7">
     <title>Tue 07:00–07:59 — 1 commit</title>
@@ -189,7 +189,7 @@
   <rect x="204" y="70" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh10">
-    <title>Tue 10:00–10:59 — 7 commits</title>
+    <title>Tue 10:00–10:59 — 8 commits</title>
   <rect x="220" y="70" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh11">
@@ -197,7 +197,7 @@
   <rect x="236" y="70" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh12">
-    <title>Tue 12:00–12:59 — 7 commits</title>
+    <title>Tue 12:00–12:59 — 8 commits</title>
   <rect x="252" y="70" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh13">
@@ -205,16 +205,16 @@
   <rect x="268" y="70" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh14">
-    <title>Tue 14:00–14:59 — 8 commits</title>
+    <title>Tue 14:00–14:59 — 6 commits</title>
   <rect x="284" y="70" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh15">
-    <title>Tue 15:00–15:59 — 11 commits</title>
+    <title>Tue 15:00–15:59 — 9 commits</title>
   <rect x="300" y="70" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh16">
-    <title>Tue 16:00–16:59 — 4 commits</title>
-  <rect x="316" y="70" width="14" height="14" rx="2" fill="#2EA043"/>
+    <title>Tue 16:00–16:59 — 5 commits</title>
+  <rect x="316" y="70" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh17">
     <title>Tue 17:00–17:59 — 1 commit</title>
@@ -229,16 +229,16 @@
   <rect x="364" y="70" width="14" height="14" rx="2" fill="#21262D"/>
   </g>
   <g class="rc rh20">
-    <title>Tue 20:00–20:59 — 1 commit</title>
-  <rect x="380" y="70" width="14" height="14" rx="2" fill="#116329"/>
+    <title>Tue 20:00–20:59 — 0 commits</title>
+  <rect x="380" y="70" width="14" height="14" rx="2" fill="#21262D"/>
   </g>
   <g class="rc rh21">
     <title>Tue 21:00–21:59 — 2 commits</title>
   <rect x="396" y="70" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh22">
-    <title>Tue 22:00–22:59 — 9 commits</title>
-  <rect x="412" y="70" width="14" height="14" rx="2" fill="#AFF5B4"/>
+    <title>Tue 22:00–22:59 — 7 commits</title>
+  <rect x="412" y="70" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh23">
     <title>Tue 23:00–23:59 — 6 commits</title>
@@ -277,7 +277,7 @@
   <rect x="172" y="86" width="14" height="14" rx="2" fill="#21262D"/>
   </g>
   <g class="rc rh8">
-    <title>Wed 08:00–08:59 — 2 commits</title>
+    <title>Wed 08:00–08:59 — 1 commit</title>
   <rect x="188" y="86" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh9">
@@ -289,7 +289,7 @@
   <rect x="220" y="86" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh11">
-    <title>Wed 11:00–11:59 — 14 commits</title>
+    <title>Wed 11:00–11:59 — 15 commits</title>
   <rect x="236" y="86" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh12">
@@ -301,15 +301,15 @@
   <rect x="268" y="86" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh14">
-    <title>Wed 14:00–14:59 — 18 commits</title>
+    <title>Wed 14:00–14:59 — 15 commits</title>
   <rect x="284" y="86" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh15">
-    <title>Wed 15:00–15:59 — 10 commits</title>
+    <title>Wed 15:00–15:59 — 14 commits</title>
   <rect x="300" y="86" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh16">
-    <title>Wed 16:00–16:59 — 11 commits</title>
+    <title>Wed 16:00–16:59 — 9 commits</title>
   <rect x="316" y="86" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh17">
@@ -373,15 +373,15 @@
   <rect x="172" y="102" width="14" height="14" rx="2" fill="#21262D"/>
   </g>
   <g class="rc rh8">
-    <title>Thu 08:00–08:59 — 8 commits</title>
-  <rect x="188" y="102" width="14" height="14" rx="2" fill="#56D364"/>
+    <title>Thu 08:00–08:59 — 3 commits</title>
+  <rect x="188" y="102" width="14" height="14" rx="2" fill="#2EA043"/>
   </g>
   <g class="rc rh9">
-    <title>Thu 09:00–09:59 — 5 commits</title>
-  <rect x="204" y="102" width="14" height="14" rx="2" fill="#56D364"/>
+    <title>Thu 09:00–09:59 — 1 commit</title>
+  <rect x="204" y="102" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh10">
-    <title>Thu 10:00–10:59 — 14 commits</title>
+    <title>Thu 10:00–10:59 — 13 commits</title>
   <rect x="220" y="102" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh11">
@@ -389,15 +389,15 @@
   <rect x="236" y="102" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh12">
-    <title>Thu 12:00–12:59 — 14 commits</title>
+    <title>Thu 12:00–12:59 — 12 commits</title>
   <rect x="252" y="102" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh13">
-    <title>Thu 13:00–13:59 — 13 commits</title>
+    <title>Thu 13:00–13:59 — 14 commits</title>
   <rect x="268" y="102" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh14">
-    <title>Thu 14:00–14:59 — 10 commits</title>
+    <title>Thu 14:00–14:59 — 12 commits</title>
   <rect x="284" y="102" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh15">
@@ -405,7 +405,7 @@
   <rect x="300" y="102" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh16">
-    <title>Thu 16:00–16:59 — 21 commits</title>
+    <title>Thu 16:00–16:59 — 22 commits</title>
   <rect x="316" y="102" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh17">
@@ -425,8 +425,8 @@
   <rect x="380" y="102" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh21">
-    <title>Thu 21:00–21:59 — 0 commits</title>
-  <rect x="396" y="102" width="14" height="14" rx="2" fill="#21262D"/>
+    <title>Thu 21:00–21:59 — 1 commit</title>
+  <rect x="396" y="102" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh22">
     <title>Thu 22:00–22:59 — 2 commits</title>
@@ -449,7 +449,7 @@
   <rect x="92" y="118" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh3">
-    <title>Fri 03:00–03:59 — 1 commit</title>
+    <title>Fri 03:00–03:59 — 2 commits</title>
   <rect x="108" y="118" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh4">
@@ -473,11 +473,11 @@
   <rect x="188" y="118" width="14" height="14" rx="2" fill="#2EA043"/>
   </g>
   <g class="rc rh9">
-    <title>Fri 09:00–09:59 — 20 commits</title>
+    <title>Fri 09:00–09:59 — 21 commits</title>
   <rect x="204" y="118" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh10">
-    <title>Fri 10:00–10:59 — 13 commits</title>
+    <title>Fri 10:00–10:59 — 11 commits</title>
   <rect x="220" y="118" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh11">
@@ -485,11 +485,11 @@
   <rect x="236" y="118" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh12">
-    <title>Fri 12:00–12:59 — 10 commits</title>
-  <rect x="252" y="118" width="14" height="14" rx="2" fill="#AFF5B4"/>
+    <title>Fri 12:00–12:59 — 8 commits</title>
+  <rect x="252" y="118" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh13">
-    <title>Fri 13:00–13:59 — 13 commits</title>
+    <title>Fri 13:00–13:59 — 15 commits</title>
   <rect x="268" y="118" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh14">
@@ -497,11 +497,11 @@
   <rect x="284" y="118" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh15">
-    <title>Fri 15:00–15:59 — 13 commits</title>
+    <title>Fri 15:00–15:59 — 12 commits</title>
   <rect x="300" y="118" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh16">
-    <title>Fri 16:00–16:59 — 11 commits</title>
+    <title>Fri 16:00–16:59 — 12 commits</title>
   <rect x="316" y="118" width="14" height="14" rx="2" fill="#AFF5B4"/>
   </g>
   <g class="rc rh17">
@@ -525,7 +525,7 @@
   <rect x="396" y="118" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh22">
-    <title>Fri 22:00–22:59 — 6 commits</title>
+    <title>Fri 22:00–22:59 — 7 commits</title>
   <rect x="412" y="118" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh23">
@@ -549,8 +549,8 @@
   <rect x="108" y="134" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh4">
-    <title>Sat 04:00–04:59 — 0 commits</title>
-  <rect x="124" y="134" width="14" height="14" rx="2" fill="#21262D"/>
+    <title>Sat 04:00–04:59 — 1 commit</title>
+  <rect x="124" y="134" width="14" height="14" rx="2" fill="#116329"/>
   </g>
   <g class="rc rh5">
     <title>Sat 05:00–05:59 — 2 commits</title>
@@ -585,11 +585,11 @@
   <rect x="252" y="134" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh13">
-    <title>Sat 13:00–13:59 — 4 commits</title>
-  <rect x="268" y="134" width="14" height="14" rx="2" fill="#2EA043"/>
+    <title>Sat 13:00–13:59 — 5 commits</title>
+  <rect x="268" y="134" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh14">
-    <title>Sat 14:00–14:59 — 5 commits</title>
+    <title>Sat 14:00–14:59 — 8 commits</title>
   <rect x="284" y="134" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh15">
@@ -621,7 +621,7 @@
   <rect x="396" y="134" width="14" height="14" rx="2" fill="#2EA043"/>
   </g>
   <g class="rc rh22">
-    <title>Sat 22:00–22:59 — 4 commits</title>
+    <title>Sat 22:00–22:59 — 3 commits</title>
   <rect x="412" y="134" width="14" height="14" rx="2" fill="#2EA043"/>
   </g>
   <g class="rc rh23">
@@ -637,8 +637,8 @@
   <rect x="76" y="150" width="14" height="14" rx="2" fill="#2EA043"/>
   </g>
   <g class="rc rh2">
-    <title>Sun 02:00–02:59 — 1 commit</title>
-  <rect x="92" y="150" width="14" height="14" rx="2" fill="#116329"/>
+    <title>Sun 02:00–02:59 — 0 commits</title>
+  <rect x="92" y="150" width="14" height="14" rx="2" fill="#21262D"/>
   </g>
   <g class="rc rh3">
     <title>Sun 03:00–03:59 — 0 commits</title>
@@ -705,7 +705,7 @@
   <rect x="348" y="150" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh19">
-    <title>Sun 19:00–19:59 — 7 commits</title>
+    <title>Sun 19:00–19:59 — 8 commits</title>
   <rect x="364" y="150" width="14" height="14" rx="2" fill="#56D364"/>
   </g>
   <g class="rc rh20">
@@ -736,7 +736,7 @@
   <rect x="272.59999999999997" y="182" width="9" height="9" rx="2" fill="#AFF5B4"/>
   <text x="285.59999999999997" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">9+</text>
   <text x="442" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#6E7681" text-anchor="end">busiest Thu 16:00</text>
-  <text x="18" y="210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">weekends 20%  ·  nights 22:00–06:00 15%  ·  761 commits</text>
-  <text x="18" y="220" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">sample: last 50 commits per repo, 14 Mar 2025 to 26 Nov 2026</text>
+  <text x="18" y="210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="400" fill="#8B949E">weekends 21%  ·  nights 22:00–06:00 14%  ·  761 commits</text>
+  <text x="18" y="220" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">sample: last 50 commits per repo, 14 Mar 2025 to 28 Nov 2026</text>
   <text x="18" y="231" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9" font-weight="400" fill="#6E7681">clock: UTC — every stamp in the sample came back without an offset</text>
 </svg>
